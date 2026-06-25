@@ -71,8 +71,7 @@ async function fetchHtml(
     try {
       const res = await fetch(url, {
         headers: {
-          "user-agent":
-            "DiputadoScore/1.0 (transparencia CR; contacto )",
+          "user-agent": "DiputadoScore/1.0 (transparencia CR)",
         },
         signal: AbortSignal.timeout(20_000),
       });

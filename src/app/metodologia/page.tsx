@@ -105,14 +105,17 @@ export default function MetodologiaPage() {
 
           <Section title="Correcciones">
             <p>
-              Cada cifra publicada enlaza a su fuente. Si ves un dato incorrecto, escribí a{" "}
+              Cada cifra publicada enlaza a su fuente. Si ves un dato que no calza, comparalo con
+              el registro original en{" "}
               <a
-                href="mailto:"
+                href="https://delfino.cr/asamblea"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-emerald-400 hover:underline"
               >
-                
-              </a>{" "}
-              y lo revisamos contra el registro original.
+                Delfino.cr
+              </a>
+              , que es la fuente de toda la información mostrada.
             </p>
           </Section>
         </div>
