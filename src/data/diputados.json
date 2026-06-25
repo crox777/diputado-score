@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T19:38:29.561Z",
+  "generatedAt": "2026-06-25T20:11:36.218Z",
   "periodo": "2026-2030",
   "cohort": {
     "sesionesTotales": 32,
@@ -10,7 +10,7 @@
   "diputados": [
     {
       "id": "nogui-acosta-jaen",
-      "cedula": "1-0703-0787",
+      "cedula": null,
       "nombre": "Nogui Acosta Jaén",
       "aliases": [],
       "partido": "PPSO",
@@ -24,27 +24,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
-            "retrievedAt": "2026-06-25T19:38:29.263Z"
+            "retrievedAt": "2026-06-25T18:24:17.046Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9813084112149533,
+        "pct": 0.983,
         "hits": 210,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
-            "retrievedAt": "2026-06-25T19:38:29.263Z"
+            "retrievedAt": "2026-06-25T18:24:17.046Z"
           }
         ]
       },
@@ -57,7 +55,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
-            "retrievedAt": "2026-06-25T19:38:29.263Z"
+            "retrievedAt": "2026-06-25T18:24:17.046Z"
           }
         ]
       },
@@ -65,13 +63,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
-          "retrievedAt": "2026-06-25T19:38:29.263Z"
+          "retrievedAt": "2026-06-25T18:24:17.046Z"
         }
       ]
     },
     {
       "id": "kattia-alejandra-mora-montoya",
-      "cedula": "1-0919-0688",
+      "cedula": null,
       "nombre": "Kattia Mora Montoya",
       "aliases": [],
       "partido": "PPSO",
@@ -85,27 +83,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
-            "retrievedAt": "2026-06-25T19:38:29.268Z"
+            "retrievedAt": "2026-06-25T19:32:39.408Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9672897196261683,
+        "pct": 0.966,
         "hits": 207,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
-            "retrievedAt": "2026-06-25T19:38:29.268Z"
+            "retrievedAt": "2026-06-25T19:32:39.408Z"
           }
         ]
       },
@@ -118,7 +114,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
-            "retrievedAt": "2026-06-25T19:38:29.268Z"
+            "retrievedAt": "2026-06-25T19:32:39.408Z"
           }
         ]
       },
@@ -126,13 +122,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
-          "retrievedAt": "2026-06-25T19:38:29.268Z"
+          "retrievedAt": "2026-06-25T19:32:39.408Z"
         }
       ]
     },
     {
       "id": "stephan-brunner-neibig",
-      "cedula": "1-0551-0932",
+      "cedula": null,
       "nombre": "Stephan Brunner Neibig",
       "aliases": [],
       "partido": "PPSO",
@@ -146,27 +142,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
-            "retrievedAt": "2026-06-25T19:38:29.276Z"
+            "retrievedAt": "2026-06-25T19:32:40.949Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9906542056074766,
+        "pct": 0.992,
         "hits": 212,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
-            "retrievedAt": "2026-06-25T19:38:29.276Z"
+            "retrievedAt": "2026-06-25T19:32:40.949Z"
           }
         ]
       },
@@ -179,7 +173,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
-            "retrievedAt": "2026-06-25T19:38:29.276Z"
+            "retrievedAt": "2026-06-25T19:32:40.949Z"
           }
         ]
       },
@@ -187,13 +181,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
-          "retrievedAt": "2026-06-25T19:38:29.276Z"
+          "retrievedAt": "2026-06-25T19:32:40.949Z"
         }
       ]
     },
     {
       "id": "mayuli-del-carmen-ortega-guzman",
-      "cedula": "1-0627-0301",
+      "cedula": null,
       "nombre": "Mayuli Ortega Guzmán",
       "aliases": [],
       "partido": "PPSO",
@@ -207,27 +201,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
-            "retrievedAt": "2026-06-25T19:38:29.280Z"
+            "retrievedAt": "2026-06-25T19:32:41.887Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.7663551401869159,
+        "pct": 0.767,
         "hits": 164,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 7.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
-            "retrievedAt": "2026-06-25T19:38:29.280Z"
+            "retrievedAt": "2026-06-25T19:32:41.887Z"
           }
         ]
       },
@@ -240,7 +232,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
-            "retrievedAt": "2026-06-25T19:38:29.280Z"
+            "retrievedAt": "2026-06-25T19:32:41.887Z"
           }
         ]
       },
@@ -248,13 +240,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
-          "retrievedAt": "2026-06-25T19:38:29.280Z"
+          "retrievedAt": "2026-06-25T19:32:41.887Z"
         }
       ]
     },
     {
       "id": "gonzalo-alberto-ramirez-zamora",
-      "cedula": "1-0891-0592",
+      "cedula": null,
       "nombre": "Gonzalo Ramírez Zamora",
       "aliases": [],
       "partido": "PPSO",
@@ -268,27 +260,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
-            "retrievedAt": "2026-06-25T19:38:29.284Z"
+            "retrievedAt": "2026-06-25T19:32:43.284Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9579439252336449,
+        "pct": 0.958,
         "hits": 205,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.6,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
-            "retrievedAt": "2026-06-25T19:38:29.284Z"
+            "retrievedAt": "2026-06-25T19:32:43.284Z"
           }
         ]
       },
@@ -301,7 +291,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
-            "retrievedAt": "2026-06-25T19:38:29.284Z"
+            "retrievedAt": "2026-06-25T19:32:43.284Z"
           }
         ]
       },
@@ -309,13 +299,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
-          "retrievedAt": "2026-06-25T19:38:29.284Z"
+          "retrievedAt": "2026-06-25T19:32:43.284Z"
         }
       ]
     },
     {
       "id": "anna-katharina-muller-castro",
-      "cedula": "1-0471-0146",
+      "cedula": null,
       "nombre": "Anna Katharina Müller Castro",
       "aliases": [],
       "partido": "PPSO",
@@ -329,27 +319,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
-            "retrievedAt": "2026-06-25T19:38:29.295Z"
+            "retrievedAt": "2026-06-25T19:32:44.241Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.985981308411215,
+        "pct": 0.987,
         "hits": 211,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
-            "retrievedAt": "2026-06-25T19:38:29.295Z"
+            "retrievedAt": "2026-06-25T19:32:44.241Z"
           }
         ]
       },
@@ -362,7 +350,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
-            "retrievedAt": "2026-06-25T19:38:29.295Z"
+            "retrievedAt": "2026-06-25T19:32:44.241Z"
           }
         ]
       },
@@ -370,13 +358,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
-          "retrievedAt": "2026-06-25T19:38:29.295Z"
+          "retrievedAt": "2026-06-25T19:32:44.241Z"
         }
       ]
     },
     {
       "id": "antonio-barzuna-thompson",
-      "cedula": "1-0971-0896",
+      "cedula": null,
       "nombre": "Antonio Barzuna Thompson",
       "aliases": [],
       "partido": "PPSO",
@@ -390,27 +378,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
-            "retrievedAt": "2026-06-25T19:38:29.303Z"
+            "retrievedAt": "2026-06-25T19:32:45.710Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9953271028037384,
+        "pct": 0.996,
         "hits": 213,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
-            "retrievedAt": "2026-06-25T19:38:29.303Z"
+            "retrievedAt": "2026-06-25T19:32:45.710Z"
           }
         ]
       },
@@ -423,7 +409,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
-            "retrievedAt": "2026-06-25T19:38:29.303Z"
+            "retrievedAt": "2026-06-25T19:32:45.710Z"
           }
         ]
       },
@@ -431,13 +417,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
-          "retrievedAt": "2026-06-25T19:38:29.303Z"
+          "retrievedAt": "2026-06-25T19:32:45.710Z"
         }
       ]
     },
     {
       "id": "sadie-esmeralda-britton-gonzalez",
-      "cedula": "1-0602-0819",
+      "cedula": null,
       "nombre": "Esmeralda Britton González",
       "aliases": [],
       "partido": "PPSO",
@@ -451,13 +437,12 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
-            "retrievedAt": "2026-06-25T19:38:29.307Z"
+            "retrievedAt": "2026-06-25T19:32:46.635Z"
           }
         ]
       },
@@ -465,13 +450,12 @@
         "pct": 1,
         "hits": 214,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
-            "retrievedAt": "2026-06-25T19:38:29.307Z"
+            "retrievedAt": "2026-06-25T19:32:46.635Z"
           }
         ]
       },
@@ -484,7 +468,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
-            "retrievedAt": "2026-06-25T19:38:29.307Z"
+            "retrievedAt": "2026-06-25T19:32:46.635Z"
           }
         ]
       },
@@ -492,13 +476,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
-          "retrievedAt": "2026-06-25T19:38:29.307Z"
+          "retrievedAt": "2026-06-25T19:32:46.635Z"
         }
       ]
     },
     {
       "id": "alvaro-ramirez-bogantes",
-      "cedula": "4-0153-0375",
+      "cedula": null,
       "nombre": "Álvaro Ramírez Bogantes",
       "aliases": [],
       "partido": "PLN",
@@ -512,27 +496,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
-            "retrievedAt": "2026-06-25T19:38:29.311Z"
+            "retrievedAt": "2026-06-25T19:32:48.099Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9906542056074766,
+        "pct": 0.992,
         "hits": 212,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
-            "retrievedAt": "2026-06-25T19:38:29.311Z"
+            "retrievedAt": "2026-06-25T19:32:48.099Z"
           }
         ]
       },
@@ -545,7 +527,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
-            "retrievedAt": "2026-06-25T19:38:29.311Z"
+            "retrievedAt": "2026-06-25T19:32:48.099Z"
           }
         ]
       },
@@ -553,13 +535,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
-          "retrievedAt": "2026-06-25T19:38:29.311Z"
+          "retrievedAt": "2026-06-25T19:32:48.099Z"
         }
       ]
     },
     {
       "id": "iztaru-alfaro-guerrero",
-      "cedula": "1-1447-0400",
+      "cedula": null,
       "nombre": "Iztarú Alfaro Guerrero",
       "aliases": [],
       "partido": "PLN",
@@ -573,27 +555,25 @@
         "pct": 0.875,
         "hits": 28,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 8.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
-            "retrievedAt": "2026-06-25T19:38:29.315Z"
+            "retrievedAt": "2026-06-25T19:32:49.428Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.7663551401869159,
+        "pct": 0.767,
         "hits": 164,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 7.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
-            "retrievedAt": "2026-06-25T19:38:29.315Z"
+            "retrievedAt": "2026-06-25T19:32:49.428Z"
           }
         ]
       },
@@ -606,7 +586,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
-            "retrievedAt": "2026-06-25T19:38:29.315Z"
+            "retrievedAt": "2026-06-25T19:32:49.428Z"
           }
         ]
       },
@@ -614,13 +594,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
-          "retrievedAt": "2026-06-25T19:38:29.315Z"
+          "retrievedAt": "2026-06-25T19:32:49.428Z"
         }
       ]
     },
     {
       "id": "rafael-angel-vargas-brenes",
-      "cedula": "1-0539-0010",
+      "cedula": null,
       "nombre": "Rafael Ángel Vargas Brenes",
       "aliases": [],
       "partido": "PLN",
@@ -634,27 +614,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
-            "retrievedAt": "2026-06-25T19:38:29.322Z"
+            "retrievedAt": "2026-06-25T19:32:50.837Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.985981308411215,
+        "pct": 0.987,
         "hits": 211,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
-            "retrievedAt": "2026-06-25T19:38:29.322Z"
+            "retrievedAt": "2026-06-25T19:32:50.837Z"
           }
         ]
       },
@@ -667,7 +645,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
-            "retrievedAt": "2026-06-25T19:38:29.321Z"
+            "retrievedAt": "2026-06-25T19:32:50.837Z"
           }
         ]
       },
@@ -675,13 +653,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
-          "retrievedAt": "2026-06-25T19:38:29.322Z"
+          "retrievedAt": "2026-06-25T19:32:50.837Z"
         }
       ]
     },
     {
       "id": "andrea-patricia-valverde-palavicini",
-      "cedula": "1-1020-0088",
+      "cedula": null,
       "nombre": "Andrea Valverde Palavicini",
       "aliases": [],
       "partido": "PLN",
@@ -695,27 +673,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
-            "retrievedAt": "2026-06-25T19:38:29.326Z"
+            "retrievedAt": "2026-06-25T19:32:51.868Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.985981308411215,
+        "pct": 0.987,
         "hits": 211,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
-            "retrievedAt": "2026-06-25T19:38:29.326Z"
+            "retrievedAt": "2026-06-25T19:32:51.868Z"
           }
         ]
       },
@@ -728,7 +704,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
-            "retrievedAt": "2026-06-25T19:38:29.326Z"
+            "retrievedAt": "2026-06-25T19:32:51.868Z"
           }
         ]
       },
@@ -736,13 +712,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
-          "retrievedAt": "2026-06-25T19:38:29.326Z"
+          "retrievedAt": "2026-06-25T19:32:51.868Z"
         }
       ]
     },
     {
       "id": "marco-francisco-badilla-chavarria",
-      "cedula": "1-0590-0336",
+      "cedula": null,
       "nombre": "Marco Francisco Badilla Chavarría",
       "aliases": [],
       "partido": "PLN",
@@ -756,27 +732,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
-            "retrievedAt": "2026-06-25T19:38:29.333Z"
+            "retrievedAt": "2026-06-25T19:32:53.111Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9953271028037384,
+        "pct": 0.996,
         "hits": 213,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
-            "retrievedAt": "2026-06-25T19:38:29.333Z"
+            "retrievedAt": "2026-06-25T19:32:53.111Z"
           }
         ]
       },
@@ -789,7 +763,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
-            "retrievedAt": "2026-06-25T19:38:29.333Z"
+            "retrievedAt": "2026-06-25T19:32:53.111Z"
           }
         ]
       },
@@ -797,13 +771,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
-          "retrievedAt": "2026-06-25T19:38:29.333Z"
+          "retrievedAt": "2026-06-25T19:32:53.111Z"
         }
       ]
     },
     {
       "id": "jose-maria-villalta-florez-estrada",
-      "cedula": "1-0977-0645",
+      "cedula": null,
       "nombre": "José María Villalta Flórez-Estrada",
       "aliases": [],
       "partido": "FA",
@@ -817,27 +791,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
-            "retrievedAt": "2026-06-25T19:38:29.337Z"
+            "retrievedAt": "2026-06-25T19:32:54.304Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9813084112149533,
+        "pct": 0.983,
         "hits": 210,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
-            "retrievedAt": "2026-06-25T19:38:29.337Z"
+            "retrievedAt": "2026-06-25T19:32:54.304Z"
           }
         ]
       },
@@ -850,7 +822,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
-            "retrievedAt": "2026-06-25T19:38:29.337Z"
+            "retrievedAt": "2026-06-25T19:32:54.304Z"
           }
         ]
       },
@@ -858,13 +830,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
-          "retrievedAt": "2026-06-25T19:38:29.337Z"
+          "retrievedAt": "2026-06-25T19:32:54.304Z"
         }
       ]
     },
     {
       "id": "vianey-briyith-mora-vega",
-      "cedula": "1-1448-0728",
+      "cedula": null,
       "nombre": "Vianey Mora Vega",
       "aliases": [],
       "partido": "FA",
@@ -878,27 +850,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
-            "retrievedAt": "2026-06-25T19:38:29.341Z"
+            "retrievedAt": "2026-06-25T19:32:55.634Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9813084112149533,
+        "pct": 0.983,
         "hits": 210,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
-            "retrievedAt": "2026-06-25T19:38:29.341Z"
+            "retrievedAt": "2026-06-25T19:32:55.634Z"
           }
         ]
       },
@@ -911,7 +881,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
-            "retrievedAt": "2026-06-25T19:38:29.341Z"
+            "retrievedAt": "2026-06-25T19:32:55.634Z"
           }
         ]
       },
@@ -919,13 +889,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
-          "retrievedAt": "2026-06-25T19:38:29.341Z"
+          "retrievedAt": "2026-06-25T19:32:55.634Z"
         }
       ]
     },
     {
       "id": "antonio-trejos-mazariegos",
-      "cedula": "1-1478-0284",
+      "cedula": null,
       "nombre": "Antonio Trejos Mazariegos",
       "aliases": [],
       "partido": "FA",
@@ -939,27 +909,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
-            "retrievedAt": "2026-06-25T19:38:29.348Z"
+            "retrievedAt": "2026-06-25T19:32:56.569Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9392523364485982,
+        "pct": 0.941,
         "hits": 201,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
-            "retrievedAt": "2026-06-25T19:38:29.348Z"
+            "retrievedAt": "2026-06-25T19:32:56.569Z"
           }
         ]
       },
@@ -972,7 +940,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
-            "retrievedAt": "2026-06-25T19:38:29.348Z"
+            "retrievedAt": "2026-06-25T19:32:56.569Z"
           }
         ]
       },
@@ -980,13 +948,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
-          "retrievedAt": "2026-06-25T19:38:29.348Z"
+          "retrievedAt": "2026-06-25T19:32:56.569Z"
         }
       ]
     },
     {
       "id": "claudia-vanessa-dobles-camargo",
-      "cedula": "2-0554-0759",
+      "cedula": null,
       "nombre": "Claudia Dobles Camargo",
       "aliases": [],
       "partido": "CAC",
@@ -1000,27 +968,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
-            "retrievedAt": "2026-06-25T19:38:29.352Z"
+            "retrievedAt": "2026-06-25T19:32:58.356Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9532710280373832,
+        "pct": 0.953,
         "hits": 204,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.5,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
-            "retrievedAt": "2026-06-25T19:38:29.352Z"
+            "retrievedAt": "2026-06-25T19:32:58.356Z"
           }
         ]
       },
@@ -1033,7 +999,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
-            "retrievedAt": "2026-06-25T19:38:29.352Z"
+            "retrievedAt": "2026-06-25T19:32:58.356Z"
           }
         ]
       },
@@ -1041,13 +1007,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
-          "retrievedAt": "2026-06-25T19:38:29.352Z"
+          "retrievedAt": "2026-06-25T19:32:58.356Z"
         }
       ]
     },
     {
       "id": "abril-gordienko-lopez",
-      "cedula": "1-0706-0786",
+      "cedula": null,
       "nombre": "Abril Gordienko López",
       "aliases": [],
       "partido": "PUSC",
@@ -1058,30 +1024,28 @@
       "tenureStart": "2026-05-01",
       "tenureEnd": null,
       "presencia": {
-        "pct": 0.96875,
+        "pct": 0.9690000000000001,
         "hits": 31,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 9.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
-            "retrievedAt": "2026-06-25T19:38:29.359Z"
+            "retrievedAt": "2026-06-25T19:32:59.301Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9065420560747663,
+        "pct": 0.907,
         "hits": 194,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.1,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
-            "retrievedAt": "2026-06-25T19:38:29.359Z"
+            "retrievedAt": "2026-06-25T19:32:59.301Z"
           }
         ]
       },
@@ -1094,7 +1058,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
-            "retrievedAt": "2026-06-25T19:38:29.359Z"
+            "retrievedAt": "2026-06-25T19:32:59.301Z"
           }
         ]
       },
@@ -1102,13 +1066,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
-          "retrievedAt": "2026-06-25T19:38:29.359Z"
+          "retrievedAt": "2026-06-25T19:32:59.301Z"
         }
       ]
     },
     {
       "id": "jose-miguel-villalobos-umana",
-      "cedula": "2-0376-0254",
+      "cedula": null,
       "nombre": "José Miguel Villalobos Umaña",
       "aliases": [],
       "partido": "PPSO",
@@ -1122,31 +1086,29 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
-            "retrievedAt": "2026-06-25T19:38:29.364Z"
+            "retrievedAt": "2026-06-25T19:33:00.763Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9439252336448598,
+        "pct": 0.945,
         "hits": 202,
         "eligible": 214,
-        "n": 214,
         "gated": false,
-        "score": 9.4,
+        "score": 9.5,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
-            "retrievedAt": "2026-06-25T19:38:29.364Z"
+            "retrievedAt": "2026-06-25T19:33:00.763Z"
           }
         ]
       },
-      "overall": 9.7,
+      "overall": 9.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1155,7 +1117,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
-            "retrievedAt": "2026-06-25T19:38:29.364Z"
+            "retrievedAt": "2026-06-25T19:33:00.763Z"
           }
         ]
       },
@@ -1163,13 +1125,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
-          "retrievedAt": "2026-06-25T19:38:29.364Z"
+          "retrievedAt": "2026-06-25T19:33:00.763Z"
         }
       ]
     },
     {
       "id": "zaira-murillo-marin",
-      "cedula": "2-0654-0244",
+      "cedula": null,
       "nombre": "Zaira Murillo Marín",
       "aliases": [],
       "partido": "PPSO",
@@ -1183,27 +1145,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
-            "retrievedAt": "2026-06-25T19:38:29.367Z"
+            "retrievedAt": "2026-06-25T19:33:01.734Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9813084112149533,
+        "pct": 0.983,
         "hits": 210,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
-            "retrievedAt": "2026-06-25T19:38:29.367Z"
+            "retrievedAt": "2026-06-25T19:33:01.734Z"
           }
         ]
       },
@@ -1216,7 +1176,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
-            "retrievedAt": "2026-06-25T19:38:29.367Z"
+            "retrievedAt": "2026-06-25T19:33:01.734Z"
           }
         ]
       },
@@ -1224,13 +1184,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
-          "retrievedAt": "2026-06-25T19:38:29.367Z"
+          "retrievedAt": "2026-06-25T19:33:01.734Z"
         }
       ]
     },
     {
       "id": "gerardo-bogantes-rivera",
-      "cedula": "1-0935-0868",
+      "cedula": null,
       "nombre": "Gerarld Bogantes Rivera",
       "aliases": [],
       "partido": "PPSO",
@@ -1244,27 +1204,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
-            "retrievedAt": "2026-06-25T19:38:29.375Z"
+            "retrievedAt": "2026-06-25T19:33:03.065Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9579439252336449,
+        "pct": 0.958,
         "hits": 205,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.6,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
-            "retrievedAt": "2026-06-25T19:38:29.375Z"
+            "retrievedAt": "2026-06-25T19:33:03.065Z"
           }
         ]
       },
@@ -1277,7 +1235,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
-            "retrievedAt": "2026-06-25T19:38:29.375Z"
+            "retrievedAt": "2026-06-25T19:33:03.065Z"
           }
         ]
       },
@@ -1285,13 +1243,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
-          "retrievedAt": "2026-06-25T19:38:29.375Z"
+          "retrievedAt": "2026-06-25T19:33:03.065Z"
         }
       ]
     },
     {
       "id": "grethel-maria-avila-vargas",
-      "cedula": "2-0524-0451",
+      "cedula": null,
       "nombre": "Grethel Ávila Vargas",
       "aliases": [],
       "partido": "PPSO",
@@ -1305,13 +1263,12 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
-            "retrievedAt": "2026-06-25T19:38:29.379Z"
+            "retrievedAt": "2026-06-25T19:33:05.125Z"
           }
         ]
       },
@@ -1319,13 +1276,12 @@
         "pct": 1,
         "hits": 214,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
-            "retrievedAt": "2026-06-25T19:38:29.379Z"
+            "retrievedAt": "2026-06-25T19:33:05.125Z"
           }
         ]
       },
@@ -1338,7 +1294,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
-            "retrievedAt": "2026-06-25T19:38:29.379Z"
+            "retrievedAt": "2026-06-25T19:33:05.125Z"
           }
         ]
       },
@@ -1346,13 +1302,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
-          "retrievedAt": "2026-06-25T19:38:29.379Z"
+          "retrievedAt": "2026-06-25T19:33:05.125Z"
         }
       ]
     },
     {
       "id": "wilson-alfredo-jimenez-cordero",
-      "cedula": "2-0722-0586",
+      "cedula": null,
       "nombre": "Wilson Jiménez Cordero",
       "aliases": [],
       "partido": "PPSO",
@@ -1366,27 +1322,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
-            "retrievedAt": "2026-06-25T19:38:29.383Z"
+            "retrievedAt": "2026-06-25T19:33:06.089Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9813084112149533,
+        "pct": 0.983,
         "hits": 210,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
-            "retrievedAt": "2026-06-25T19:38:29.383Z"
+            "retrievedAt": "2026-06-25T19:33:06.089Z"
           }
         ]
       },
@@ -1399,7 +1353,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
-            "retrievedAt": "2026-06-25T19:38:29.383Z"
+            "retrievedAt": "2026-06-25T19:33:06.089Z"
           }
         ]
       },
@@ -1407,13 +1361,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
-          "retrievedAt": "2026-06-25T19:38:29.383Z"
+          "retrievedAt": "2026-06-25T19:33:06.089Z"
         }
       ]
     },
     {
       "id": "kattia-maria-ulate-alvarado",
-      "cedula": "2-0444-0792",
+      "cedula": null,
       "nombre": "Kattia María Ulate Alvarado",
       "aliases": [],
       "partido": "PPSO",
@@ -1427,13 +1381,12 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
-            "retrievedAt": "2026-06-25T19:38:29.390Z"
+            "retrievedAt": "2026-06-25T19:33:07.731Z"
           }
         ]
       },
@@ -1441,13 +1394,12 @@
         "pct": 1,
         "hits": 214,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
-            "retrievedAt": "2026-06-25T19:38:29.390Z"
+            "retrievedAt": "2026-06-25T19:33:07.731Z"
           }
         ]
       },
@@ -1460,7 +1412,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
-            "retrievedAt": "2026-06-25T19:38:29.389Z"
+            "retrievedAt": "2026-06-25T19:33:07.731Z"
           }
         ]
       },
@@ -1468,13 +1420,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
-          "retrievedAt": "2026-06-25T19:38:29.390Z"
+          "retrievedAt": "2026-06-25T19:33:07.731Z"
         }
       ]
     },
     {
       "id": "fernando-obaldia-alvarez",
-      "cedula": "2-0453-0511",
+      "cedula": null,
       "nombre": "Fernando Obaldía Álvarez",
       "aliases": [],
       "partido": "PPSO",
@@ -1488,27 +1440,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
-            "retrievedAt": "2026-06-25T19:38:29.393Z"
+            "retrievedAt": "2026-06-25T19:33:08.618Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9953271028037384,
+        "pct": 0.996,
         "hits": 213,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
-            "retrievedAt": "2026-06-25T19:38:29.393Z"
+            "retrievedAt": "2026-06-25T19:33:08.618Z"
           }
         ]
       },
@@ -1521,7 +1471,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
-            "retrievedAt": "2026-06-25T19:38:29.393Z"
+            "retrievedAt": "2026-06-25T19:33:08.618Z"
           }
         ]
       },
@@ -1529,13 +1479,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
-          "retrievedAt": "2026-06-25T19:38:29.393Z"
+          "retrievedAt": "2026-06-25T19:33:08.618Z"
         }
       ]
     },
     {
       "id": "diana-murillo-murillo",
-      "cedula": "2-0492-0522",
+      "cedula": null,
       "nombre": "Diana Murillo Murillo",
       "aliases": [],
       "partido": "PLN",
@@ -1549,27 +1499,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
-            "retrievedAt": "2026-06-25T19:38:29.398Z"
+            "retrievedAt": "2026-06-25T19:33:10.713Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.985981308411215,
+        "pct": 0.987,
         "hits": 211,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
-            "retrievedAt": "2026-06-25T19:38:29.398Z"
+            "retrievedAt": "2026-06-25T19:33:10.713Z"
           }
         ]
       },
@@ -1582,7 +1530,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
-            "retrievedAt": "2026-06-25T19:38:29.397Z"
+            "retrievedAt": "2026-06-25T19:33:10.713Z"
           }
         ]
       },
@@ -1590,13 +1538,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
-          "retrievedAt": "2026-06-25T19:38:29.398Z"
+          "retrievedAt": "2026-06-25T19:33:10.713Z"
         }
       ]
     },
     {
       "id": "eder-francisco-hernandez-ulloa",
-      "cedula": "2-0670-0138",
+      "cedula": null,
       "nombre": "Eder Hernández Ulloa",
       "aliases": [],
       "partido": "PLN",
@@ -1607,30 +1555,28 @@
       "tenureStart": "2026-05-01",
       "tenureEnd": null,
       "presencia": {
-        "pct": 0.96875,
+        "pct": 0.9690000000000001,
         "hits": 31,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 9.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
-            "retrievedAt": "2026-06-25T19:38:29.405Z"
+            "retrievedAt": "2026-06-25T19:33:11.602Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9392523364485982,
+        "pct": 0.941,
         "hits": 201,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
-            "retrievedAt": "2026-06-25T19:38:29.405Z"
+            "retrievedAt": "2026-06-25T19:33:11.602Z"
           }
         ]
       },
@@ -1643,7 +1589,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
-            "retrievedAt": "2026-06-25T19:38:29.405Z"
+            "retrievedAt": "2026-06-25T19:33:11.602Z"
           }
         ]
       },
@@ -1651,13 +1597,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
-          "retrievedAt": "2026-06-25T19:38:29.405Z"
+          "retrievedAt": "2026-06-25T19:33:11.602Z"
         }
       ]
     },
     {
       "id": "karen-tatiana-alfaro-jimenez",
-      "cedula": "1-1388-0025",
+      "cedula": null,
       "nombre": "Karen Alfaro Jiménez",
       "aliases": [],
       "partido": "PLN",
@@ -1668,30 +1614,28 @@
       "tenureStart": "2026-05-01",
       "tenureEnd": null,
       "presencia": {
-        "pct": 0.8125,
+        "pct": 0.813,
         "hits": 26,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 8.1,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
-            "retrievedAt": "2026-06-25T19:38:29.409Z"
+            "retrievedAt": "2026-06-25T19:33:13.070Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.8317757009345794,
+        "pct": 0.83,
         "hits": 178,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 8.3,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
-            "retrievedAt": "2026-06-25T19:38:29.409Z"
+            "retrievedAt": "2026-06-25T19:33:13.070Z"
           }
         ]
       },
@@ -1704,7 +1648,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
-            "retrievedAt": "2026-06-25T19:38:29.409Z"
+            "retrievedAt": "2026-06-25T19:33:13.070Z"
           }
         ]
       },
@@ -1712,13 +1656,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
-          "retrievedAt": "2026-06-25T19:38:29.409Z"
+          "retrievedAt": "2026-06-25T19:33:13.070Z"
         }
       ]
     },
     {
       "id": "edgardo-vinicio-araya-sibaja",
-      "cedula": "2-0483-0663",
+      "cedula": null,
       "nombre": "Edgardo Araya Sibaja",
       "aliases": [],
       "partido": "FA",
@@ -1729,30 +1673,28 @@
       "tenureStart": "2026-05-01",
       "tenureEnd": null,
       "presencia": {
-        "pct": 0.96875,
+        "pct": 0.9690000000000001,
         "hits": 31,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 9.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
-            "retrievedAt": "2026-06-25T19:38:29.417Z"
+            "retrievedAt": "2026-06-25T19:33:14.028Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9719626168224299,
+        "pct": 0.97,
         "hits": 208,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
-            "retrievedAt": "2026-06-25T19:38:29.417Z"
+            "retrievedAt": "2026-06-25T19:33:14.028Z"
           }
         ]
       },
@@ -1765,7 +1707,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
-            "retrievedAt": "2026-06-25T19:38:29.417Z"
+            "retrievedAt": "2026-06-25T19:33:14.028Z"
           }
         ]
       },
@@ -1773,13 +1715,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
-          "retrievedAt": "2026-06-25T19:38:29.417Z"
+          "retrievedAt": "2026-06-25T19:33:14.028Z"
         }
       ]
     },
     {
       "id": "sigrid-violeta-segura-artavia",
-      "cedula": "2-0678-0480",
+      "cedula": null,
       "nombre": "Sigrid Segura Artavia",
       "aliases": [],
       "partido": "FA",
@@ -1793,27 +1735,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
-            "retrievedAt": "2026-06-25T19:38:29.421Z"
+            "retrievedAt": "2026-06-25T19:33:15.200Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9953271028037384,
+        "pct": 0.996,
         "hits": 213,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
-            "retrievedAt": "2026-06-25T19:38:29.421Z"
+            "retrievedAt": "2026-06-25T19:33:15.200Z"
           }
         ]
       },
@@ -1826,7 +1766,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
-            "retrievedAt": "2026-06-25T19:38:29.420Z"
+            "retrievedAt": "2026-06-25T19:33:15.200Z"
           }
         ]
       },
@@ -1834,13 +1774,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
-          "retrievedAt": "2026-06-25T19:38:29.421Z"
+          "retrievedAt": "2026-06-25T19:33:15.200Z"
         }
       ]
     },
     {
       "id": "cindy-maria-blanco-gonzalez",
-      "cedula": "3-0384-0779",
+      "cedula": null,
       "nombre": "Cindy Blanco González",
       "aliases": [],
       "partido": "PPSO",
@@ -1851,16 +1791,15 @@
       "tenureStart": "2026-05-01",
       "tenureEnd": null,
       "presencia": {
-        "pct": 0.96875,
+        "pct": 0.9690000000000001,
         "hits": 31,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 9.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
-            "retrievedAt": "2026-06-25T19:38:29.424Z"
+            "retrievedAt": "2026-06-25T19:33:16.095Z"
           }
         ]
       },
@@ -1868,13 +1807,12 @@
         "pct": 1,
         "hits": 214,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
-            "retrievedAt": "2026-06-25T19:38:29.424Z"
+            "retrievedAt": "2026-06-25T19:33:16.095Z"
           }
         ]
       },
@@ -1887,7 +1825,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
-            "retrievedAt": "2026-06-25T19:38:29.424Z"
+            "retrievedAt": "2026-06-25T19:33:16.095Z"
           }
         ]
       },
@@ -1895,13 +1833,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
-          "retrievedAt": "2026-06-25T19:38:29.424Z"
+          "retrievedAt": "2026-06-25T19:33:16.095Z"
         }
       ]
     },
     {
       "id": "robert-johsan-barrantes-camacho",
-      "cedula": "1-1107-0006",
+      "cedula": null,
       "nombre": "Robert Barrantes Camacho",
       "aliases": [],
       "partido": "PPSO",
@@ -1915,27 +1853,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
-            "retrievedAt": "2026-06-25T19:38:29.431Z"
+            "retrievedAt": "2026-06-25T19:33:17.412Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9906542056074766,
+        "pct": 0.992,
         "hits": 212,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
-            "retrievedAt": "2026-06-25T19:38:29.431Z"
+            "retrievedAt": "2026-06-25T19:33:17.412Z"
           }
         ]
       },
@@ -1948,7 +1884,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
-            "retrievedAt": "2026-06-25T19:38:29.431Z"
+            "retrievedAt": "2026-06-25T19:33:17.412Z"
           }
         ]
       },
@@ -1956,13 +1892,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
-          "retrievedAt": "2026-06-25T19:38:29.431Z"
+          "retrievedAt": "2026-06-25T19:33:17.412Z"
         }
       ]
     },
     {
       "id": "yara-vanessa-jimenez-fallas",
-      "cedula": "1-0871-0251",
+      "cedula": null,
       "nombre": "Yara Jiménez Fallas",
       "aliases": [],
       "partido": "PPSO",
@@ -1976,27 +1912,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
-            "retrievedAt": "2026-06-25T19:38:29.435Z"
+            "retrievedAt": "2026-06-25T19:33:18.361Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9953271028037384,
+        "pct": 0.996,
         "hits": 213,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
-            "retrievedAt": "2026-06-25T19:38:29.435Z"
+            "retrievedAt": "2026-06-25T19:33:18.361Z"
           }
         ]
       },
@@ -2009,7 +1943,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
-            "retrievedAt": "2026-06-25T19:38:29.434Z"
+            "retrievedAt": "2026-06-25T19:33:18.361Z"
           }
         ]
       },
@@ -2017,13 +1951,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
-          "retrievedAt": "2026-06-25T19:38:29.435Z"
+          "retrievedAt": "2026-06-25T19:33:18.361Z"
         }
       ]
     },
     {
       "id": "janice-patricia-sandi-morales",
-      "cedula": "1-0573-0801",
+      "cedula": null,
       "nombre": "Janice Sandi Morales",
       "aliases": [],
       "partido": "PLN",
@@ -2037,13 +1971,12 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
-            "retrievedAt": "2026-06-25T19:38:29.439Z"
+            "retrievedAt": "2026-06-25T19:33:20.490Z"
           }
         ]
       },
@@ -2051,13 +1984,12 @@
         "pct": 1,
         "hits": 214,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
-            "retrievedAt": "2026-06-25T19:38:29.439Z"
+            "retrievedAt": "2026-06-25T19:33:20.490Z"
           }
         ]
       },
@@ -2070,7 +2002,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
-            "retrievedAt": "2026-06-25T19:38:29.439Z"
+            "retrievedAt": "2026-06-25T19:33:20.490Z"
           }
         ]
       },
@@ -2078,13 +2010,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
-          "retrievedAt": "2026-06-25T19:38:29.439Z"
+          "retrievedAt": "2026-06-25T19:33:20.490Z"
         }
       ]
     },
     {
       "id": "salvador-padilla-villanueva",
-      "cedula": "1-1399-0700",
+      "cedula": null,
       "nombre": "Salvador Padilla Villanueva",
       "aliases": [],
       "partido": "PLN",
@@ -2095,30 +2027,28 @@
       "tenureStart": "2026-05-01",
       "tenureEnd": null,
       "presencia": {
-        "pct": 0.9375,
+        "pct": 0.938,
         "hits": 30,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
-            "retrievedAt": "2026-06-25T19:38:29.446Z"
+            "retrievedAt": "2026-06-25T19:33:21.388Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.8504672897196262,
+        "pct": 0.852,
         "hits": 182,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 8.5,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
-            "retrievedAt": "2026-06-25T19:38:29.446Z"
+            "retrievedAt": "2026-06-25T19:33:21.388Z"
           }
         ]
       },
@@ -2131,7 +2061,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
-            "retrievedAt": "2026-06-25T19:38:29.446Z"
+            "retrievedAt": "2026-06-25T19:33:21.388Z"
           }
         ]
       },
@@ -2139,13 +2069,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
-          "retrievedAt": "2026-06-25T19:38:29.446Z"
+          "retrievedAt": "2026-06-25T19:33:21.388Z"
         }
       ]
     },
     {
       "id": "joselyn-fabiola-saenz-nunez",
-      "cedula": "3-0494-0336",
+      "cedula": null,
       "nombre": "Joselyn Sáenz Núñez",
       "aliases": [],
       "partido": "FA",
@@ -2159,27 +2089,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
-            "retrievedAt": "2026-06-25T19:38:29.450Z"
+            "retrievedAt": "2026-06-25T19:33:23.110Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9906542056074766,
+        "pct": 0.992,
         "hits": 212,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
-            "retrievedAt": "2026-06-25T19:38:29.450Z"
+            "retrievedAt": "2026-06-25T19:33:23.110Z"
           }
         ]
       },
@@ -2192,7 +2120,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
-            "retrievedAt": "2026-06-25T19:38:29.450Z"
+            "retrievedAt": "2026-06-25T19:33:23.110Z"
           }
         ]
       },
@@ -2200,13 +2128,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
-          "retrievedAt": "2026-06-25T19:38:29.450Z"
+          "retrievedAt": "2026-06-25T19:33:23.110Z"
         }
       ]
     },
     {
       "id": "marta-eugenia-esquivel-rodriguez",
-      "cedula": "1-0637-0430",
+      "cedula": null,
       "nombre": "Marta Eugenia Esquivel Rodríguez",
       "aliases": [],
       "partido": "PPSO",
@@ -2220,27 +2148,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
-            "retrievedAt": "2026-06-25T19:38:29.457Z"
+            "retrievedAt": "2026-06-25T19:33:24.068Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9953271028037384,
+        "pct": 0.996,
         "hits": 213,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
-            "retrievedAt": "2026-06-25T19:38:29.457Z"
+            "retrievedAt": "2026-06-25T19:33:24.068Z"
           }
         ]
       },
@@ -2253,7 +2179,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
-            "retrievedAt": "2026-06-25T19:38:29.457Z"
+            "retrievedAt": "2026-06-25T19:33:24.068Z"
           }
         ]
       },
@@ -2261,13 +2187,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
-          "retrievedAt": "2026-06-25T19:38:29.457Z"
+          "retrievedAt": "2026-06-25T19:33:24.068Z"
         }
       ]
     },
     {
       "id": "juan-manuel-quesada-espinoza",
-      "cedula": "1-1011-0908",
+      "cedula": null,
       "nombre": "Juan Manuel Quesada Espinoza",
       "aliases": [],
       "partido": "PPSO",
@@ -2281,27 +2207,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
-            "retrievedAt": "2026-06-25T19:38:29.461Z"
+            "retrievedAt": "2026-06-25T19:33:25.887Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9953271028037384,
+        "pct": 0.996,
         "hits": 213,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
-            "retrievedAt": "2026-06-25T19:38:29.461Z"
+            "retrievedAt": "2026-06-25T19:33:25.887Z"
           }
         ]
       },
@@ -2314,7 +2238,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
-            "retrievedAt": "2026-06-25T19:38:29.461Z"
+            "retrievedAt": "2026-06-25T19:33:25.887Z"
           }
         ]
       },
@@ -2322,13 +2246,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
-          "retrievedAt": "2026-06-25T19:38:29.461Z"
+          "retrievedAt": "2026-06-25T19:33:25.887Z"
         }
       ]
     },
     {
       "id": "victor-manuel-hidalgo-solis",
-      "cedula": "4-0190-0646",
+      "cedula": null,
       "nombre": "Víctor Manuel Hidalgo Solís",
       "aliases": [],
       "partido": "PLN",
@@ -2342,27 +2266,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
-            "retrievedAt": "2026-06-25T19:38:29.465Z"
+            "retrievedAt": "2026-06-25T19:33:26.814Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9485981308411215,
+        "pct": 0.9490000000000001,
         "hits": 203,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.5,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
-            "retrievedAt": "2026-06-25T19:38:29.465Z"
+            "retrievedAt": "2026-06-25T19:33:26.814Z"
           }
         ]
       },
@@ -2375,7 +2297,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
-            "retrievedAt": "2026-06-25T19:38:29.465Z"
+            "retrievedAt": "2026-06-25T19:33:26.814Z"
           }
         ]
       },
@@ -2383,13 +2305,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
-          "retrievedAt": "2026-06-25T19:38:29.465Z"
+          "retrievedAt": "2026-06-25T19:33:26.814Z"
         }
       ]
     },
     {
       "id": "angela-ileana-aguilar-vargas",
-      "cedula": "9-0091-0602",
+      "cedula": null,
       "nombre": "Ángela Aguilar Vargas",
       "aliases": [],
       "partido": "PLN",
@@ -2403,27 +2325,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
-            "retrievedAt": "2026-06-25T19:38:29.473Z"
+            "retrievedAt": "2026-06-25T19:33:28.123Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9813084112149533,
+        "pct": 0.983,
         "hits": 210,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
-            "retrievedAt": "2026-06-25T19:38:29.473Z"
+            "retrievedAt": "2026-06-25T19:33:28.123Z"
           }
         ]
       },
@@ -2436,7 +2356,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
-            "retrievedAt": "2026-06-25T19:38:29.473Z"
+            "retrievedAt": "2026-06-25T19:33:28.123Z"
           }
         ]
       },
@@ -2444,13 +2364,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
-          "retrievedAt": "2026-06-25T19:38:29.473Z"
+          "retrievedAt": "2026-06-25T19:33:28.123Z"
         }
       ]
     },
     {
       "id": "maria-eugenia-roman-mora",
-      "cedula": "1-0635-0819",
+      "cedula": null,
       "nombre": "María Eugenia Román Mora",
       "aliases": [],
       "partido": "FA",
@@ -2464,27 +2384,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
-            "retrievedAt": "2026-06-25T19:38:29.481Z"
+            "retrievedAt": "2026-06-25T19:33:29.036Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9953271028037384,
+        "pct": 0.996,
         "hits": 213,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
-            "retrievedAt": "2026-06-25T19:38:29.481Z"
+            "retrievedAt": "2026-06-25T19:33:29.036Z"
           }
         ]
       },
@@ -2497,7 +2415,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
-            "retrievedAt": "2026-06-25T19:38:29.481Z"
+            "retrievedAt": "2026-06-25T19:33:29.036Z"
           }
         ]
       },
@@ -2505,13 +2423,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
-          "retrievedAt": "2026-06-25T19:38:29.481Z"
+          "retrievedAt": "2026-06-25T19:33:29.036Z"
         }
       ]
     },
     {
       "id": "nayuribe-guadamuz-rosales",
-      "cedula": "1-0795-0003",
+      "cedula": null,
       "nombre": "Nayuribe Guadamuz Rosales",
       "aliases": [],
       "partido": "PPSO",
@@ -2525,13 +2443,12 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
-            "retrievedAt": "2026-06-25T19:38:29.488Z"
+            "retrievedAt": "2026-06-25T19:33:30.216Z"
           }
         ]
       },
@@ -2539,13 +2456,12 @@
         "pct": 1,
         "hits": 214,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
-            "retrievedAt": "2026-06-25T19:38:29.488Z"
+            "retrievedAt": "2026-06-25T19:33:30.216Z"
           }
         ]
       },
@@ -2558,7 +2474,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
-            "retrievedAt": "2026-06-25T19:38:29.488Z"
+            "retrievedAt": "2026-06-25T19:33:30.216Z"
           }
         ]
       },
@@ -2566,13 +2482,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
-          "retrievedAt": "2026-06-25T19:38:29.488Z"
+          "retrievedAt": "2026-06-25T19:33:30.216Z"
         }
       ]
     },
     {
       "id": "daniel-asdrubal-siezar-cardenas",
-      "cedula": "5-0302-0919",
+      "cedula": null,
       "nombre": "Daniel Siézar Cárdenas",
       "aliases": [],
       "partido": "PPSO",
@@ -2586,27 +2502,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
-            "retrievedAt": "2026-06-25T19:38:29.492Z"
+            "retrievedAt": "2026-06-25T19:33:31.245Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9953271028037384,
+        "pct": 0.996,
         "hits": 213,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
-            "retrievedAt": "2026-06-25T19:38:29.492Z"
+            "retrievedAt": "2026-06-25T19:33:31.245Z"
           }
         ]
       },
@@ -2619,7 +2533,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
-            "retrievedAt": "2026-06-25T19:38:29.492Z"
+            "retrievedAt": "2026-06-25T19:33:31.245Z"
           }
         ]
       },
@@ -2627,13 +2541,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
-          "retrievedAt": "2026-06-25T19:38:29.492Z"
+          "retrievedAt": "2026-06-25T19:33:31.245Z"
         }
       ]
     },
     {
       "id": "cindy-dayana-murillo-artavia",
-      "cedula": "2-0626-0163",
+      "cedula": null,
       "nombre": "Cindy Murillo Artavia",
       "aliases": [],
       "partido": "PPSO",
@@ -2647,27 +2561,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
-            "retrievedAt": "2026-06-25T19:38:29.496Z"
+            "retrievedAt": "2026-06-25T19:33:32.803Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9953271028037384,
+        "pct": 0.996,
         "hits": 213,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
-            "retrievedAt": "2026-06-25T19:38:29.496Z"
+            "retrievedAt": "2026-06-25T19:33:32.803Z"
           }
         ]
       },
@@ -2680,7 +2592,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
-            "retrievedAt": "2026-06-25T19:38:29.496Z"
+            "retrievedAt": "2026-06-25T19:33:32.803Z"
           }
         ]
       },
@@ -2688,13 +2600,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
-          "retrievedAt": "2026-06-25T19:38:29.496Z"
+          "retrievedAt": "2026-06-25T19:33:32.803Z"
         }
       ]
     },
     {
       "id": "ronald-alberto-campos-villegas",
-      "cedula": "1-0518-0996",
+      "cedula": null,
       "nombre": "Ronald Campos Villegas",
       "aliases": [],
       "partido": "PLN",
@@ -2708,27 +2620,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
-            "retrievedAt": "2026-06-25T19:38:29.500Z"
+            "retrievedAt": "2026-06-25T19:33:34.322Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9906542056074766,
+        "pct": 0.992,
         "hits": 212,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
-            "retrievedAt": "2026-06-25T19:38:29.500Z"
+            "retrievedAt": "2026-06-25T19:33:34.322Z"
           }
         ]
       },
@@ -2741,7 +2651,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
-            "retrievedAt": "2026-06-25T19:38:29.500Z"
+            "retrievedAt": "2026-06-25T19:33:34.322Z"
           }
         ]
       },
@@ -2749,13 +2659,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
-          "retrievedAt": "2026-06-25T19:38:29.500Z"
+          "retrievedAt": "2026-06-25T19:33:34.322Z"
         }
       ]
     },
     {
       "id": "karol-vanessa-matamoros-montoya",
-      "cedula": "1-1496-0916",
+      "cedula": null,
       "nombre": "Karol Matamoros Montoya",
       "aliases": [],
       "partido": "PLN",
@@ -2766,30 +2676,28 @@
       "tenureStart": "2026-05-01",
       "tenureEnd": null,
       "presencia": {
-        "pct": 0.96875,
+        "pct": 0.9690000000000001,
         "hits": 31,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 9.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
-            "retrievedAt": "2026-06-25T19:38:29.507Z"
+            "retrievedAt": "2026-06-25T19:33:36.250Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9392523364485982,
+        "pct": 0.941,
         "hits": 201,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
-            "retrievedAt": "2026-06-25T19:38:29.507Z"
+            "retrievedAt": "2026-06-25T19:33:36.250Z"
           }
         ]
       },
@@ -2802,7 +2710,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
-            "retrievedAt": "2026-06-25T19:38:29.507Z"
+            "retrievedAt": "2026-06-25T19:33:36.250Z"
           }
         ]
       },
@@ -2810,13 +2718,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
-          "retrievedAt": "2026-06-25T19:38:29.507Z"
+          "retrievedAt": "2026-06-25T19:33:36.250Z"
         }
       ]
     },
     {
       "id": "royner-mora-ruiz",
-      "cedula": "1-1147-0223",
+      "cedula": null,
       "nombre": "Royner Mora Ruiz",
       "aliases": [],
       "partido": "PPSO",
@@ -2827,30 +2735,28 @@
       "tenureStart": "2026-05-01",
       "tenureEnd": null,
       "presencia": {
-        "pct": 0.96875,
+        "pct": 0.9690000000000001,
         "hits": 31,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 9.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
-            "retrievedAt": "2026-06-25T19:38:29.511Z"
+            "retrievedAt": "2026-06-25T19:33:38.491Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9813084112149533,
+        "pct": 0.983,
         "hits": 210,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
-            "retrievedAt": "2026-06-25T19:38:29.511Z"
+            "retrievedAt": "2026-06-25T19:33:38.491Z"
           }
         ]
       },
@@ -2863,7 +2769,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
-            "retrievedAt": "2026-06-25T19:38:29.511Z"
+            "retrievedAt": "2026-06-25T19:33:38.491Z"
           }
         ]
       },
@@ -2871,13 +2777,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
-          "retrievedAt": "2026-06-25T19:38:29.511Z"
+          "retrievedAt": "2026-06-25T19:33:38.491Z"
         }
       ]
     },
     {
       "id": "maria-isabel-camareno-camareno",
-      "cedula": "1-0538-0638",
+      "cedula": null,
       "nombre": "María Isabel Camareno Camareno",
       "aliases": [],
       "partido": "PPSO",
@@ -2891,13 +2797,12 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
-            "retrievedAt": "2026-06-25T19:38:29.519Z"
+            "retrievedAt": "2026-06-25T19:33:40.394Z"
           }
         ]
       },
@@ -2905,13 +2810,12 @@
         "pct": 1,
         "hits": 214,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
-            "retrievedAt": "2026-06-25T19:38:29.519Z"
+            "retrievedAt": "2026-06-25T19:33:40.394Z"
           }
         ]
       },
@@ -2924,7 +2828,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
-            "retrievedAt": "2026-06-25T19:38:29.519Z"
+            "retrievedAt": "2026-06-25T19:33:40.394Z"
           }
         ]
       },
@@ -2932,13 +2836,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
-          "retrievedAt": "2026-06-25T19:38:29.519Z"
+          "retrievedAt": "2026-06-25T19:33:40.394Z"
         }
       ]
     },
     {
       "id": "ariel-alfonso-mora-fallas",
-      "cedula": "1-1070-0599",
+      "cedula": null,
       "nombre": "Ariel Mora Fallas",
       "aliases": [],
       "partido": "PPSO",
@@ -2952,27 +2856,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
-            "retrievedAt": "2026-06-25T19:38:29.523Z"
+            "retrievedAt": "2026-06-25T19:33:41.354Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9579439252336449,
+        "pct": 0.958,
         "hits": 205,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.6,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
-            "retrievedAt": "2026-06-25T19:38:29.523Z"
+            "retrievedAt": "2026-06-25T19:33:41.354Z"
           }
         ]
       },
@@ -2985,7 +2887,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
-            "retrievedAt": "2026-06-25T19:38:29.523Z"
+            "retrievedAt": "2026-06-25T19:33:41.354Z"
           }
         ]
       },
@@ -2993,13 +2895,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
-          "retrievedAt": "2026-06-25T19:38:29.523Z"
+          "retrievedAt": "2026-06-25T19:33:41.354Z"
         }
       ]
     },
     {
       "id": "ana-ruth-esquivel-medrano",
-      "cedula": "6-0225-0894",
+      "cedula": null,
       "nombre": "Ana Ruth Esquivel Medrano",
       "aliases": [],
       "partido": "PPSO",
@@ -3013,13 +2915,12 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
-            "retrievedAt": "2026-06-25T19:38:29.527Z"
+            "retrievedAt": "2026-06-25T19:33:42.853Z"
           }
         ]
       },
@@ -3027,13 +2928,12 @@
         "pct": 1,
         "hits": 214,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
-            "retrievedAt": "2026-06-25T19:38:29.527Z"
+            "retrievedAt": "2026-06-25T19:33:42.853Z"
           }
         ]
       },
@@ -3046,7 +2946,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
-            "retrievedAt": "2026-06-25T19:38:29.527Z"
+            "retrievedAt": "2026-06-25T19:33:42.853Z"
           }
         ]
       },
@@ -3054,13 +2954,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
-          "retrievedAt": "2026-06-25T19:38:29.527Z"
+          "retrievedAt": "2026-06-25T19:33:42.853Z"
         }
       ]
     },
     {
       "id": "norjelens-maria-lobo-vargas",
-      "cedula": "6-0366-0898",
+      "cedula": null,
       "nombre": "Norjelens Lobo Vargas",
       "aliases": [],
       "partido": "PLN",
@@ -3071,30 +2971,28 @@
       "tenureStart": "2026-05-01",
       "tenureEnd": null,
       "presencia": {
-        "pct": 0.9375,
+        "pct": 0.938,
         "hits": 30,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
-            "retrievedAt": "2026-06-25T19:38:29.533Z"
+            "retrievedAt": "2026-06-25T19:33:43.841Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.8878504672897196,
+        "pct": 0.89,
         "hits": 190,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 8.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
-            "retrievedAt": "2026-06-25T19:38:29.533Z"
+            "retrievedAt": "2026-06-25T19:33:43.841Z"
           }
         ]
       },
@@ -3107,7 +3005,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
-            "retrievedAt": "2026-06-25T19:38:29.533Z"
+            "retrievedAt": "2026-06-25T19:33:43.841Z"
           }
         ]
       },
@@ -3115,13 +3013,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
-          "retrievedAt": "2026-06-25T19:38:29.533Z"
+          "retrievedAt": "2026-06-25T19:33:43.841Z"
         }
       ]
     },
     {
       "id": "jesus-antonio-calderon-calderon",
-      "cedula": "6-0198-0228",
+      "cedula": null,
       "nombre": "Jesús Antonio Calderón Calderón",
       "aliases": [],
       "partido": "PLN",
@@ -3135,27 +3033,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
-            "retrievedAt": "2026-06-25T19:38:29.538Z"
+            "retrievedAt": "2026-06-25T19:33:45.178Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9719626168224299,
+        "pct": 0.97,
         "hits": 208,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
-            "retrievedAt": "2026-06-25T19:38:29.538Z"
+            "retrievedAt": "2026-06-25T19:33:45.178Z"
           }
         ]
       },
@@ -3168,7 +3064,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
-            "retrievedAt": "2026-06-25T19:38:29.538Z"
+            "retrievedAt": "2026-06-25T19:33:45.178Z"
           }
         ]
       },
@@ -3176,13 +3072,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
-          "retrievedAt": "2026-06-25T19:38:29.538Z"
+          "retrievedAt": "2026-06-25T19:33:45.178Z"
         }
       ]
     },
     {
       "id": "osvaldo-artavia-carballo",
-      "cedula": "1-0825-0709",
+      "cedula": null,
       "nombre": "Osvaldo Artavia Carballo",
       "aliases": [],
       "partido": "PPSO",
@@ -3193,30 +3089,28 @@
       "tenureStart": "2026-05-01",
       "tenureEnd": null,
       "presencia": {
-        "pct": 0.96875,
+        "pct": 0.9690000000000001,
         "hits": 31,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 9.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
-            "retrievedAt": "2026-06-25T19:38:29.541Z"
+            "retrievedAt": "2026-06-25T19:33:47.253Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9532710280373832,
+        "pct": 0.953,
         "hits": 204,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.5,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
-            "retrievedAt": "2026-06-25T19:38:29.541Z"
+            "retrievedAt": "2026-06-25T19:33:47.253Z"
           }
         ]
       },
@@ -3229,7 +3123,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
-            "retrievedAt": "2026-06-25T19:38:29.541Z"
+            "retrievedAt": "2026-06-25T19:33:47.253Z"
           }
         ]
       },
@@ -3237,13 +3131,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
-          "retrievedAt": "2026-06-25T19:38:29.541Z"
+          "retrievedAt": "2026-06-25T19:33:47.253Z"
         }
       ]
     },
     {
       "id": "kristel-lizeth-ward-hudson",
-      "cedula": "7-0199-0801",
+      "cedula": null,
       "nombre": "Kristel Ward Hudson",
       "aliases": [],
       "partido": "PPSO",
@@ -3254,30 +3148,28 @@
       "tenureStart": "2026-05-01",
       "tenureEnd": null,
       "presencia": {
-        "pct": 0.1875,
+        "pct": 0.188,
         "hits": 6,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 1.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
-            "retrievedAt": "2026-06-25T19:38:29.548Z"
+            "retrievedAt": "2026-06-25T19:33:48.160Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.028037383177570093,
+        "pct": 0.03,
         "hits": 6,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 0.3,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
-            "retrievedAt": "2026-06-25T19:38:29.548Z"
+            "retrievedAt": "2026-06-25T19:33:48.160Z"
           }
         ]
       },
@@ -3290,7 +3182,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
-            "retrievedAt": "2026-06-25T19:38:29.548Z"
+            "retrievedAt": "2026-06-25T19:33:48.160Z"
           }
         ]
       },
@@ -3298,13 +3190,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
-          "retrievedAt": "2026-06-25T19:38:29.548Z"
+          "retrievedAt": "2026-06-25T19:33:48.160Z"
         }
       ]
     },
     {
       "id": "reynaldo-arias-mora",
-      "cedula": "2-0402-0408",
+      "cedula": null,
       "nombre": "Reynaldo Arias Mora",
       "aliases": [],
       "partido": "PPSO",
@@ -3315,30 +3207,28 @@
       "tenureStart": "2026-05-01",
       "tenureEnd": null,
       "presencia": {
-        "pct": 0.90625,
+        "pct": 0.9059999999999999,
         "hits": 29,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 9.1,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
-            "retrievedAt": "2026-06-25T19:38:29.552Z"
+            "retrievedAt": "2026-06-25T19:33:49.683Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.780373831775701,
+        "pct": 0.78,
         "hits": 167,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 7.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
-            "retrievedAt": "2026-06-25T19:38:29.552Z"
+            "retrievedAt": "2026-06-25T19:33:49.683Z"
           }
         ]
       },
@@ -3351,7 +3241,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
-            "retrievedAt": "2026-06-25T19:38:29.552Z"
+            "retrievedAt": "2026-06-25T19:33:49.683Z"
           }
         ]
       },
@@ -3359,13 +3249,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
-          "retrievedAt": "2026-06-25T19:38:29.552Z"
+          "retrievedAt": "2026-06-25T19:33:49.683Z"
         }
       ]
     },
     {
       "id": "kathia-calvo-cruz",
-      "cedula": "7-0087-0490",
+      "cedula": null,
       "nombre": "Kathia Calvo Cruz",
       "aliases": [],
       "partido": "PPSO",
@@ -3379,27 +3269,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
-            "retrievedAt": "2026-06-25T19:38:29.555Z"
+            "retrievedAt": "2026-06-25T19:33:50.602Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9906542056074766,
+        "pct": 0.992,
         "hits": 212,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
-            "retrievedAt": "2026-06-25T19:38:29.555Z"
+            "retrievedAt": "2026-06-25T19:33:50.602Z"
           }
         ]
       },
@@ -3412,7 +3300,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
-            "retrievedAt": "2026-06-25T19:38:29.555Z"
+            "retrievedAt": "2026-06-25T19:33:50.602Z"
           }
         ]
       },
@@ -3420,13 +3308,13 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
-          "retrievedAt": "2026-06-25T19:38:29.555Z"
+          "retrievedAt": "2026-06-25T19:33:50.602Z"
         }
       ]
     },
     {
       "id": "mangell-mc-lean-villalobos",
-      "cedula": "7-0133-0745",
+      "cedula": null,
       "nombre": "Mangell Mc Lean Villalobos",
       "aliases": [],
       "partido": "PLN",
@@ -3440,27 +3328,25 @@
         "pct": 1,
         "hits": 32,
         "eligible": 32,
-        "n": 32,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
-            "retrievedAt": "2026-06-25T19:38:29.561Z"
+            "retrievedAt": "2026-06-25T19:33:52.562Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9299065420560748,
+        "pct": 0.932,
         "hits": 199,
         "eligible": 214,
-        "n": 214,
         "gated": false,
         "score": 9.3,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
-            "retrievedAt": "2026-06-25T19:38:29.561Z"
+            "retrievedAt": "2026-06-25T19:33:52.562Z"
           }
         ]
       },
@@ -3473,7 +3359,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
-            "retrievedAt": "2026-06-25T19:38:29.561Z"
+            "retrievedAt": "2026-06-25T19:33:52.562Z"
           }
         ]
       },
@@ -3481,7 +3367,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
-          "retrievedAt": "2026-06-25T19:38:29.561Z"
+          "retrievedAt": "2026-06-25T19:33:52.562Z"
         }
       ]
     }

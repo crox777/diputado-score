@@ -26,10 +26,9 @@ export interface SourceRef {
 
 /** A scored dimension computed from primary records (no imputation). */
 export interface DimensionScore {
-  pct: number; // 0..1, the real rate (e.g. 0.92)
-  hits: number; // sesiones presente / votos emitidos
-  eligible: number; // sesiones / votos held during tenure
-  n: number; // sample size (== eligible)
+  pct: number; // 0..1, the source's published rate (drives score + displayed %), NOT re-quantized from hits
+  hits: number; // approximate count = round(pct * eligible); displayed with a "~" prefix
+  eligible: number; // sesiones / votos held during tenure (sample size)
   gated: boolean; // true when n < MIN_SAMPLE → "preliminar", no 1–10
   score: number | null; // 1..10, or null when gated / no data
   sources: SourceRef[];
@@ -88,6 +87,16 @@ export interface Snapshot {
   };
   diputados: DiputadoRecord[];
 }
+
+export const PROVINCIAS: Provincia[] = [
+  "San José",
+  "Alajuela",
+  "Cartago",
+  "Heredia",
+  "Guanacaste",
+  "Puntarenas",
+  "Limón",
+];
 
 export const PARTIDO_LABEL: Record<Partido, string> = {
   PPSO: "Pueblo Soberano",

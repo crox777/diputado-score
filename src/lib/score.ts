@@ -32,27 +32,35 @@ export function pctToScore(pct: number): number {
 }
 
 /**
- * Build a dimension score from primary counts. `eligible` is the number of sessions/votes
- * held during the diputado's tenure; `hits` the ones they attended / voted in.
- * Returns score=null when there is no eligible event or the sample is below `min` (gated).
+ * Build a dimension from the source's PUBLISHED rate (`reportedPct`, 0–100) and the real number
+ * of eligible events held during tenure. `pct` is the published rate (NOT re-quantized from a
+ * count), so the score and the displayed % are the source's exact figure; `hits` is the
+ * approximate derived count shown with a "~". Returns null when the rate is missing/non-finite
+ * or there are no eligible events — no imputation; a dimension with no data is null, never a default.
  */
 export function buildDimension(
-  hits: number,
+  reportedPct: number | null,
   eligible: number,
   min: number,
   sources: DimensionScore["sources"]
-): DimensionScore {
-  const safeEligible = Math.max(0, eligible);
-  const safeHits = clamp(hits, 0, safeEligible);
-  const pct = safeEligible > 0 ? safeHits / safeEligible : 0;
-  const gated = safeEligible < min;
+): DimensionScore | null {
+  if (
+    reportedPct === null ||
+    !Number.isFinite(reportedPct) ||
+    !Number.isFinite(eligible) ||
+    eligible <= 0
+  ) {
+    return null;
+  }
+  const pct = clamp(reportedPct / 100, 0, 1);
+  const hits = Math.round(pct * eligible);
+  const gated = eligible < min;
   return {
     pct,
-    hits: safeHits,
-    eligible: safeEligible,
-    n: safeEligible,
+    hits,
+    eligible,
     gated,
-    score: safeEligible > 0 && !gated ? pctToScore(pct) : null,
+    score: gated ? null : pctToScore(pct),
     sources,
   };
 }
@@ -115,7 +123,7 @@ export function compareForRanking(a: DiputadoRecord, b: DiputadoRecord): number 
   const an = foldName(a.nombre);
   const bn = foldName(b.nombre);
   if (an !== bn) return an < bn ? -1 : 1;
-  return (a.cedula ?? a.id).localeCompare(b.cedula ?? b.id);
+  return a.id.localeCompare(b.id);
 }
 
 /** Returns records sorted for ranking, with a 1-based `rank` assigned to ranked rows (ties share a rank). */

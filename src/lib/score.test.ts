@@ -19,36 +19,40 @@ test("pctToScore maps rate to 1–10 absolutely", () => {
   assert.equal(pctToScore(0), 0);
 });
 
-test("buildDimension computes pct and gates below MIN_SAMPLE", () => {
-  const ok = buildDimension(28, 31, MIN_SESIONES, []);
+test("buildDimension uses the published rate and gates below MIN_SAMPLE", () => {
+  const ok = buildDimension(90.3, 31, MIN_SESIONES, []);
+  assert.ok(ok);
   assert.equal(ok.eligible, 31);
   assert.equal(ok.gated, false);
-  assert.equal(ok.score, pctToScore(28 / 31));
+  assert.equal(ok.hits, Math.round(0.903 * 31));
+  assert.equal(ok.score, pctToScore(0.903));
 
-  const gated = buildDimension(4, 5, MIN_SESIONES, []);
+  const gated = buildDimension(80, 5, MIN_SESIONES, []);
+  assert.ok(gated);
   assert.equal(gated.gated, true);
-  assert.equal(gated.score, null, "below gate → no 1–10");
+  assert.equal(gated.score, null, "below gate -> no 1-10");
 });
 
-test("buildDimension never divides by zero and never imputes", () => {
-  const none = buildDimension(0, 0, MIN_VOTOS, []);
-  assert.equal(none.pct, 0);
-  assert.equal(none.score, null, "no eligible events → null, NOT a default 5");
+test("buildDimension returns null for missing/non-finite rate or zero eligible (no imputation)", () => {
+  assert.equal(buildDimension(null, 30, MIN_VOTOS, []), null);
+  assert.equal(buildDimension(NaN, 30, MIN_VOTOS, []), null, "NaN must not impute a score");
+  assert.equal(buildDimension(95, 0, MIN_VOTOS, []), null, "no eligible events -> null, not a default 5");
 });
 
-test("buildDimension clamps hits to eligible (no >100%)", () => {
-  const d = buildDimension(40, 31, MIN_SESIONES, []);
+test("buildDimension clamps the rate to 100% (no >100%)", () => {
+  const d = buildDimension(130, 31, MIN_SESIONES, []);
+  assert.ok(d);
   assert.equal(d.hits, 31);
   assert.equal(d.score, 10);
 });
 
 test("computeOverall averages two dims only when sitting and both ungated", () => {
-  const pres = buildDimension(31, 31, MIN_SESIONES, []); // 10
-  const part = buildDimension(150, 200, MIN_VOTOS, []); // 7.5
+  const pres = buildDimension(100, 31, MIN_SESIONES, []); // 10
+  const part = buildDimension(75, 200, MIN_VOTOS, []); // 7.5
   assert.equal(computeOverall("EN_EJERCICIO", pres, part), 8.8);
-  assert.equal(computeOverall("EN_LICENCIA", pres, part), null, "non-sitting → not scored");
-  const gatedPart = buildDimension(5, 8, MIN_VOTOS, []);
-  assert.equal(computeOverall("EN_EJERCICIO", pres, gatedPart), null, "gated dim → no overall");
+  assert.equal(computeOverall("EN_LICENCIA", pres, part), null, "non-sitting -> not scored");
+  const gatedPart = buildDimension(80, 8, MIN_VOTOS, []);
+  assert.equal(computeOverall("EN_EJERCICIO", pres, gatedPart), null, "gated dim -> no overall");
 });
 
 test("scoreColor uses absolute bands; null → gray", () => {
@@ -78,8 +82,8 @@ function mkDip(over: Partial<DiputadoRecord>): DiputadoRecord {
     photoUrl: null,
     tenureStart: "2026-05-01",
     tenureEnd: null,
-    presencia: over.presencia ?? buildDimension(31, 31, MIN_SESIONES, []),
-    participacion: over.participacion ?? buildDimension(31, 31, MIN_VOTOS, []),
+    presencia: over.presencia ?? buildDimension(100, 31, MIN_SESIONES, []),
+    participacion: over.participacion ?? buildDimension(100, 31, MIN_VOTOS, []),
     overall: over.overall ?? null,
     ranked: false,
     proyectosPresentados: null,

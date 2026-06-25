@@ -49,7 +49,7 @@ export default function MetodologiaPage() {
 
           <Section title="Cómo se calcula el puntaje">
             <p>
-              La escala es absoluta. El porcentaje real se mapea directamente a una nota de 1 a 10,
+              La escala es absoluta. El porcentaje real se mapea directamente a una nota de 0 a 10,
               de modo que un 92% equivale a 9.2. La nota no es relativa al resto de diputados, así
               que no cambia cuando otra persona sube o baja.
             </p>

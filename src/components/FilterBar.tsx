@@ -2,16 +2,7 @@
 
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { useCallback } from "react";
-
-const PROVINCIAS = [
-  "San José",
-  "Alajuela",
-  "Cartago",
-  "Heredia",
-  "Guanacaste",
-  "Puntarenas",
-  "Limón",
-];
+import { PROVINCIAS } from "@/lib/data-types";
 
 const SORT_OPTIONS = [
   { value: "overall_desc", label: "Mejor puntaje" },

@@ -7,7 +7,6 @@ const nextConfig: NextConfig = {
       // robots-disallowed, so it is NOT used as an image source.
       { protocol: "https", hostname: "d1qqtien6gys07.cloudfront.net" },
       { protocol: "https", hostname: "delfino.cr" },
-      { protocol: "https", hostname: "acontecer.co.cr" },
     ],
   },
 };

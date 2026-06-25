@@ -2,7 +2,7 @@
 // runtime — it renders src/data/diputados.json, produced offline by scripts/ingest.ts.
 
 import rawSnapshot from "@/data/diputados.json";
-import type { DiputadoRecord, Snapshot } from "./data-types";
+import { PARTIDO_LABEL, type DiputadoRecord, type Snapshot } from "./data-types";
 import { foldName } from "./score";
 
 export const snapshot = rawSnapshot as unknown as Snapshot;
@@ -32,7 +32,8 @@ export function searchDiputados(q = "", provincia = ""): DiputadoRecord[] {
       !fq ||
       foldName(d.nombre).includes(fq) ||
       d.aliases.some((a) => foldName(a).includes(fq)) ||
-      foldName(d.partido).includes(fq);
+      foldName(d.partido).includes(fq) ||
+      foldName(PARTIDO_LABEL[d.partido]).includes(fq);
     const matchesProv = !fp || foldName(d.provincia).includes(fp);
     return matchesQ && matchesProv;
   });

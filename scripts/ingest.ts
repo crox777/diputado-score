@@ -14,7 +14,7 @@
  * Run: npx tsx scripts/ingest.ts
  */
 import { load } from "cheerio";
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync, statSync, unlinkSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -24,6 +24,7 @@ import {
   MIN_SESIONES,
   MIN_VOTOS,
 } from "../src/lib/score.ts";
+import { PROVINCIAS } from "../src/lib/data-types.ts";
 import type {
   DiputadoRecord,
   Gastos,
@@ -40,9 +41,6 @@ const OUT = join(ROOT, "src", "data", "diputados.json");
 const STATUS_OVERRIDES = join(ROOT, "src", "data", "status-overrides.json");
 
 const BASE = "https://delfino.cr";
-const PROVINCIAS: Provincia[] = [
-  "San José", "Alajuela", "Cartago", "Heredia", "Guanacaste", "Puntarenas", "Limón",
-];
 const PARTY_BY_ALT: Record<string, Partido> = {
   "Partido Pueblo Soberano": "PPSO",
   "Partido Liberación Nacional": "PLN",
@@ -62,9 +60,12 @@ async function fetchHtml(
   kind: string,
   id: string,
   { allow404 = false } = {}
-): Promise<{ status: number; html: string | null }> {
+): Promise<{ status: number; html: string | null; retrievedAt: string }> {
   const cp = cachePath(kind, id);
-  if (existsSync(cp)) return { status: 200, html: readFileSync(cp, "utf8") };
+  // retrievedAt is the cache file's real mtime — the true moment the page was fetched, not run time.
+  if (existsSync(cp)) {
+    return { status: 200, html: readFileSync(cp, "utf8"), retrievedAt: statSync(cp).mtime.toISOString() };
+  }
   let delay = 500;
   for (let attempt = 0; attempt < 4; attempt++) {
     try {
@@ -75,13 +76,14 @@ async function fetchHtml(
         },
         signal: AbortSignal.timeout(20_000),
       });
-      if (res.status === 404 && allow404) return { status: 404, html: null };
+      if (res.status === 404 && allow404)
+        return { status: 404, html: null, retrievedAt: new Date().toISOString() };
       if (res.status === 200) {
         const html = await res.text();
         mkdirSync(dirname(cp), { recursive: true });
         writeFileSync(cp, html);
         await sleep(450);
-        return { status: 200, html };
+        return { status: 200, html, retrievedAt: statSync(cp).mtime.toISOString() };
       }
       await sleep(delay); // rate-limit / 5xx → back off
       delay *= 2;
@@ -90,11 +92,10 @@ async function fetchHtml(
       delay *= 2;
     }
   }
-  return { status: 0, html: null };
+  return { status: 0, html: null, retrievedAt: new Date().toISOString() };
 }
 
-const now = () => new Date().toISOString();
-const src = (url: string): SourceRef => ({ url, retrievedAt: now() });
+const src = (url: string, retrievedAt: string): SourceRef => ({ url, retrievedAt });
 
 // ── roster from the congresistas list page ─────────────────────────────────
 interface RosterEntry {
@@ -115,7 +116,7 @@ async function getRoster(): Promise<RosterEntry[]> {
   $('a[href^="/asamblea/congresistas/"]').each((_, a) => {
     const href = $(a).attr("href")!;
     const slug = href.split("/").pop()!;
-    if (slug.startsWith("page-") || seen.has(slug)) return;
+    if (slug.startsWith("page-") || seen.has(slug) || !/^[a-z0-9-]+$/.test(slug)) return;
     seen.add(slug);
     const $card = $(a);
     const imgs = $card.find("img").toArray();
@@ -131,7 +132,21 @@ async function getRoster(): Promise<RosterEntry[]> {
       }
     }
     const text = $card.text().replace(/​/g, "").replace(/\s+/g, " ");
-    const provincia = (PROVINCIAS.find((p) => text.includes(p)) || "San José") as Provincia;
+    // Province is the trailing field of the card; take the LAST mention (a role/bio line can
+    // name another province). No silent default — warn and drop so the 57-count gate catches it.
+    let provincia: Provincia | null = null;
+    let bestIdx = -1;
+    for (const p of PROVINCIAS) {
+      const i = text.lastIndexOf(p);
+      if (i > bestIdx) {
+        bestIdx = i;
+        provincia = p;
+      }
+    }
+    if (!provincia) {
+      console.warn(`      ⚠ no province resolved for ${slug}`);
+      return;
+    }
     let cargo: string | null = null;
     if (nombre) {
       const after = text.split(nombre)[1] || "";
@@ -152,7 +167,7 @@ interface ProfileData {
   gastos: Gastos | null;
   photoUrl: string | null;
 }
-function parseProfile(html: string, url: string): ProfileData {
+function parseProfile(html: string, url: string, retrievedAt: string): ProfileData {
   const $ = load(html);
   const text = $("body").text().replace(/​/g, "").replace(/\s+/g, " ");
   const cedula = text.match(/C[ée]dula\s*(\d-\d{3,4}-\d{4})/)?.[1] ?? null;
@@ -169,7 +184,7 @@ function parseProfile(html: string, url: string): ProfileData {
           viajesInternacionales: viajes
             ? `${viajes} viaje(s)${gastoInc ? ` · ₡${gastoInc}` : ""}`
             : null,
-          sources: [src(url)],
+          sources: [src(url, retrievedAt)],
         }
       : null;
   let photoUrl: string | null = null;
@@ -242,10 +257,14 @@ function isRealVotePage(html: string): boolean {
 
 async function countVotes(sessionDates: string[]): Promise<number> {
   let total = 0;
-  for (const ymd of sessionDates) {
+  // dedupe: a day with two plenary sessions appears twice in sessionDates, but vote ids are
+  // keyed by date only, so iterating the raw list would count that day's votes twice.
+  for (const ymd of [...new Set(sessionDates)]) {
     for (const tipo of ["proyecto", "mocion"] as const) {
       let misses = 0;
-      for (let seq = 1; seq <= 100 && misses < 6; seq++) {
+      // Delfino's seq numbering is non-contiguous (soft-404 gaps up to ~8 between real blocks),
+      // so allow a wide miss window before concluding the day is exhausted.
+      for (let seq = 1; seq <= 100 && misses < 12; seq++) {
         const id = `${ymd}${String(seq).padStart(3, "0")}`;
         const { html } = await fetchHtml(
           `${BASE}/asamblea/votaciones/${tipo}/${id}`,
@@ -254,6 +273,7 @@ async function countVotes(sessionDates: string[]): Promise<number> {
           { allow404: true }
         );
         if (html && isRealVotePage(html)) {
+          if (misses > 0) console.log(`      ${tipo} ${id}: real vote after ${misses}-seq gap`);
           total++;
           misses = 0;
         } else misses++;
@@ -271,7 +291,8 @@ async function main() {
   console.log(`      ${roster.length} congresistas`);
   if (roster.length !== 57) console.warn(`      ⚠ expected 57, got ${roster.length}`);
 
-  const overrides: { cedula: string; status: Status }[] = existsSync(STATUS_OVERRIDES)
+  // status overrides are keyed on slug (always present) — the one place identity is load-bearing.
+  const overrides: { slug: string; status: Status }[] = existsSync(STATUS_OVERRIDES)
     ? JSON.parse(readFileSync(STATUS_OVERRIDES, "utf8"))
     : [];
   if (!existsSync(STATUS_OVERRIDES)) writeFileSync(STATUS_OVERRIDES, "[]\n");
@@ -286,44 +307,30 @@ async function main() {
   const diputados: DiputadoRecord[] = [];
   for (const r of roster) {
     const url = `${BASE}/asamblea/congresistas/${r.slug}`;
-    const { html } = await fetchHtml(url, "profile", r.slug);
+    const { html, retrievedAt } = await fetchHtml(url, "profile", r.slug);
     if (!html) {
       console.warn(`      ⚠ no profile for ${r.slug}`);
       continue;
     }
-    const p = parseProfile(html, url);
-    const profileSrc = [src(url)];
+    const p = parseProfile(html, url, retrievedAt);
+    const profileSrc = [src(url, retrievedAt)];
 
-    const presencia =
-      p.sesionesPct !== null && sesionesTotales > 0
-        ? buildDimension(
-            Math.round((p.sesionesPct / 100) * sesionesTotales),
-            sesionesTotales,
-            MIN_SESIONES,
-            profileSrc
-          )
-        : null;
-    const participacion =
-      p.votacionesPct !== null && votosTotales > 0
-        ? buildDimension(
-            Math.round((p.votacionesPct / 100) * votosTotales),
-            votosTotales,
-            MIN_VOTOS,
-            profileSrc
-          )
-        : null;
+    // buildDimension takes Delfino's PUBLISHED rate directly (returns null on missing/non-finite
+    // rate or zero eligible — no imputation). The score and displayed % are the source's figure.
+    const presencia = buildDimension(p.sesionesPct, sesionesTotales, MIN_SESIONES, profileSrc);
+    const participacion = buildDimension(p.votacionesPct, votosTotales, MIN_VOTOS, profileSrc);
 
-    const ov = overrides.find((o) => o.cedula && o.cedula === p.cedula);
+    const ov = overrides.find((o) => o.slug === r.slug);
     const status: Status = ov?.status ?? "EN_EJERCICIO";
     const overall = computeOverall(status, presencia, participacion);
 
     diputados.push({
       id: r.slug,
-      cedula: p.cedula,
+      cedula: null, // never publish the national ID (Ley 8968); identity is the slug
       nombre: r.nombre,
       aliases: [],
       partido: r.partido,
-      provincia: r.provincia,
+      provincia: r.provincia, // Delfino's own province assignment, from the diputado's list card
       cargo: r.cargo,
       status,
       photoUrl: p.photoUrl ?? r.photoUrl,
@@ -356,11 +363,13 @@ async function main() {
   console.log("[4/4] write…");
   const tmp = OUT + ".tmp";
   writeFileSync(tmp, JSON.stringify(snapshot, null, 2) + "\n");
-  if (snapshot.diputados.length >= 50) {
+  if (snapshot.diputados.length === 57) {
     writeFileSync(OUT, readFileSync(tmp));
+    unlinkSync(tmp);
     console.log(`✓ wrote ${snapshot.diputados.length} diputados → ${OUT}`);
   } else {
-    throw new Error(`refusing to promote: only ${snapshot.diputados.length} diputados`);
+    unlinkSync(tmp);
+    throw new Error(`refusing to promote: expected 57 diputados, got ${snapshot.diputados.length}`);
   }
   console.log(
     `\nREPORT: ${diputados.length}/57 diputados · ${sesionesTotales} sesiones · ${votosTotales} votos · fasePreliminar=${snapshot.cohort.fasePreliminar} · ranked=${diputados.filter((d) => d.ranked).length} · sinDatos=${diputados.filter((d) => d.overall === null).length}`
