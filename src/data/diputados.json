@@ -1,0 +1,3489 @@
+{
+  "generatedAt": "2026-06-25T19:38:29.561Z",
+  "periodo": "2026-2030",
+  "cohort": {
+    "sesionesTotales": 32,
+    "votosTotales": 214,
+    "fasePreliminar": false,
+    "fuente": "Delfino.cr · registro de asistencia y votaciones del plenario"
+  },
+  "diputados": [
+    {
+      "id": "nogui-acosta-jaen",
+      "cedula": "1-0703-0787",
+      "nombre": "Nogui Acosta Jaén",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "San José",
+      "cargo": "Jefe de fracción",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Nogui-Acosta-Jaen.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
+            "retrievedAt": "2026-06-25T19:38:29.263Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9813084112149533,
+        "hits": 210,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.8,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
+            "retrievedAt": "2026-06-25T19:38:29.263Z"
+          }
+        ]
+      },
+      "overall": 9.9,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
+            "retrievedAt": "2026-06-25T19:38:29.263Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
+          "retrievedAt": "2026-06-25T19:38:29.263Z"
+        }
+      ]
+    },
+    {
+      "id": "kattia-alejandra-mora-montoya",
+      "cedula": "1-0919-0688",
+      "nombre": "Kattia Mora Montoya",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "San José",
+      "cargo": "Primera Prosecretaría de la Asamblea Legislativa",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Kattia-Mora-Montoya.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
+            "retrievedAt": "2026-06-25T19:38:29.268Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9672897196261683,
+        "hits": 207,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.7,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
+            "retrievedAt": "2026-06-25T19:38:29.268Z"
+          }
+        ]
+      },
+      "overall": 9.9,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
+            "retrievedAt": "2026-06-25T19:38:29.268Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
+          "retrievedAt": "2026-06-25T19:38:29.268Z"
+        }
+      ]
+    },
+    {
+      "id": "stephan-brunner-neibig",
+      "cedula": "1-0551-0932",
+      "nombre": "Stephan Brunner Neibig",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "San José",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Stephan-Brunner-Neibig.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
+            "retrievedAt": "2026-06-25T19:38:29.276Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9906542056074766,
+        "hits": 212,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.9,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
+            "retrievedAt": "2026-06-25T19:38:29.276Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
+            "retrievedAt": "2026-06-25T19:38:29.276Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
+          "retrievedAt": "2026-06-25T19:38:29.276Z"
+        }
+      ]
+    },
+    {
+      "id": "mayuli-del-carmen-ortega-guzman",
+      "cedula": "1-0627-0301",
+      "nombre": "Mayuli Ortega Guzmán",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "San José",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Mayuli-Ortega-Guzman.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
+            "retrievedAt": "2026-06-25T19:38:29.280Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.7663551401869159,
+        "hits": 164,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 7.7,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
+            "retrievedAt": "2026-06-25T19:38:29.280Z"
+          }
+        ]
+      },
+      "overall": 8.9,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
+            "retrievedAt": "2026-06-25T19:38:29.280Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
+          "retrievedAt": "2026-06-25T19:38:29.280Z"
+        }
+      ]
+    },
+    {
+      "id": "gonzalo-alberto-ramirez-zamora",
+      "cedula": "1-0891-0592",
+      "nombre": "Gonzalo Ramírez Zamora",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "San José",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Gonzalo-Ramirez-Zamora.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
+            "retrievedAt": "2026-06-25T19:38:29.284Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9579439252336449,
+        "hits": 205,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.6,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
+            "retrievedAt": "2026-06-25T19:38:29.284Z"
+          }
+        ]
+      },
+      "overall": 9.8,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
+            "retrievedAt": "2026-06-25T19:38:29.284Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
+          "retrievedAt": "2026-06-25T19:38:29.284Z"
+        }
+      ]
+    },
+    {
+      "id": "anna-katharina-muller-castro",
+      "cedula": "1-0471-0146",
+      "nombre": "Anna Katharina Müller Castro",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "San José",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Anna-Katharina-Muller.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
+            "retrievedAt": "2026-06-25T19:38:29.295Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.985981308411215,
+        "hits": 211,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.9,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
+            "retrievedAt": "2026-06-25T19:38:29.295Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
+            "retrievedAt": "2026-06-25T19:38:29.295Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
+          "retrievedAt": "2026-06-25T19:38:29.295Z"
+        }
+      ]
+    },
+    {
+      "id": "antonio-barzuna-thompson",
+      "cedula": "1-0971-0896",
+      "nombre": "Antonio Barzuna Thompson",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "San José",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Antonio-Barzuna-Thompson.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
+            "retrievedAt": "2026-06-25T19:38:29.303Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9953271028037384,
+        "hits": 213,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
+            "retrievedAt": "2026-06-25T19:38:29.303Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
+            "retrievedAt": "2026-06-25T19:38:29.303Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
+          "retrievedAt": "2026-06-25T19:38:29.303Z"
+        }
+      ]
+    },
+    {
+      "id": "sadie-esmeralda-britton-gonzalez",
+      "cedula": "1-0602-0819",
+      "nombre": "Esmeralda Britton González",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "San José",
+      "cargo": "Vicepresidenta de la Asamblea Legislativa",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Esmeralda-Britton-Gonzalez.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
+            "retrievedAt": "2026-06-25T19:38:29.307Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 1,
+        "hits": 214,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
+            "retrievedAt": "2026-06-25T19:38:29.307Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
+            "retrievedAt": "2026-06-25T19:38:29.307Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
+          "retrievedAt": "2026-06-25T19:38:29.307Z"
+        }
+      ]
+    },
+    {
+      "id": "alvaro-ramirez-bogantes",
+      "cedula": "4-0153-0375",
+      "nombre": "Álvaro Ramírez Bogantes",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "San José",
+      "cargo": "Jefe de fracción",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Alvaro-Ramirez-Bogantes.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
+            "retrievedAt": "2026-06-25T19:38:29.311Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9906542056074766,
+        "hits": 212,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.9,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
+            "retrievedAt": "2026-06-25T19:38:29.311Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
+            "retrievedAt": "2026-06-25T19:38:29.311Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
+          "retrievedAt": "2026-06-25T19:38:29.311Z"
+        }
+      ]
+    },
+    {
+      "id": "iztaru-alfaro-guerrero",
+      "cedula": "1-1447-0400",
+      "nombre": "Iztarú Alfaro Guerrero",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "San José",
+      "cargo": "Subjefa de fracción",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Iztaru-Alfaro-Guerrero.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 0.875,
+        "hits": 28,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 8.8,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
+            "retrievedAt": "2026-06-25T19:38:29.315Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.7663551401869159,
+        "hits": 164,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 7.7,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
+            "retrievedAt": "2026-06-25T19:38:29.315Z"
+          }
+        ]
+      },
+      "overall": 8.3,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
+            "retrievedAt": "2026-06-25T19:38:29.315Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
+          "retrievedAt": "2026-06-25T19:38:29.315Z"
+        }
+      ]
+    },
+    {
+      "id": "rafael-angel-vargas-brenes",
+      "cedula": "1-0539-0010",
+      "nombre": "Rafael Ángel Vargas Brenes",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "San José",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Rafael-Angel-Vargas-Brenes.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
+            "retrievedAt": "2026-06-25T19:38:29.322Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.985981308411215,
+        "hits": 211,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.9,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
+            "retrievedAt": "2026-06-25T19:38:29.322Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
+            "retrievedAt": "2026-06-25T19:38:29.321Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
+          "retrievedAt": "2026-06-25T19:38:29.322Z"
+        }
+      ]
+    },
+    {
+      "id": "andrea-patricia-valverde-palavicini",
+      "cedula": "1-1020-0088",
+      "nombre": "Andrea Valverde Palavicini",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "San José",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Andrea-Valverde-Palavicini.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
+            "retrievedAt": "2026-06-25T19:38:29.326Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.985981308411215,
+        "hits": 211,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.9,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
+            "retrievedAt": "2026-06-25T19:38:29.326Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
+            "retrievedAt": "2026-06-25T19:38:29.326Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
+          "retrievedAt": "2026-06-25T19:38:29.326Z"
+        }
+      ]
+    },
+    {
+      "id": "marco-francisco-badilla-chavarria",
+      "cedula": "1-0590-0336",
+      "nombre": "Marco Francisco Badilla Chavarría",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "San José",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Marco-Badilla-Chavarria.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
+            "retrievedAt": "2026-06-25T19:38:29.333Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9953271028037384,
+        "hits": 213,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
+            "retrievedAt": "2026-06-25T19:38:29.333Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
+            "retrievedAt": "2026-06-25T19:38:29.333Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
+          "retrievedAt": "2026-06-25T19:38:29.333Z"
+        }
+      ]
+    },
+    {
+      "id": "jose-maria-villalta-florez-estrada",
+      "cedula": "1-0977-0645",
+      "nombre": "José María Villalta Flórez-Estrada",
+      "aliases": [],
+      "partido": "FA",
+      "provincia": "San José",
+      "cargo": "Jefe de fracción",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/static/images/asamblea/diputados/fa_villalta_florez_estrada.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
+            "retrievedAt": "2026-06-25T19:38:29.337Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9813084112149533,
+        "hits": 210,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.8,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
+            "retrievedAt": "2026-06-25T19:38:29.337Z"
+          }
+        ]
+      },
+      "overall": 9.9,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
+            "retrievedAt": "2026-06-25T19:38:29.337Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
+          "retrievedAt": "2026-06-25T19:38:29.337Z"
+        }
+      ]
+    },
+    {
+      "id": "vianey-briyith-mora-vega",
+      "cedula": "1-1448-0728",
+      "nombre": "Vianey Mora Vega",
+      "aliases": [],
+      "partido": "FA",
+      "provincia": "San José",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Vianey-Mora-Vega.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
+            "retrievedAt": "2026-06-25T19:38:29.341Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9813084112149533,
+        "hits": 210,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.8,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
+            "retrievedAt": "2026-06-25T19:38:29.341Z"
+          }
+        ]
+      },
+      "overall": 9.9,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
+            "retrievedAt": "2026-06-25T19:38:29.341Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
+          "retrievedAt": "2026-06-25T19:38:29.341Z"
+        }
+      ]
+    },
+    {
+      "id": "antonio-trejos-mazariegos",
+      "cedula": "1-1478-0284",
+      "nombre": "Antonio Trejos Mazariegos",
+      "aliases": [],
+      "partido": "FA",
+      "provincia": "San José",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Vianey-Mora-Vega-San-Jose.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
+            "retrievedAt": "2026-06-25T19:38:29.348Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9392523364485982,
+        "hits": 201,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.4,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
+            "retrievedAt": "2026-06-25T19:38:29.348Z"
+          }
+        ]
+      },
+      "overall": 9.7,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
+            "retrievedAt": "2026-06-25T19:38:29.348Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
+          "retrievedAt": "2026-06-25T19:38:29.348Z"
+        }
+      ]
+    },
+    {
+      "id": "claudia-vanessa-dobles-camargo",
+      "cedula": "2-0554-0759",
+      "nombre": "Claudia Dobles Camargo",
+      "aliases": [],
+      "partido": "CAC",
+      "provincia": "San José",
+      "cargo": "Jefa de fracción",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Claudia-Dobles-Camargo.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
+            "retrievedAt": "2026-06-25T19:38:29.352Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9532710280373832,
+        "hits": 204,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
+            "retrievedAt": "2026-06-25T19:38:29.352Z"
+          }
+        ]
+      },
+      "overall": 9.8,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
+            "retrievedAt": "2026-06-25T19:38:29.352Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
+          "retrievedAt": "2026-06-25T19:38:29.352Z"
+        }
+      ]
+    },
+    {
+      "id": "abril-gordienko-lopez",
+      "cedula": "1-0706-0786",
+      "nombre": "Abril Gordienko López",
+      "aliases": [],
+      "partido": "PUSC",
+      "provincia": "San José",
+      "cargo": "Jefa de fracción",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Abril-Gordienko-Lopez.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 0.96875,
+        "hits": 31,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 9.7,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
+            "retrievedAt": "2026-06-25T19:38:29.359Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9065420560747663,
+        "hits": 194,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.1,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
+            "retrievedAt": "2026-06-25T19:38:29.359Z"
+          }
+        ]
+      },
+      "overall": 9.4,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
+            "retrievedAt": "2026-06-25T19:38:29.359Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
+          "retrievedAt": "2026-06-25T19:38:29.359Z"
+        }
+      ]
+    },
+    {
+      "id": "jose-miguel-villalobos-umana",
+      "cedula": "2-0376-0254",
+      "nombre": "José Miguel Villalobos Umaña",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Alajuela",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Jose-Miguel-Villalobos-Umana.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
+            "retrievedAt": "2026-06-25T19:38:29.364Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9439252336448598,
+        "hits": 202,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.4,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
+            "retrievedAt": "2026-06-25T19:38:29.364Z"
+          }
+        ]
+      },
+      "overall": 9.7,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
+            "retrievedAt": "2026-06-25T19:38:29.364Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
+          "retrievedAt": "2026-06-25T19:38:29.364Z"
+        }
+      ]
+    },
+    {
+      "id": "zaira-murillo-marin",
+      "cedula": "2-0654-0244",
+      "nombre": "Zaira Murillo Marín",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Alajuela",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Zaira-Murillo-Marin.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
+            "retrievedAt": "2026-06-25T19:38:29.367Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9813084112149533,
+        "hits": 210,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.8,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
+            "retrievedAt": "2026-06-25T19:38:29.367Z"
+          }
+        ]
+      },
+      "overall": 9.9,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
+            "retrievedAt": "2026-06-25T19:38:29.367Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
+          "retrievedAt": "2026-06-25T19:38:29.367Z"
+        }
+      ]
+    },
+    {
+      "id": "gerardo-bogantes-rivera",
+      "cedula": "1-0935-0868",
+      "nombre": "Gerarld Bogantes Rivera",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Alajuela",
+      "cargo": "Primer Secretario de la Asamblea Legislativa",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Gerardo-Bogantes-Rivera.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
+            "retrievedAt": "2026-06-25T19:38:29.375Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9579439252336449,
+        "hits": 205,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.6,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
+            "retrievedAt": "2026-06-25T19:38:29.375Z"
+          }
+        ]
+      },
+      "overall": 9.8,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
+            "retrievedAt": "2026-06-25T19:38:29.375Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
+          "retrievedAt": "2026-06-25T19:38:29.375Z"
+        }
+      ]
+    },
+    {
+      "id": "grethel-maria-avila-vargas",
+      "cedula": "2-0524-0451",
+      "nombre": "Grethel Ávila Vargas",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Alajuela",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Grethel-Avila-Vargas.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
+            "retrievedAt": "2026-06-25T19:38:29.379Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 1,
+        "hits": 214,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
+            "retrievedAt": "2026-06-25T19:38:29.379Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
+            "retrievedAt": "2026-06-25T19:38:29.379Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
+          "retrievedAt": "2026-06-25T19:38:29.379Z"
+        }
+      ]
+    },
+    {
+      "id": "wilson-alfredo-jimenez-cordero",
+      "cedula": "2-0722-0586",
+      "nombre": "Wilson Jiménez Cordero",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Alajuela",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Wilson-Jimenez-Cordero.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
+            "retrievedAt": "2026-06-25T19:38:29.383Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9813084112149533,
+        "hits": 210,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.8,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
+            "retrievedAt": "2026-06-25T19:38:29.383Z"
+          }
+        ]
+      },
+      "overall": 9.9,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
+            "retrievedAt": "2026-06-25T19:38:29.383Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
+          "retrievedAt": "2026-06-25T19:38:29.383Z"
+        }
+      ]
+    },
+    {
+      "id": "kattia-maria-ulate-alvarado",
+      "cedula": "2-0444-0792",
+      "nombre": "Kattia María Ulate Alvarado",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Alajuela",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Kattia-Ulate-Alvarado.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
+            "retrievedAt": "2026-06-25T19:38:29.390Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 1,
+        "hits": 214,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
+            "retrievedAt": "2026-06-25T19:38:29.390Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
+            "retrievedAt": "2026-06-25T19:38:29.389Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
+          "retrievedAt": "2026-06-25T19:38:29.390Z"
+        }
+      ]
+    },
+    {
+      "id": "fernando-obaldia-alvarez",
+      "cedula": "2-0453-0511",
+      "nombre": "Fernando Obaldía Álvarez",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Alajuela",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Fernando-Obaldia-Alvarez.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
+            "retrievedAt": "2026-06-25T19:38:29.393Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9953271028037384,
+        "hits": 213,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
+            "retrievedAt": "2026-06-25T19:38:29.393Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
+            "retrievedAt": "2026-06-25T19:38:29.393Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
+          "retrievedAt": "2026-06-25T19:38:29.393Z"
+        }
+      ]
+    },
+    {
+      "id": "diana-murillo-murillo",
+      "cedula": "2-0492-0522",
+      "nombre": "Diana Murillo Murillo",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "Alajuela",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Diana-Murillo-Murillo.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
+            "retrievedAt": "2026-06-25T19:38:29.398Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.985981308411215,
+        "hits": 211,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.9,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
+            "retrievedAt": "2026-06-25T19:38:29.398Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
+            "retrievedAt": "2026-06-25T19:38:29.397Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
+          "retrievedAt": "2026-06-25T19:38:29.398Z"
+        }
+      ]
+    },
+    {
+      "id": "eder-francisco-hernandez-ulloa",
+      "cedula": "2-0670-0138",
+      "nombre": "Eder Hernández Ulloa",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "Alajuela",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Eder-Hernandez-Ulloa.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 0.96875,
+        "hits": 31,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 9.7,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
+            "retrievedAt": "2026-06-25T19:38:29.405Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9392523364485982,
+        "hits": 201,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.4,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
+            "retrievedAt": "2026-06-25T19:38:29.405Z"
+          }
+        ]
+      },
+      "overall": 9.6,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
+            "retrievedAt": "2026-06-25T19:38:29.405Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
+          "retrievedAt": "2026-06-25T19:38:29.405Z"
+        }
+      ]
+    },
+    {
+      "id": "karen-tatiana-alfaro-jimenez",
+      "cedula": "1-1388-0025",
+      "nombre": "Karen Alfaro Jiménez",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "Alajuela",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Karen-Alfaro-Jimenez.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 0.8125,
+        "hits": 26,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 8.1,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
+            "retrievedAt": "2026-06-25T19:38:29.409Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.8317757009345794,
+        "hits": 178,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 8.3,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
+            "retrievedAt": "2026-06-25T19:38:29.409Z"
+          }
+        ]
+      },
+      "overall": 8.2,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
+            "retrievedAt": "2026-06-25T19:38:29.409Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
+          "retrievedAt": "2026-06-25T19:38:29.409Z"
+        }
+      ]
+    },
+    {
+      "id": "edgardo-vinicio-araya-sibaja",
+      "cedula": "2-0483-0663",
+      "nombre": "Edgardo Araya Sibaja",
+      "aliases": [],
+      "partido": "FA",
+      "provincia": "Alajuela",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Edgardo-Araya-Sibaja.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 0.96875,
+        "hits": 31,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 9.7,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
+            "retrievedAt": "2026-06-25T19:38:29.417Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9719626168224299,
+        "hits": 208,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.7,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
+            "retrievedAt": "2026-06-25T19:38:29.417Z"
+          }
+        ]
+      },
+      "overall": 9.7,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
+            "retrievedAt": "2026-06-25T19:38:29.417Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
+          "retrievedAt": "2026-06-25T19:38:29.417Z"
+        }
+      ]
+    },
+    {
+      "id": "sigrid-violeta-segura-artavia",
+      "cedula": "2-0678-0480",
+      "nombre": "Sigrid Segura Artavia",
+      "aliases": [],
+      "partido": "FA",
+      "provincia": "Alajuela",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Sigrid-Segura-Artavia.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
+            "retrievedAt": "2026-06-25T19:38:29.421Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9953271028037384,
+        "hits": 213,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
+            "retrievedAt": "2026-06-25T19:38:29.421Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
+            "retrievedAt": "2026-06-25T19:38:29.420Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
+          "retrievedAt": "2026-06-25T19:38:29.421Z"
+        }
+      ]
+    },
+    {
+      "id": "cindy-maria-blanco-gonzalez",
+      "cedula": "3-0384-0779",
+      "nombre": "Cindy Blanco González",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Cartago",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Cindy-Maria-Blanco-Gonzalez.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 0.96875,
+        "hits": 31,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 9.7,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
+            "retrievedAt": "2026-06-25T19:38:29.424Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 1,
+        "hits": 214,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
+            "retrievedAt": "2026-06-25T19:38:29.424Z"
+          }
+        ]
+      },
+      "overall": 9.9,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
+            "retrievedAt": "2026-06-25T19:38:29.424Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
+          "retrievedAt": "2026-06-25T19:38:29.424Z"
+        }
+      ]
+    },
+    {
+      "id": "robert-johsan-barrantes-camacho",
+      "cedula": "1-1107-0006",
+      "nombre": "Robert Barrantes Camacho",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Cartago",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Robert-Barrantes-Camacho.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
+            "retrievedAt": "2026-06-25T19:38:29.431Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9906542056074766,
+        "hits": 212,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.9,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
+            "retrievedAt": "2026-06-25T19:38:29.431Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
+            "retrievedAt": "2026-06-25T19:38:29.431Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
+          "retrievedAt": "2026-06-25T19:38:29.431Z"
+        }
+      ]
+    },
+    {
+      "id": "yara-vanessa-jimenez-fallas",
+      "cedula": "1-0871-0251",
+      "nombre": "Yara Jiménez Fallas",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Cartago",
+      "cargo": "Presidenta de la Asamblea Legislativa",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Yara-Jimenez-Fallas.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
+            "retrievedAt": "2026-06-25T19:38:29.435Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9953271028037384,
+        "hits": 213,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
+            "retrievedAt": "2026-06-25T19:38:29.435Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
+            "retrievedAt": "2026-06-25T19:38:29.434Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
+          "retrievedAt": "2026-06-25T19:38:29.435Z"
+        }
+      ]
+    },
+    {
+      "id": "janice-patricia-sandi-morales",
+      "cedula": "1-0573-0801",
+      "nombre": "Janice Sandi Morales",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "Cartago",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Janice-Sandi-Morales.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
+            "retrievedAt": "2026-06-25T19:38:29.439Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 1,
+        "hits": 214,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
+            "retrievedAt": "2026-06-25T19:38:29.439Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
+            "retrievedAt": "2026-06-25T19:38:29.439Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
+          "retrievedAt": "2026-06-25T19:38:29.439Z"
+        }
+      ]
+    },
+    {
+      "id": "salvador-padilla-villanueva",
+      "cedula": "1-1399-0700",
+      "nombre": "Salvador Padilla Villanueva",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "Cartago",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Salvador-Padilla-Villanueva.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 0.9375,
+        "hits": 30,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 9.4,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
+            "retrievedAt": "2026-06-25T19:38:29.446Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.8504672897196262,
+        "hits": 182,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 8.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
+            "retrievedAt": "2026-06-25T19:38:29.446Z"
+          }
+        ]
+      },
+      "overall": 9,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
+            "retrievedAt": "2026-06-25T19:38:29.446Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
+          "retrievedAt": "2026-06-25T19:38:29.446Z"
+        }
+      ]
+    },
+    {
+      "id": "joselyn-fabiola-saenz-nunez",
+      "cedula": "3-0494-0336",
+      "nombre": "Joselyn Sáenz Núñez",
+      "aliases": [],
+      "partido": "FA",
+      "provincia": "Cartago",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Joselyn-Saenz-Nunez.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
+            "retrievedAt": "2026-06-25T19:38:29.450Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9906542056074766,
+        "hits": 212,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.9,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
+            "retrievedAt": "2026-06-25T19:38:29.450Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
+            "retrievedAt": "2026-06-25T19:38:29.450Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
+          "retrievedAt": "2026-06-25T19:38:29.450Z"
+        }
+      ]
+    },
+    {
+      "id": "marta-eugenia-esquivel-rodriguez",
+      "cedula": "1-0637-0430",
+      "nombre": "Marta Eugenia Esquivel Rodríguez",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Heredia",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Marta-Eugenia-Esquivel-Rodriguez.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
+            "retrievedAt": "2026-06-25T19:38:29.457Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9953271028037384,
+        "hits": 213,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
+            "retrievedAt": "2026-06-25T19:38:29.457Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
+            "retrievedAt": "2026-06-25T19:38:29.457Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
+          "retrievedAt": "2026-06-25T19:38:29.457Z"
+        }
+      ]
+    },
+    {
+      "id": "juan-manuel-quesada-espinoza",
+      "cedula": "1-1011-0908",
+      "nombre": "Juan Manuel Quesada Espinoza",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Heredia",
+      "cargo": "Subjefe de fracción",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Juan-Manuel-Quesada-Espinoza.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
+            "retrievedAt": "2026-06-25T19:38:29.461Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9953271028037384,
+        "hits": 213,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
+            "retrievedAt": "2026-06-25T19:38:29.461Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
+            "retrievedAt": "2026-06-25T19:38:29.461Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
+          "retrievedAt": "2026-06-25T19:38:29.461Z"
+        }
+      ]
+    },
+    {
+      "id": "victor-manuel-hidalgo-solis",
+      "cedula": "4-0190-0646",
+      "nombre": "Víctor Manuel Hidalgo Solís",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "Heredia",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Victor-Manuel-Hidalgo-Solis.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
+            "retrievedAt": "2026-06-25T19:38:29.465Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9485981308411215,
+        "hits": 203,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
+            "retrievedAt": "2026-06-25T19:38:29.465Z"
+          }
+        ]
+      },
+      "overall": 9.8,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
+            "retrievedAt": "2026-06-25T19:38:29.465Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
+          "retrievedAt": "2026-06-25T19:38:29.465Z"
+        }
+      ]
+    },
+    {
+      "id": "angela-ileana-aguilar-vargas",
+      "cedula": "9-0091-0602",
+      "nombre": "Ángela Aguilar Vargas",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "Heredia",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Angela-Aguilar-Vargas.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
+            "retrievedAt": "2026-06-25T19:38:29.473Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9813084112149533,
+        "hits": 210,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.8,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
+            "retrievedAt": "2026-06-25T19:38:29.473Z"
+          }
+        ]
+      },
+      "overall": 9.9,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
+            "retrievedAt": "2026-06-25T19:38:29.473Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
+          "retrievedAt": "2026-06-25T19:38:29.473Z"
+        }
+      ]
+    },
+    {
+      "id": "maria-eugenia-roman-mora",
+      "cedula": "1-0635-0819",
+      "nombre": "María Eugenia Román Mora",
+      "aliases": [],
+      "partido": "FA",
+      "provincia": "Heredia",
+      "cargo": "Subjefa de fracción",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Maria-Eugenia-Roman-Mora.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
+            "retrievedAt": "2026-06-25T19:38:29.481Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9953271028037384,
+        "hits": 213,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
+            "retrievedAt": "2026-06-25T19:38:29.481Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
+            "retrievedAt": "2026-06-25T19:38:29.481Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
+          "retrievedAt": "2026-06-25T19:38:29.481Z"
+        }
+      ]
+    },
+    {
+      "id": "nayuribe-guadamuz-rosales",
+      "cedula": "1-0795-0003",
+      "nombre": "Nayuribe Guadamuz Rosales",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Guanacaste",
+      "cargo": "Segunda Prosecretaria de la Asamblea Legislativa",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Nayuribe-Guadamuz-Rosales-cropped.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
+            "retrievedAt": "2026-06-25T19:38:29.488Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 1,
+        "hits": 214,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
+            "retrievedAt": "2026-06-25T19:38:29.488Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
+            "retrievedAt": "2026-06-25T19:38:29.488Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
+          "retrievedAt": "2026-06-25T19:38:29.488Z"
+        }
+      ]
+    },
+    {
+      "id": "daniel-asdrubal-siezar-cardenas",
+      "cedula": "5-0302-0919",
+      "nombre": "Daniel Siézar Cárdenas",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Guanacaste",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Daniel-Siezar-Cardenas.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
+            "retrievedAt": "2026-06-25T19:38:29.492Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9953271028037384,
+        "hits": 213,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
+            "retrievedAt": "2026-06-25T19:38:29.492Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
+            "retrievedAt": "2026-06-25T19:38:29.492Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
+          "retrievedAt": "2026-06-25T19:38:29.492Z"
+        }
+      ]
+    },
+    {
+      "id": "cindy-dayana-murillo-artavia",
+      "cedula": "2-0626-0163",
+      "nombre": "Cindy Murillo Artavia",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Guanacaste",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Cindy-Murillo-Artavia.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
+            "retrievedAt": "2026-06-25T19:38:29.496Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9953271028037384,
+        "hits": 213,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
+            "retrievedAt": "2026-06-25T19:38:29.496Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
+            "retrievedAt": "2026-06-25T19:38:29.496Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
+          "retrievedAt": "2026-06-25T19:38:29.496Z"
+        }
+      ]
+    },
+    {
+      "id": "ronald-alberto-campos-villegas",
+      "cedula": "1-0518-0996",
+      "nombre": "Ronald Campos Villegas",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "Guanacaste",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Ronald-Campos-Villegas.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
+            "retrievedAt": "2026-06-25T19:38:29.500Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9906542056074766,
+        "hits": 212,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.9,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
+            "retrievedAt": "2026-06-25T19:38:29.500Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
+            "retrievedAt": "2026-06-25T19:38:29.500Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
+          "retrievedAt": "2026-06-25T19:38:29.500Z"
+        }
+      ]
+    },
+    {
+      "id": "karol-vanessa-matamoros-montoya",
+      "cedula": "1-1496-0916",
+      "nombre": "Karol Matamoros Montoya",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "Guanacaste",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Karol-Matamoros-Montoya.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 0.96875,
+        "hits": 31,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 9.7,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
+            "retrievedAt": "2026-06-25T19:38:29.507Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9392523364485982,
+        "hits": 201,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.4,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
+            "retrievedAt": "2026-06-25T19:38:29.507Z"
+          }
+        ]
+      },
+      "overall": 9.6,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
+            "retrievedAt": "2026-06-25T19:38:29.507Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
+          "retrievedAt": "2026-06-25T19:38:29.507Z"
+        }
+      ]
+    },
+    {
+      "id": "royner-mora-ruiz",
+      "cedula": "1-1147-0223",
+      "nombre": "Royner Mora Ruiz",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Puntarenas",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Royner-Mora-Ruiz.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 0.96875,
+        "hits": 31,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 9.7,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
+            "retrievedAt": "2026-06-25T19:38:29.511Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9813084112149533,
+        "hits": 210,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.8,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
+            "retrievedAt": "2026-06-25T19:38:29.511Z"
+          }
+        ]
+      },
+      "overall": 9.8,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
+            "retrievedAt": "2026-06-25T19:38:29.511Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
+          "retrievedAt": "2026-06-25T19:38:29.511Z"
+        }
+      ]
+    },
+    {
+      "id": "maria-isabel-camareno-camareno",
+      "cedula": "1-0538-0638",
+      "nombre": "María Isabel Camareno Camareno",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Puntarenas",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Maria-Isabel-Camareno-Camareno.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
+            "retrievedAt": "2026-06-25T19:38:29.519Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 1,
+        "hits": 214,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
+            "retrievedAt": "2026-06-25T19:38:29.519Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
+            "retrievedAt": "2026-06-25T19:38:29.519Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
+          "retrievedAt": "2026-06-25T19:38:29.519Z"
+        }
+      ]
+    },
+    {
+      "id": "ariel-alfonso-mora-fallas",
+      "cedula": "1-1070-0599",
+      "nombre": "Ariel Mora Fallas",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Puntarenas",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Ariel-Mora-Fallas.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
+            "retrievedAt": "2026-06-25T19:38:29.523Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9579439252336449,
+        "hits": 205,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.6,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
+            "retrievedAt": "2026-06-25T19:38:29.523Z"
+          }
+        ]
+      },
+      "overall": 9.8,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
+            "retrievedAt": "2026-06-25T19:38:29.523Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
+          "retrievedAt": "2026-06-25T19:38:29.523Z"
+        }
+      ]
+    },
+    {
+      "id": "ana-ruth-esquivel-medrano",
+      "cedula": "6-0225-0894",
+      "nombre": "Ana Ruth Esquivel Medrano",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Puntarenas",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Ana-Ruth-Esquivel-Medrano.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
+            "retrievedAt": "2026-06-25T19:38:29.527Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 1,
+        "hits": 214,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
+            "retrievedAt": "2026-06-25T19:38:29.527Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
+            "retrievedAt": "2026-06-25T19:38:29.527Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
+          "retrievedAt": "2026-06-25T19:38:29.527Z"
+        }
+      ]
+    },
+    {
+      "id": "norjelens-maria-lobo-vargas",
+      "cedula": "6-0366-0898",
+      "nombre": "Norjelens Lobo Vargas",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "Puntarenas",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Norjelens-Lobo-Vargas.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 0.9375,
+        "hits": 30,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 9.4,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
+            "retrievedAt": "2026-06-25T19:38:29.533Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.8878504672897196,
+        "hits": 190,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 8.9,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
+            "retrievedAt": "2026-06-25T19:38:29.533Z"
+          }
+        ]
+      },
+      "overall": 9.2,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
+            "retrievedAt": "2026-06-25T19:38:29.533Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
+          "retrievedAt": "2026-06-25T19:38:29.533Z"
+        }
+      ]
+    },
+    {
+      "id": "jesus-antonio-calderon-calderon",
+      "cedula": "6-0198-0228",
+      "nombre": "Jesús Antonio Calderón Calderón",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "Puntarenas",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Jesus-Calderon-Calderon.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
+            "retrievedAt": "2026-06-25T19:38:29.538Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9719626168224299,
+        "hits": 208,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.7,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
+            "retrievedAt": "2026-06-25T19:38:29.538Z"
+          }
+        ]
+      },
+      "overall": 9.9,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
+            "retrievedAt": "2026-06-25T19:38:29.538Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
+          "retrievedAt": "2026-06-25T19:38:29.538Z"
+        }
+      ]
+    },
+    {
+      "id": "osvaldo-artavia-carballo",
+      "cedula": "1-0825-0709",
+      "nombre": "Osvaldo Artavia Carballo",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Limón",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Osvaldo-Artavia-Carballo.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 0.96875,
+        "hits": 31,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 9.7,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
+            "retrievedAt": "2026-06-25T19:38:29.541Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9532710280373832,
+        "hits": 204,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
+            "retrievedAt": "2026-06-25T19:38:29.541Z"
+          }
+        ]
+      },
+      "overall": 9.6,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
+            "retrievedAt": "2026-06-25T19:38:29.541Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
+          "retrievedAt": "2026-06-25T19:38:29.541Z"
+        }
+      ]
+    },
+    {
+      "id": "kristel-lizeth-ward-hudson",
+      "cedula": "7-0199-0801",
+      "nombre": "Kristel Ward Hudson",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Limón",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Kristel-Ward-Hudson.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 0.1875,
+        "hits": 6,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 1.9,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
+            "retrievedAt": "2026-06-25T19:38:29.548Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.028037383177570093,
+        "hits": 6,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 0.3,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
+            "retrievedAt": "2026-06-25T19:38:29.548Z"
+          }
+        ]
+      },
+      "overall": 1.1,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
+            "retrievedAt": "2026-06-25T19:38:29.548Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
+          "retrievedAt": "2026-06-25T19:38:29.548Z"
+        }
+      ]
+    },
+    {
+      "id": "reynaldo-arias-mora",
+      "cedula": "2-0402-0408",
+      "nombre": "Reynaldo Arias Mora",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Limón",
+      "cargo": "Segundo Secretario de la Asamblea Legislativa",
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Reynaldo-Arias-Mora.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 0.90625,
+        "hits": 29,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 9.1,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
+            "retrievedAt": "2026-06-25T19:38:29.552Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.780373831775701,
+        "hits": 167,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 7.8,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
+            "retrievedAt": "2026-06-25T19:38:29.552Z"
+          }
+        ]
+      },
+      "overall": 8.5,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
+            "retrievedAt": "2026-06-25T19:38:29.552Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
+          "retrievedAt": "2026-06-25T19:38:29.552Z"
+        }
+      ]
+    },
+    {
+      "id": "kathia-calvo-cruz",
+      "cedula": "7-0087-0490",
+      "nombre": "Kathia Calvo Cruz",
+      "aliases": [],
+      "partido": "PPSO",
+      "provincia": "Limón",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Kathia-Calvo-Cruz.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
+            "retrievedAt": "2026-06-25T19:38:29.555Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9906542056074766,
+        "hits": 212,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.9,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
+            "retrievedAt": "2026-06-25T19:38:29.555Z"
+          }
+        ]
+      },
+      "overall": 10,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
+            "retrievedAt": "2026-06-25T19:38:29.555Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
+          "retrievedAt": "2026-06-25T19:38:29.555Z"
+        }
+      ]
+    },
+    {
+      "id": "mangell-mc-lean-villalobos",
+      "cedula": "7-0133-0745",
+      "nombre": "Mangell Mc Lean Villalobos",
+      "aliases": [],
+      "partido": "PLN",
+      "provincia": "Limón",
+      "cargo": null,
+      "status": "EN_EJERCICIO",
+      "photoUrl": "https://d1qqtien6gys07.cloudfront.net/wp-content/uploads/2026/04/Mangell-Mc-Lean-Villalobos.jpg",
+      "tenureStart": "2026-05-01",
+      "tenureEnd": null,
+      "presencia": {
+        "pct": 1,
+        "hits": 32,
+        "eligible": 32,
+        "n": 32,
+        "gated": false,
+        "score": 10,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
+            "retrievedAt": "2026-06-25T19:38:29.561Z"
+          }
+        ]
+      },
+      "participacion": {
+        "pct": 0.9299065420560748,
+        "hits": 199,
+        "eligible": 214,
+        "n": 214,
+        "gated": false,
+        "score": 9.3,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
+            "retrievedAt": "2026-06-25T19:38:29.561Z"
+          }
+        ]
+      },
+      "overall": 9.7,
+      "ranked": true,
+      "proyectosPresentados": null,
+      "gastos": {
+        "vehiculoCombustible": "₡0",
+        "viajesInternacionales": "0 viaje(s) · ₡0",
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
+            "retrievedAt": "2026-06-25T19:38:29.561Z"
+          }
+        ]
+      },
+      "bills": [],
+      "sources": [
+        {
+          "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
+          "retrievedAt": "2026-06-25T19:38:29.561Z"
+        }
+      ]
+    }
+  ]
+}

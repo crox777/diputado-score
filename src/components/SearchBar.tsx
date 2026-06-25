@@ -1,26 +1,32 @@
 "use client";
 
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
-import { useCallback, useTransition } from "react";
+import { useCallback, useEffect, useRef, useTransition } from "react";
+
+const DEBOUNCE_MS = 300;
 
 export function SearchBar() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [isPending, startTransition] = useTransition();
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => () => {
+    if (timer.current) clearTimeout(timer.current);
+  }, []);
 
   const handleSearch = useCallback(
     (term: string) => {
-      const params = new URLSearchParams(searchParams.toString());
-      if (term) {
-        params.set("q", term);
-      } else {
-        params.delete("q");
-      }
-      params.delete("page");
-      startTransition(() => {
-        router.replace(`${pathname}?${params.toString()}`);
-      });
+      if (timer.current) clearTimeout(timer.current);
+      timer.current = setTimeout(() => {
+        const params = new URLSearchParams(searchParams.toString());
+        if (term) params.set("q", term);
+        else params.delete("q");
+        startTransition(() => {
+          router.replace(`${pathname}?${params.toString()}`);
+        });
+      }, DEBOUNCE_MS);
     },
     [router, pathname, searchParams]
   );
@@ -29,10 +35,11 @@ export function SearchBar() {
     <div className="relative">
       <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
         <svg
-          className={`w-4 h-4 transition-colors ${isPending ? "text-blue-400" : "text-gray-500"}`}
+          className={`w-4 h-4 transition-colors ${isPending ? "text-emerald-400" : "text-zinc-500"}`}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          aria-hidden="true"
         >
           <path
             strokeLinecap="round"
@@ -46,14 +53,9 @@ export function SearchBar() {
         type="text"
         defaultValue={searchParams.get("q") ?? ""}
         onChange={(e) => handleSearch(e.target.value)}
-        placeholder="Buscar diputado..."
-        className="
-          w-full pl-9 pr-4 py-2.5 rounded-xl
-          bg-zinc-900 border border-white/[0.07]
-          text-white placeholder-zinc-600
-          focus:outline-none focus:border-emerald-500/50 focus:ring-1 focus:ring-emerald-500/30
-          text-sm transition-colors
-        "
+        placeholder="Buscar diputado/a o partido..."
+        aria-label="Buscar diputado o partido"
+        className="w-full pl-9 pr-4 py-2.5 rounded-xl bg-zinc-900 border border-white/[0.07] text-white placeholder-zinc-600 focus:outline-none focus:border-emerald-500/50 focus:ring-1 focus:ring-emerald-500/30 text-sm transition-colors"
       />
     </div>
   );

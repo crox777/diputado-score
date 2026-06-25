@@ -36,6 +36,11 @@ yarn-error.log*
 # vercel
 .vercel
 
+# ingest raw-HTML cache (regenerable audit cache; large). The committed snapshot
+# src/data/diputados.json IS the published data and stays tracked.
+/data/raw/
+/src/data/*.tmp
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

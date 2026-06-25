@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DiputadoScore — Transparencia política en Costa Rica",
+  title: "DiputadoScore — Asistencia y votaciones de la Asamblea Legislativa",
   description:
-    "Calificaciones de diputados costarricenses basadas en datos públicos reales. Asistencia, proyectos, gasto y más — en una sola tarjeta.",
-  keywords: ["diputados", "Costa Rica", "transparencia", "política", "Asamblea Legislativa"],
+    "Calificación de asistencia al plenario y participación en votaciones de los 57 diputados de Costa Rica (2026–2030), calculada a partir del registro legislativo público. Proyecto independiente.",
+  keywords: ["diputados", "Costa Rica", "transparencia", "asistencia", "votaciones", "Asamblea Legislativa"],
   openGraph: {
     title: "DiputadoScore",
-    description: "¿Cuánto trabaja tu diputado? Datos públicos reales, score 1–10.",
+    description: "Asistencia al plenario y participación en votaciones, calculadas del registro público. Score 1–10.",
     type: "website",
   },
 };
@@ -31,10 +31,10 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-gray-950 text-white">{children}</body>
+      <body className="min-h-full flex flex-col bg-[#0c0c0e] text-white">{children}</body>
     </html>
   );
 }
