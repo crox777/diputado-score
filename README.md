@@ -1,117 +1,85 @@
 # DiputadoScore 🏛️
 
-Transparencia política costarricense al estilo SofaScore.
+Presencia y participación de los 57 diputados de Costa Rica (2026–2030), a partir del registro público del plenario.
 
-## Setup rápido
+## Qué mide
 
-### 1. Instalar dependencias
+- **Presencia** — asistencia al plenario: sesiones presentes sobre sesiones celebradas.
+- **Participación** — voto: votos emitidos sobre votaciones registradas.
+
+Cada eje se mapea a una nota absoluta de 0 a 10 (un 92 % equivale a 9.2), nunca relativa al resto. Los proyectos presentados y los gastos se muestran como hechos atribuidos a la fuente, sin nota. Cada cifra enlaza a su origen en Delfino.cr con la fecha en que se obtuvo.
+
+## Arquitectura
+
+No hay base de datos. La app renderiza un único snapshot versionado, `src/data/diputados.json`, que produce sin conexión `scripts/ingest.ts` (scraper de Delfino.cr con throttling). En tiempo de build Next.js prerenderiza las páginas a partir de ese JSON; en producción no se toca ninguna fuente externa ni se requiere ninguna variable de entorno.
+
+## Setup
+
 ```bash
 npm install
+npm run dev        # http://localhost:3000
 ```
 
-### 2. Configurar base de datos
+El snapshot ya viene cargado, así que la app corre sin pasos previos.
+
+### Actualizar los datos
+
 ```bash
-cp .env.local .env.local
-# Editar DATABASE_URL con tu PostgreSQL
+npm run ingest     # reconstruye src/data/diputados.json desde Delfino.cr
 ```
 
-**Opciones para PostgreSQL:**
-- **Railway** (recomendado para deploy): https://railway.app → New Project → PostgreSQL
-- **Local**: `createdb diputadoscore`
-- **Render**: https://render.com → New → PostgreSQL
+`ingest` exige resolver exactamente 57 diputados y escribe el snapshot de forma atómica; si la fuente cambia de estructura, falla en vez de publicar datos parciales. Tras correrlo, se hace commit del JSON y se redespliega.
 
-### 3. Crear tablas
+### Pruebas y verificación
+
 ```bash
-npm run db:push
+npm test           # scoring puro: mapeo de porcentaje, gating, no-imputación
+npm run build      # build de producción + chequeo de tipos
+npm run lint
 ```
 
-### 4. Cargar datos iniciales
+## Deploy en Vercel
+
+Cero configuración: Vercel detecta Next.js y no hacen falta variables de entorno ni base de datos.
+
+**Opción A — CLI (sin GitHub):**
+
 ```bash
-npm run ingest
+npx vercel          # primera vez: login + vincula el proyecto
+npx vercel --prod   # despliega a producción
 ```
 
-### 5. Correr en desarrollo
-```bash
-npm run dev
-```
-Abrí http://localhost:3000
+**Opción B — Git:**
 
----
+1. Subí el repo a GitHub.
+2. En Vercel: *New Project* → importá el repo. La región queda fijada en `iad1` por `vercel.json`.
+3. Cada push a `main` despliega solo.
 
-## Estructura del proyecto
+Para refrescar los datos en cualquiera de las dos: `npm run ingest`, commit del snapshot y redeploy (push, o `npx vercel --prod`).
+
+## Estructura
 
 ```
 src/
 ├── app/
-│   ├── page.tsx                  # Página principal — grid de tarjetas
-│   ├── rankings/page.tsx         # Rankings de mejor a peor
-│   ├── diputados/[id]/page.tsx   # Perfil completo del diputado
-│   └── api/
-│       ├── diputados/route.ts    # GET /api/diputados
-│       ├── diputados/[id]/route.ts  # GET /api/diputados/:id
-│       └── rankings/route.ts     # GET /api/rankings
-├── components/
-│   ├── PoliticianCard.tsx        # Tarjeta estilo SofaScore
-│   ├── ScoreBadge.tsx            # Badge de score con colores
-│   ├── SearchBar.tsx             # Búsqueda por nombre
-│   └── FilterBar.tsx             # Filtros de provincia y orden
+│   ├── page.tsx                 # Grid de tarjetas + filtros
+│   ├── rankings/page.tsx        # Ranking de mejor a peor
+│   ├── diputados/[id]/page.tsx  # Perfil por diputado
+│   ├── metodologia/page.tsx     # Cómo se calcula
+│   └── layout.tsx               # Layout raíz (lang=es)
+├── components/                  # PoliticianCard, SearchBar, FilterBar, SiteHeader, SiteFooter
 ├── lib/
-│   ├── prisma.ts                 # Cliente de Prisma
-│   └── scoreCalculator.ts        # Cálculo de las 11 métricas
-├── types/index.ts                # Tipos TypeScript + metadata de métricas
-└── scripts/
-    └── ingest.ts                 # Ingesta desde Asamblea Open Data CSV
+│   ├── data.ts                  # Lectura del snapshot
+│   ├── data-types.ts            # Contrato de datos
+│   ├── score.ts                 # Scoring puro (+ score.test.ts)
+│   └── ui.ts                    # Formato de fechas/UI
+└── data/
+    ├── diputados.json           # Snapshot publicado (fuente de la verdad en runtime)
+    └── status-overrides.json    # Estado manual (licencia / no incorporado)
+scripts/
+└── ingest.ts                    # Scraper de Delfino.cr → snapshot
 ```
 
-## Las 11 métricas
+## Fuente
 
-| Código | Nombre | Fuente |
-|--------|--------|--------|
-| ASI | Asistencia plenario | Asamblea Open Data |
-| VOT | Participación votaciones | Asamblea Open Data |
-| PRO | Proyectos presentados | Asamblea Open Data |
-| APR | Proyectos aprobados | Asamblea Open Data |
-| MOC | Mociones | Asamblea Open Data |
-| COM | Asistencia comisiones | Asamblea Open Data |
-| DEC | Declaración de bienes | CGR |
-| GAS | Gasto representación | Asamblea Open Data |
-| VIA | Viajes oficiales | Asamblea Open Data |
-| ASE | Asesores parlamentarios | Asamblea Open Data |
-| COH | Coherencia de voto | Delfino.cr |
-
-## Pesos por dimensión
-
-- **Presencia** (ASI + COM): 15%
-- **Productividad** (PRO + APR + MOC): 25%
-- **Transparencia** (DEC): 20%
-- **Gasto** (GAS + VIA + ASE): 15%
-- **Consistencia** (VOT + COH): 15%
-- **Ciudadanía**: 10% (Fase 2)
-
-## Cargar CSVs reales de la Asamblea
-
-1. Descargá los CSVs desde https://www.asamblea.go.cr/opendata
-2. Colocálos en `/data/`:
-   - `asistencia.csv`
-   - `votaciones.csv`
-   - `proyectos.csv`
-   - `viajes.csv`
-   - `asesores.csv`
-3. Implementá el parser en `src/scripts/ingest.ts` (hay un TODO marcado)
-4. Corré `npm run ingest`
-
-## Deploy
-
-### Vercel + Railway
-
-1. Push a GitHub
-2. Conectar repo en Vercel
-3. Crear DB en Railway → copiar `DATABASE_URL` → agregar en Vercel Environment Variables
-4. `vercel deploy`
-
-## Fases
-
-- **Fase 1** ✅ MVP: Diputados 2026–2030, tarjetas, rankings, búsqueda
-- **Fase 2** 🔜: Histórico 2022–2026 (Delfino.cr + Asamblea)
-- **Fase 3** 🔜: Alcaldes (CGR + Munis.cr)
-- **Fase 4** 🔜: Poder Ejecutivo
+Asamblea Legislativa de Costa Rica vía [Delfino.cr](https://delfino.cr/asamblea). Proyecto independiente, sin afiliación a la Asamblea, a Delfino.cr ni a ningún partido.
