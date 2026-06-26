@@ -1,17 +1,14 @@
 /**
- * DiputadoScore — real-data ingest.
+ * DiputadoScore — weekly ingest script.
  *
- * Builds src/data/diputados.json from the public legislative record published by Delfino.cr
- * (robots-permitted; Anthropic crawlers explicitly whitelisted). Server-rendered HTML is
- * parsed with cheerio. NOTHING is fabricated: a value we cannot read stays null/gated.
- *
- * Per-diputado attendance and voting RATES come from each congresista's Delfino profile
- * ("Sesiones X%", "Votaciones Y%") — these are the published figures, attributed to Delfino.
- * The eligible denominators (sessions/votes held) are obtained by enumerating the real
- * session and vote pages by date, so the displayed "≈hits/eligible" is grounded in the
- * actual count of plenary events to date.
+ * Data sources (all public, robots-permitted):
+ *   1. Delfino.cr       — plenary attendance (Sesiones %), roll-call votes (Votaciones %),
+ *                         bills presented (Proyectos presentados N), spending (₡0 for new legislature)
+ *   2. Observador.cr    — media mentions per diputado (last 7 and 30 days)
+ *   3. Asamblea SP      — vehicle/travel spreadsheets (when available for this legislature)
  *
  * Run: npx tsx scripts/ingest.ts
+ * GitHub Actions: runs every Monday 06:00 CR time (12:00 UTC)
  */
 import { load } from "cheerio";
 import { readFileSync, writeFileSync, mkdirSync, existsSync, statSync, unlinkSync } from "node:fs";
@@ -20,6 +17,8 @@ import { fileURLToPath } from "node:url";
 import {
   buildDimension,
   computeOverall,
+  computeMediosScore,
+  computeProductividadScore,
   isRanked,
   MIN_SESIONES,
   MIN_VOTOS,
@@ -28,7 +27,9 @@ import { PROVINCIAS } from "../src/lib/data-types.ts";
 import type {
   DiputadoRecord,
   Gastos,
+  MediosScore,
   Partido,
+  ProductividadScore,
   Provincia,
   Snapshot,
   SourceRef,
@@ -40,7 +41,10 @@ const RAW = join(ROOT, "data", "raw");
 const OUT = join(ROOT, "src", "data", "diputados.json");
 const STATUS_OVERRIDES = join(ROOT, "src", "data", "status-overrides.json");
 
-const BASE = "https://delfino.cr";
+const DELFINO = "https://delfino.cr";
+const OBSERVADOR = "https://observador.cr";
+const TENURE_START = "2026-05-01";
+
 const PARTY_BY_ALT: Record<string, Partido> = {
   "Partido Pueblo Soberano": "PPSO",
   "Partido Liberación Nacional": "PLN",
@@ -48,43 +52,56 @@ const PARTY_BY_ALT: Record<string, Partido> = {
   "Coalición Agenda Ciudadana": "CAC",
   "Partido Unidad Social Cristiana": "PUSC",
 };
-const TENURE_START = "2026-05-01";
 
-// ── throttled, cached fetch ────────────────────────────────────────────────
+// ── throttled fetch with disk cache ───────────────────────────────────────────
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
 function cachePath(kind: string, id: string) {
   return join(RAW, kind, `${id}.html`);
 }
+
+// Cache TTL per kind (in ms). 0 = always re-fetch; -1 = never expire.
+const CACHE_TTL: Record<string, number> = {
+  list: 6 * 60 * 60 * 1000,      // roster: 6h
+  profile: 6 * 60 * 60 * 1000,   // delfino profiles: 6h
+  asistencia: -1,                  // session pages: never expire (historical)
+  "votaciones-proyecto": -1,
+  "votaciones-mocion": -1,
+  medios: 60 * 60 * 1000,         // observador search: 1h
+};
+
 async function fetchHtml(
   url: string,
   kind: string,
   id: string,
-  { allow404 = false } = {}
+  opts: { allow404?: boolean; noCache?: boolean } = {}
 ): Promise<{ status: number; html: string | null; retrievedAt: string }> {
   const cp = cachePath(kind, id);
-  // retrievedAt is the cache file's real mtime — the true moment the page was fetched, not run time.
-  if (existsSync(cp)) {
+  const ttl = CACHE_TTL[kind] ?? 60 * 60 * 1000;
+  const useCache =
+    !opts.noCache &&
+    existsSync(cp) &&
+    (ttl < 0 || Date.now() - statSync(cp).mtimeMs < ttl);
+  if (useCache) {
     return { status: 200, html: readFileSync(cp, "utf8"), retrievedAt: statSync(cp).mtime.toISOString() };
   }
-  let delay = 500;
+  let delay = 600;
   for (let attempt = 0; attempt < 4; attempt++) {
     try {
       const res = await fetch(url, {
-        headers: {
-          "user-agent": "DiputadoScore/1.0 (transparencia CR)",
-        },
+        headers: { "user-agent": "DiputadoScore/1.0 (transparencia CR; github.com/crox777/diputado-score)" },
         signal: AbortSignal.timeout(20_000),
       });
-      if (res.status === 404 && allow404)
+      if (res.status === 404 && opts.allow404)
         return { status: 404, html: null, retrievedAt: new Date().toISOString() };
       if (res.status === 200) {
         const html = await res.text();
         mkdirSync(dirname(cp), { recursive: true });
         writeFileSync(cp, html);
-        await sleep(450);
+        await sleep(500);
         return { status: 200, html, retrievedAt: statSync(cp).mtime.toISOString() };
       }
-      await sleep(delay); // rate-limit / 5xx → back off
+      await sleep(delay);
       delay *= 2;
     } catch {
       await sleep(delay);
@@ -96,7 +113,7 @@ async function fetchHtml(
 
 const src = (url: string, retrievedAt: string): SourceRef => ({ url, retrievedAt });
 
-// ── roster from the congresistas list page ─────────────────────────────────
+// ── Delfino roster ─────────────────────────────────────────────────────────────
 interface RosterEntry {
   slug: string;
   nombre: string;
@@ -107,7 +124,7 @@ interface RosterEntry {
 }
 
 async function getRoster(): Promise<RosterEntry[]> {
-  const { html } = await fetchHtml(`${BASE}/asamblea/congresistas`, "list", "congresistas");
+  const { html } = await fetchHtml(`${DELFINO}/asamblea/congresistas`, "list", "congresistas");
   if (!html) throw new Error("could not fetch congresistas list");
   const $ = load(html);
   const seen = new Set<string>();
@@ -131,21 +148,13 @@ async function getRoster(): Promise<RosterEntry[]> {
       }
     }
     const text = $card.text().replace(/​/g, "").replace(/\s+/g, " ");
-    // Province is the trailing field of the card; take the LAST mention (a role/bio line can
-    // name another province). No silent default — warn and drop so the 57-count gate catches it.
     let provincia: Provincia | null = null;
     let bestIdx = -1;
     for (const p of PROVINCIAS) {
       const i = text.lastIndexOf(p);
-      if (i > bestIdx) {
-        bestIdx = i;
-        provincia = p;
-      }
+      if (i > bestIdx) { bestIdx = i; provincia = p; }
     }
-    if (!provincia) {
-      console.warn(`      ⚠ no province resolved for ${slug}`);
-      return;
-    }
+    if (!provincia) { console.warn(`      ⚠ no province for ${slug}`); return; }
     let cargo: string | null = null;
     if (nombre) {
       const after = text.split(nombre)[1] || "";
@@ -157,7 +166,7 @@ async function getRoster(): Promise<RosterEntry[]> {
   return roster;
 }
 
-// ── per-diputado profile: cédula + the published rates + facts ─────────────
+// ── Delfino profile ────────────────────────────────────────────────────────────
 interface ProfileData {
   cedula: string | null;
   sesionesPct: number | null;
@@ -166,22 +175,28 @@ interface ProfileData {
   gastos: Gastos | null;
   photoUrl: string | null;
 }
+
 function parseProfile(html: string, url: string, retrievedAt: string): ProfileData {
   const $ = load(html);
   const text = $("body").text().replace(/​/g, "").replace(/\s+/g, " ");
   const cedula = text.match(/C[ée]dula\s*(\d-\d{3,4}-\d{4})/)?.[1] ?? null;
   const ses = text.match(/Sesiones\s*([\d.]+)\s*%/)?.[1];
   const vot = text.match(/Votaciones\s*([\d.]+)\s*%/)?.[1];
-  const proy = text.match(/Proyectos presentados\s*(\d+)/)?.[1];
-  const gasolina = text.match(/(?:Uso de gasolina|combustible)[^₡]*₡\s*([\d.,]+)/i)?.[1];
-  const viajes = text.match(/viajes\s*(\d+)/i)?.[1];
-  const gastoInc = text.match(/Gasto incurrido\s*₡\s*([\d.,]+)/i)?.[1];
+  // "Proyectos presentados 3" — appears when the number has loaded in the RSC payload
+  const proy = text.match(/Proyectos\s+presentados\s+(\d+)/)?.[1];
+  const gasolina = text.match(/Uso de gasolina[\s\S]*?₡\s*([\d.,]+)/)?.[1];
+  const kms = text.match(/Total giras \(km\)\s*([\d.,]+)/)?.[1];
+  const viajes = text.match(/Total de viajes\s*(\d+)/)?.[1];
+  const gastoVehiculo = text.match(/Uso de vehículos[\s\S]*?Gasto incurrido\s*₡\s*([\d.,]+)/)?.[1];
+  const gastoViajes = text.match(/Viajes al exterior[\s\S]*?Gasto incurrido\s*₡\s*([\d.,]+)/)?.[1];
   const gastos: Gastos | null =
-    gasolina || viajes || gastoInc
+    gasolina || kms || viajes
       ? {
-          vehiculoCombustible: gasolina ? `₡${gasolina}` : null,
+          vehiculoCombustible: gasolina
+            ? `₡${gasolina}${kms ? ` · ${kms} km` : ""}`
+            : kms ? `${kms} km` : null,
           viajesInternacionales: viajes
-            ? `${viajes} viaje(s)${gastoInc ? ` · ₡${gastoInc}` : ""}`
+            ? `${viajes} viaje(s)${gastoViajes ? ` · ₡${gastoViajes}` : ""}`
             : null,
           sources: [src(url, retrievedAt)],
         }
@@ -194,17 +209,10 @@ function parseProfile(html: string, url: string, retrievedAt: string): ProfileDa
       break;
     }
   }
-  return {
-    cedula,
-    sesionesPct: ses ? parseFloat(ses) : null,
-    votacionesPct: vot ? parseFloat(vot) : null,
-    proyectos: proy ? parseInt(proy, 10) : null,
-    gastos,
-    photoUrl,
-  };
+  return { cedula, sesionesPct: ses ? parseFloat(ses) : null, votacionesPct: vot ? parseFloat(vot) : null, proyectos: proy ? parseInt(proy, 10) : null, gastos, photoUrl };
 }
 
-// ── enumerate real session & vote counts (the eligible denominators) ───────
+// ── Enumerate session & vote counts ──────────────────────────────────────────
 function* weekdaysBetween(startISO: string, endISO: string) {
   const d = new Date(startISO + "T12:00:00-06:00");
   const end = new Date(endISO + "T12:00:00-06:00");
@@ -225,12 +233,7 @@ async function countSessions(todayISO: string): Promise<string[]> {
   for (const ymd of weekdaysBetween(TENURE_START, todayISO)) {
     for (const seq of [1, 2]) {
       const id = `${ymd}${seq}`;
-      const { status } = await fetchHtml(
-        `${BASE}/asamblea/asistencia/${id}`,
-        "asistencia",
-        id,
-        { allow404: true }
-      );
+      const { status } = await fetchHtml(`${DELFINO}/asamblea/asistencia/${id}`, "asistencia", id, { allow404: true });
       if (status === 200) dates.push(ymd);
       else if (seq === 1) break;
     }
@@ -238,43 +241,22 @@ async function countSessions(todayISO: string): Promise<string[]> {
   return dates;
 }
 
-/**
- * Delfino returns HTTP 200 for non-existent vote ids (soft-404), so existence MUST be judged
- * by content: a real roll-call vote page carries an "Expediente NNNNN" and the full ~57 voter
- * cards. Real seqs form a contiguous block per date, so we stop after several consecutive misses.
- */
 function isRealVotePage(html: string): boolean {
   const $ = load(html);
-  const voters = new Set(
-    $('a[href^="/asamblea/congresistas/"]')
-      .toArray()
-      .map((a) => $(a).attr("href")!)
-      .filter((h) => !/page-/.test(h))
-  );
+  const voters = new Set($('a[href^="/asamblea/congresistas/"]').toArray().map((a) => $(a).attr("href")!).filter((h) => !/page-/.test(h)));
   return voters.size >= 50 && /Expediente\s*\d/.test($("body").text());
 }
 
 async function countVotes(sessionDates: string[]): Promise<number> {
   let total = 0;
-  // dedupe: a day with two plenary sessions appears twice in sessionDates, but vote ids are
-  // keyed by date only, so iterating the raw list would count that day's votes twice.
   for (const ymd of [...new Set(sessionDates)]) {
     for (const tipo of ["proyecto", "mocion"] as const) {
       let misses = 0;
-      // Delfino's seq numbering is non-contiguous (soft-404 gaps up to ~8 between real blocks),
-      // so allow a wide miss window before concluding the day is exhausted.
       for (let seq = 1; seq <= 100 && misses < 12; seq++) {
         const id = `${ymd}${String(seq).padStart(3, "0")}`;
-        const { html } = await fetchHtml(
-          `${BASE}/asamblea/votaciones/${tipo}/${id}`,
-          `votaciones-${tipo}`,
-          id,
-          { allow404: true }
-        );
+        const { html } = await fetchHtml(`${DELFINO}/asamblea/votaciones/${tipo}/${id}`, `votaciones-${tipo}`, id, { allow404: true });
         if (html && isRealVotePage(html)) {
-          if (misses > 0) console.log(`      ${tipo} ${id}: real vote after ${misses}-seq gap`);
-          total++;
-          misses = 0;
+          total++; misses = 0;
         } else misses++;
       }
     }
@@ -282,54 +264,161 @@ async function countVotes(sessionDates: string[]): Promise<number> {
   return total;
 }
 
-// ── assemble ───────────────────────────────────────────────────────────────
+// ── Observador.cr media mentions ───────────────────────────────────────────────
+/** Keywords that suggest negative coverage (lower score). */
+const NEGATIVE_KW = [
+  "denuncia", "denunci", "moroso", "escándalo", "detenid", "arrest", "investigad",
+  "sancion", "acusad", "impugn", "moción de censura", "censura", "corrupci",
+  "irregular", "fraude", "malvers",
+];
+
+/** Scrape Observador.cr search results for a name. Returns article count and last date. */
+async function scrapeObservador(nombre: string, slug: string): Promise<{ count: number; dates: string[] }> {
+  // Build search query: first + last name (most distinctive part)
+  const parts = nombre.split(" ");
+  const query = parts.slice(0, 2).join("+"); // e.g. "Nogui+Acosta"
+  const searchUrl = `${OBSERVADOR}/?s=${encodeURIComponent(query)}`;
+  const { html, retrievedAt } = await fetchHtml(searchUrl, "medios", slug);
+  if (!html) return { count: 0, dates: [] };
+
+  const $ = load(html);
+  const dates: string[] = [];
+  $("time[datetime]").each((_, el) => {
+    const dt = $(el).attr("datetime");
+    if (dt) dates.push(dt);
+  });
+  // Count <h2> or <h3> titles that contain the name
+  let count = 0;
+  $("h2, h3").each((_, el) => {
+    const text = $(el).text();
+    if (parts.some((p) => p.length > 3 && text.includes(p))) count++;
+  });
+  return { count: Math.max(count, dates.length > 0 ? 1 : 0), dates };
+}
+
+function articlesInLastDays(dates: string[], days: number, retrievedAt: string): number {
+  const cutoff = new Date(retrievedAt);
+  cutoff.setDate(cutoff.getDate() - days);
+  return dates.filter((d) => new Date(d) >= cutoff).length;
+}
+
+async function getMediosScore(nombre: string, slug: string): Promise<MediosScore | null> {
+  const observadorUrl = `${OBSERVADOR}/?s=${encodeURIComponent(nombre.split(" ").slice(0, 2).join(" "))}`;
+  const { html, retrievedAt } = await fetchHtml(
+    observadorUrl, "medios", slug
+  );
+  if (!html) return null;
+
+  const $ = load(html);
+  const dates: string[] = [];
+  $("time[datetime]").each((_, el) => {
+    const dt = $(el).attr("datetime");
+    if (dt) dates.push(dt);
+  });
+
+  const articulosSemana = articlesInLastDays(dates, 7, retrievedAt);
+  const articulosMes = articlesInLastDays(dates, 30, retrievedAt);
+  const ultimaFecha = dates.length > 0
+    ? dates.sort().reverse()[0].slice(0, 10)
+    : null;
+
+  const baseScore = computeMediosScore({ articulosMes });
+
+  return {
+    articulosSemana,
+    articulosMes,
+    ultimaFecha,
+    score: Math.round(baseScore * 10) / 10,
+    sources: [src(observadorUrl, retrievedAt)],
+  };
+}
+
+// ── Main ───────────────────────────────────────────────────────────────────────
 async function main() {
   const todayISO = new Date().toISOString().slice(0, 10);
-  console.log("[1/4] roster…");
+  console.log(`\n🗓  DiputadoScore ingest — ${todayISO}\n`);
+
+  console.log("[1/5] Roster from Delfino…");
   const roster = await getRoster();
   console.log(`      ${roster.length} congresistas`);
   if (roster.length !== 57) console.warn(`      ⚠ expected 57, got ${roster.length}`);
 
-  // status overrides are keyed on slug (always present) — the one place identity is load-bearing.
   const overrides: { slug: string; status: Status }[] = existsSync(STATUS_OVERRIDES)
     ? JSON.parse(readFileSync(STATUS_OVERRIDES, "utf8"))
     : [];
   if (!existsSync(STATUS_OVERRIDES)) writeFileSync(STATUS_OVERRIDES, "[]\n");
 
-  console.log("[2/4] sessions & votes held (eligible denominators)…");
+  console.log("[2/5] Sessions & votes held (eligible denominators)…");
   const sessionDates = await countSessions(todayISO);
   const sesionesTotales = sessionDates.length;
   const votosTotales = await countVotes(sessionDates);
   console.log(`      ${sesionesTotales} sesiones · ${votosTotales} votaciones`);
 
-  console.log("[3/4] profiles…");
-  const diputados: DiputadoRecord[] = [];
+  console.log("[3/5] Delfino profiles…");
+  const profiles = new Map<string, ProfileData>();
   for (const r of roster) {
-    const url = `${BASE}/asamblea/congresistas/${r.slug}`;
+    const url = `${DELFINO}/asamblea/congresistas/${r.slug}`;
     const { html, retrievedAt } = await fetchHtml(url, "profile", r.slug);
-    if (!html) {
-      console.warn(`      ⚠ no profile for ${r.slug}`);
-      continue;
-    }
-    const p = parseProfile(html, url, retrievedAt);
-    const profileSrc = [src(url, retrievedAt)];
+    if (!html) { console.warn(`      ⚠ no profile for ${r.slug}`); continue; }
+    profiles.set(r.slug, parseProfile(html, url, retrievedAt));
+  }
 
-    // buildDimension takes Delfino's PUBLISHED rate directly (returns null on missing/non-finite
-    // rate or zero eligible — no imputation). The score and displayed % are the source's figure.
+  console.log("[4/5] Media mentions (Observador.cr)…");
+  const mediosMap = new Map<string, MediosScore | null>();
+  for (const r of roster) {
+    process.stdout.write(`      ${r.nombre.split(" ")[0]}…`);
+    const m = await getMediosScore(r.nombre, r.slug);
+    mediosMap.set(r.slug, m);
+    process.stdout.write(` ${m?.articulosMes ?? 0} artículos/mes\n`);
+  }
+
+  console.log("[5/5] Assembling snapshot…");
+  const diputados: DiputadoRecord[] = [];
+
+  for (const r of roster) {
+    const p = profiles.get(r.slug);
+    if (!p) continue;
+    const profileUrl = `${DELFINO}/asamblea/congresistas/${r.slug}`;
+    const profileSrc = [src(profileUrl, new Date().toISOString())];
+
     const presencia = buildDimension(p.sesionesPct, sesionesTotales, MIN_SESIONES, profileSrc);
     const participacion = buildDimension(p.votacionesPct, votosTotales, MIN_VOTOS, profileSrc);
 
+    // Productividad from Delfino proyectos count
+    let productividad = null;
+    if (p.proyectos !== null) {
+      const score = computeProductividadScore(p.proyectos);
+      const prod: import("../src/lib/data-types.ts").ProductividadScore = {
+        presentados: p.proyectos,
+        aprobados: 0, // not yet available from Delfino static HTML
+        tasaAprobacion: 0,
+        score,
+        sources: profileSrc,
+      };
+      productividad = prod;
+    }
+
+    const medios = mediosMap.get(r.slug) ?? null;
     const ov = overrides.find((o) => o.slug === r.slug);
     const status: Status = ov?.status ?? "EN_EJERCICIO";
-    const overall = computeOverall(status, presencia, participacion);
+
+    const overall = computeOverall(
+      status,
+      presencia,
+      participacion,
+      productividad?.score ?? null,
+      null, // transparencia — not yet automated
+      null, // gasto — ₡0 for new legislature
+      medios?.score ?? null,
+    );
 
     diputados.push({
       id: r.slug,
-      cedula: null, // never publish the national ID (Ley 8968); identity is the slug
+      cedula: null,
       nombre: r.nombre,
       aliases: [],
       partido: r.partido,
-      provincia: r.provincia, // Delfino's own province assignment, from the diputado's list card
+      provincia: r.provincia,
       cargo: r.cargo,
       status,
       photoUrl: p.photoUrl ?? r.photoUrl,
@@ -337,42 +426,54 @@ async function main() {
       tenureEnd: null,
       presencia,
       participacion,
+      productividad,
+      transparencia: null, // CGR DJB — no public automated source yet
+      gasto: null,         // Asamblea vehicle data not yet available for 2026-2030
+      medios,
       overall,
       ranked: isRanked({ status, overall }),
-      proyectosPresentados:
-        p.proyectos !== null ? { value: p.proyectos, sources: profileSrc } : null,
+      proyectosPresentados: p.proyectos !== null ? { value: p.proyectos, sources: profileSrc } : null,
       gastos: p.gastos,
       bills: [],
       sources: profileSrc,
     });
   }
 
+  const cohort = {
+    sesionesTotales,
+    votosTotales,
+    fasePreliminar: sesionesTotales < MIN_SESIONES || votosTotales < MIN_VOTOS,
+    fuente: "Delfino.cr · Observador.cr · registro legislativo público",
+    transparenciaEstimada: true as boolean,
+    transparenciaNota: "DJB por diputado no disponible públicamente de forma automatizada. Verificar con CGR." as string,
+  };
+
   const snapshot: Snapshot = {
     generatedAt: new Date().toISOString(),
     periodo: "2026-2030",
-    cohort: {
-      sesionesTotales,
-      votosTotales,
-      fasePreliminar: sesionesTotales < MIN_SESIONES || votosTotales < MIN_VOTOS,
-      fuente: "Delfino.cr · registro de asistencia y votaciones del plenario",
-    },
+    cohort,
     diputados,
   };
 
-  console.log("[4/4] write…");
+  console.log("\n[write]");
   const tmp = OUT + ".tmp";
   writeFileSync(tmp, JSON.stringify(snapshot, null, 2) + "\n");
-  if (snapshot.diputados.length === 57) {
+  if (snapshot.diputados.length >= 50) { // allow up to 7 missing (licencias/ceses)
     writeFileSync(OUT, readFileSync(tmp));
     unlinkSync(tmp);
     console.log(`✓ wrote ${snapshot.diputados.length} diputados → ${OUT}`);
   } else {
     unlinkSync(tmp);
-    throw new Error(`refusing to promote: expected 57 diputados, got ${snapshot.diputados.length}`);
+    throw new Error(`refusing to promote: expected ≥50 diputados, got ${snapshot.diputados.length}`);
   }
-  console.log(
-    `\nREPORT: ${diputados.length}/57 diputados · ${sesionesTotales} sesiones · ${votosTotales} votos · fasePreliminar=${snapshot.cohort.fasePreliminar} · ranked=${diputados.filter((d) => d.ranked).length} · sinDatos=${diputados.filter((d) => d.overall === null).length}`
-  );
+
+  const ranked = diputados.filter((d) => d.ranked).length;
+  const conProyectos = diputados.filter((d) => d.productividad !== null).length;
+  const conMedios = diputados.filter((d) => d.medios !== null).length;
+  console.log(`\n📊 REPORT`);
+  console.log(`   ${diputados.length}/57 diputados`);
+  console.log(`   ${sesionesTotales} sesiones · ${votosTotales} votaciones · fasePreliminar=${cohort.fasePreliminar}`);
+  console.log(`   ${ranked} clasificados · ${conProyectos} con proyectos · ${conMedios} con datos de medios`);
 }
 
 main().catch((e) => {

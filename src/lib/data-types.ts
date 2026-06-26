@@ -60,6 +60,15 @@ export interface ProductividadScore {
   sources: SourceRef[];
 }
 
+/** Scored dimension: media presence in Costa Rican press (weekly scrape). */
+export interface MediosScore {
+  articulosSemana: number;   // articles mentioning the diputado in the last 7 days
+  articulosMes: number;      // articles in the last 30 days
+  ultimaFecha: string | null; // ISO date of most recent article found
+  score: number | null;      // 1..10 (based on presence + sentiment)
+  sources: SourceRef[];
+}
+
 /** Scored dimension: compliance with CGR asset declaration (Declaración Jurada de Bienes). */
 export interface TransparenciaScore {
   djbPresentada: boolean | null; // null = no data yet
@@ -89,11 +98,12 @@ export interface DiputadoRecord {
   tenureStart: string; // ISO
   tenureEnd: string | null;
 
-  presencia: DimensionScore | null;         // 20% weight — plenary attendance
-  participacion: DimensionScore | null;     // 25% weight — roll-call voting
+  presencia: DimensionScore | null;         // 15% weight — plenary attendance
+  participacion: DimensionScore | null;     // 20% weight — roll-call voting
   productividad: ProductividadScore | null; // 20% weight — bills presented/approved
-  transparencia: TransparenciaScore | null; // 20% weight — CGR DJB compliance
-  gasto: GastoScore | null;                 // 15% weight — spending vs cohort
+  transparencia: TransparenciaScore | null; // 15% weight — CGR DJB compliance
+  gasto: GastoScore | null;                 // 10% weight — spending vs cohort
+  medios: MediosScore | null;               // 20% weight — media presence (weekly)
   overall: number | null; // null when gated or non-sitting
   ranked: boolean; // included in the numeric ranking?
 

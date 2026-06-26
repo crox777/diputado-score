@@ -1,0 +1,51 @@
+name: Weekly Data Ingest
+
+on:
+  schedule:
+    # Every Monday at 06:00 Costa Rica time (UTC-6) = 12:00 UTC
+    - cron: "0 12 * * 1"
+  # Allow manual trigger from GitHub Actions UI
+  workflow_dispatch:
+
+jobs:
+  ingest:
+    name: Scrape & update diputados.json
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ingest
+        run: npx tsx scripts/ingest.ts
+        env:
+          NODE_TLS_REJECT_UNAUTHORIZED: "0"  # Asamblea has self-signed SSL
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet src/data/diputados.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit updated data
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/diputados.json
+          git commit -m "chore: weekly data update $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: No changes
+        if: steps.changes.outputs.changed == 'false'
+        run: echo "No data changes — skipping commit."

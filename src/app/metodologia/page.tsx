@@ -52,11 +52,12 @@ export default function MetodologiaPage() {
                 </thead>
                 <tbody className="divide-y divide-white/[0.04]">
                   {[
-                    ["Participación en votos", "25%", "Delfino.cr"],
-                    ["Presencia en plenario", "20%", "Delfino.cr"],
-                    ["Productividad legislativa", "20%", "SIL / Asamblea Legislativa"],
-                    ["Transparencia patrimonial", "20%", "CGR — Registro de DJB"],
-                    ["Gasto discrecional", "15%", "Delfino.cr · Asamblea"],
+                    ["Presencia en medios", "20%", "Observador.cr · prensa CR"],
+                    ["Participación en votos", "20%", "Delfino.cr"],
+                    ["Productividad legislativa", "20%", "Delfino.cr · SIL"],
+                    ["Presencia en plenario", "15%", "Delfino.cr"],
+                    ["Transparencia patrimonial", "15%", "CGR — Registro de DJB"],
+                    ["Gasto discrecional", "10%", "Delfino.cr · Asamblea"],
                   ].map(([dim, peso, fuente]) => (
                     <tr key={dim} className="bg-zinc-900/40">
                       <td className="px-4 py-3 text-white font-medium">{dim}</td>
@@ -83,9 +84,13 @@ export default function MetodologiaPage() {
             <p><span className="text-white font-semibold">Transparencia (20%):</span> Binario. Presentó
               la Declaración Jurada de Bienes (DJB) a la CGR en tiempo → 10. Figura en la lista de
               morosos → 2. Es la penalización más severa porque es un incumplimiento legal.</p>
-            <p><span className="text-white font-semibold">Gasto (15%):</span> El gasto discrecional
+            <p><span className="text-white font-semibold">Gasto (10%):</span> El gasto discrecional
               del diputado (vehículo, combustible, viajes) se compara con el promedio del cohort.
               Gastar menos que el promedio suma; gastar muy por encima resta.</p>
+            <p><span className="text-white font-semibold">Presencia en medios (20%):</span> Menciones
+              semanales en medios costarricenses (Observador.cr y otros). Un diputado visible y activo
+              en la esfera pública genera cobertura periodística; la invisibilidad penaliza.
+              Se actualiza cada lunes automáticamente.</p>
           </Section>
 
           <Section title="Muestra mínima">

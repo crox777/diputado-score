@@ -12,7 +12,7 @@
 // No imputation: a dimension with no data is null, never a default. A dimension below its
 // sample gate is "preliminar" (score null), shown as raw counts.
 
-import type { DimensionScore, DiputadoRecord, Status } from "./data-types";
+import type { DimensionScore, DiputadoRecord, MediosScore, Status } from "./data-types";
 
 /** Minimum sample before a dimension earns a 1–10 (below → "preliminar"). */
 export const MIN_SESIONES = 10;
@@ -66,18 +66,47 @@ export function buildDimension(
 }
 
 // Dimension weights — must sum to 1.0
+// presencia 15 + participacion 20 + productividad 20 + transparencia 15 + gasto 10 + medios 20 = 100
 const WEIGHTS = {
-  presencia: 0.20,
-  participacion: 0.25,
+  presencia: 0.15,
+  participacion: 0.20,
   productividad: 0.20,
-  transparencia: 0.20,
-  gasto: 0.15,
+  transparencia: 0.15,
+  gasto: 0.10,
+  medios: 0.20,
 } as const;
 
 /**
- * Weighted overall across up to 5 dimensions. Re-normalises weights when dimensions are missing
+ * Score for media presence: based on article count in last 30 days (1–10).
+ * Higher presence = higher score; sentiment not included here (qualitative only).
+ */
+export function computeMediosScore(m: Pick<MediosScore, "articulosMes">): number {
+  const n = m.articulosMes;
+  if (n === 0) return 1;
+  if (n <= 2) return 3.5;
+  if (n <= 5) return 5.5;
+  if (n <= 10) return 7.5;
+  if (n <= 20) return 8.5;
+  return 9.5;
+}
+
+/**
+ * Score for productivity: based on bills/motions presented.
+ * Legislature is new, so scale is generous.
+ */
+export function computeProductividadScore(presentados: number): number {
+  if (presentados === 0) return 2;
+  if (presentados <= 1) return 4;
+  if (presentados <= 3) return 6;
+  if (presentados <= 6) return 7.5;
+  if (presentados <= 10) return 8.5;
+  return 9.5;
+}
+
+/**
+ * Weighted overall across up to 6 dimensions. Re-normalises weights when dimensions are missing
  * so the score is always interpretable. Requires presencia + participacion past their gate;
- * the three new dimensions are optional (contribute when present, skipped when null).
+ * the other dimensions are optional (contribute when present, skipped when null).
  */
 export function computeOverall(
   status: Status,
@@ -86,6 +115,7 @@ export function computeOverall(
   productividadScore: number | null = null,
   transparenciaScore: number | null = null,
   gastoScore: number | null = null,
+  mediosScore: number | null = null,
 ): number | null {
   if (status !== "EN_EJERCICIO") return null;
   if (!presencia || !participacion) return null;
@@ -98,6 +128,7 @@ export function computeOverall(
   if (productividadScore !== null) dims.push({ score: productividadScore, weight: WEIGHTS.productividad });
   if (transparenciaScore !== null) dims.push({ score: transparenciaScore, weight: WEIGHTS.transparencia });
   if (gastoScore !== null) dims.push({ score: gastoScore, weight: WEIGHTS.gasto });
+  if (mediosScore !== null) dims.push({ score: mediosScore, weight: WEIGHTS.medios });
 
   const totalWeight = dims.reduce((s, d) => s + d.weight, 0);
   const weighted = dims.reduce((s, d) => s + d.score * d.weight, 0);

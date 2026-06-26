@@ -7,7 +7,7 @@ import Image from "next/image";
 import { getAllDiputados, getDiputadoById, getCohort } from "@/lib/data";
 import { scoreColor } from "@/lib/score";
 import { PARTIDO_LABEL, STATUS_LABEL } from "@/lib/data-types";
-import type { DimensionScore, ProductividadScore, TransparenciaScore, GastoScore, SourceRef } from "@/lib/data-types";
+import type { DimensionScore, MediosScore, ProductividadScore, TransparenciaScore, GastoScore, SourceRef } from "@/lib/data-types";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import {
@@ -128,6 +128,25 @@ function TransparenciaDim({ dim, estimada }: { dim: TransparenciaScore | null; e
   );
 }
 
+function MediosDim({ dim }: { dim: MediosScore | null }) {
+  return (
+    <DimensionCard title="Presencia en medios" weight="20%" score={dim?.score ?? null}>
+      {dim ? (
+        <>
+          <p className="text-sm text-zinc-400">
+            <span className="text-white font-bold tabular-nums">{dim.articulosMes}</span> artículos últimos 30 días
+          </p>
+          <p className="text-xs text-zinc-600 mt-1">
+            Esta semana: <span className="text-zinc-400">{dim.articulosSemana}</span>
+            {dim.ultimaFecha && <> · última nota: {dim.ultimaFecha}</>}
+          </p>
+          <div className="mt-3"><SourceLink sources={dim.sources} /></div>
+        </>
+      ) : <p className="text-sm text-zinc-600">Sin datos de medios.</p>}
+    </DimensionCard>
+  );
+}
+
 function GastoDim({ dim }: { dim: GastoScore | null }) {
   const rangoLabel = { bajo: "Bajo ✓", medio: "Medio", alto: "Alto ✗" };
   const rangoColor = { bajo: "text-emerald-400", medio: "text-yellow-400", alto: "text-red-400" };
@@ -239,6 +258,7 @@ export default async function DiputadoPage({ params }: Props) {
           <ProductividadDim dim={d.productividad} />
           <TransparenciaDim dim={d.transparencia} estimada={cohort.transparenciaEstimada} />
           <GastoDim dim={d.gasto} />
+          <MediosDim dim={d.medios} />
         </div>
 
         {/* Datos reportados */}
