@@ -36,86 +36,92 @@ export default function MetodologiaPage() {
         </div>
 
         <div className="space-y-8">
-          <Section title="Qué medimos">
+          <Section title="Las 5 dimensiones y su peso">
             <p>
-              La presencia mide la asistencia al plenario: sesiones en las que el diputado estuvo
-              presente sobre el total de sesiones celebradas durante su ejercicio.
+              El puntaje general es un promedio ponderado de cinco dimensiones. Cada una tiene un
+              peso distinto porque no todas reflejan el mismo nivel de responsabilidad legislativa:
             </p>
-            <p>
-              La participación mide el voto: votos emitidos sobre votaciones celebradas. Se considera
-              emitido un voto a favor, en contra o una abstención. La ausencia no cuenta como voto.
-            </p>
+            <div className="mt-3 rounded-xl overflow-hidden ring-1 ring-white/[0.06]">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-zinc-800/60 text-zinc-400 text-xs uppercase tracking-wider">
+                    <th className="text-left px-4 py-2.5">Dimensión</th>
+                    <th className="text-right px-4 py-2.5">Peso</th>
+                    <th className="text-left px-4 py-2.5 hidden sm:table-cell">Fuente</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-white/[0.04]">
+                  {[
+                    ["Participación en votos", "25%", "Delfino.cr"],
+                    ["Presencia en plenario", "20%", "Delfino.cr"],
+                    ["Productividad legislativa", "20%", "SIL / Asamblea Legislativa"],
+                    ["Transparencia patrimonial", "20%", "CGR — Registro de DJB"],
+                    ["Gasto discrecional", "15%", "Delfino.cr · Asamblea"],
+                  ].map(([dim, peso, fuente]) => (
+                    <tr key={dim} className="bg-zinc-900/40">
+                      <td className="px-4 py-3 text-white font-medium">{dim}</td>
+                      <td className="px-4 py-3 text-right text-emerald-400 font-bold tabular-nums">{peso}</td>
+                      <td className="px-4 py-3 text-zinc-500 hidden sm:table-cell">{fuente}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </Section>
 
-          <Section title="Cómo se calcula el puntaje">
-            <p>
-              La escala es absoluta. El porcentaje real se mapea directamente a una nota de 0 a 10,
-              de modo que un 92% equivale a 9.2. La nota no es relativa al resto de diputados, así
-              que no cambia cuando otra persona sube o baja.
-            </p>
+          <Section title="Cómo sube y cómo baja cada dimensión">
+            <p><span className="text-white font-semibold">Participación en votos (25%):</span> Se
+              considera voto emitido cualquier opción activa: a favor, en contra o abstención. Estar
+              ausente en una votación penaliza más que faltar a la sesión completa, porque implica
+              estar en el edificio y no ejercer el mandato.</p>
+            <p><span className="text-white font-semibold">Presencia (20%):</span> Porcentaje de
+              sesiones plenarias con asistencia sobre el total celebradas durante el ejercicio.
+              La escala es absoluta: 92% de asistencia equivale a 9.2.</p>
+            <p><span className="text-white font-semibold">Productividad (20%):</span> Combina la
+              cantidad de proyectos de ley y mociones presentados con la tasa de aprobación. Presentar
+              mucho y que nada avance da menos puntaje que presentar poco con impacto real.</p>
+            <p><span className="text-white font-semibold">Transparencia (20%):</span> Binario. Presentó
+              la Declaración Jurada de Bienes (DJB) a la CGR en tiempo → 10. Figura en la lista de
+              morosos → 2. Es la penalización más severa porque es un incumplimiento legal.</p>
+            <p><span className="text-white font-semibold">Gasto (15%):</span> El gasto discrecional
+              del diputado (vehículo, combustible, viajes) se compara con el promedio del cohort.
+              Gastar menos que el promedio suma; gastar muy por encima resta.</p>
           </Section>
 
           <Section title="Muestra mínima">
             <p>
-              Un eje solo recibe nota cuando hay al menos {MIN_SESIONES} sesiones o {MIN_VOTOS}{" "}
-              votaciones registradas. Por debajo de ese umbral el eje se marca como preliminar y se
-              muestran los conteos crudos en lugar de una nota.
-            </p>
-          </Section>
-
-          <Section title="Qué no puntúa">
-            <p>
-              Los proyectos presentados y los gastos se muestran como hechos atribuidos a la fuente,
-              no como nota. No incluimos la declaración de bienes ni datos sin fuente verificable por
-              persona.
-            </p>
-          </Section>
-
-          <Section title="Correlación entre ejes">
-            <p>
-              La presencia y la participación están correlacionadas, porque votar requiere estar
-              presente. Lo informamos de forma abierta para que el lector lo tenga en cuenta.
+              Presencia y participación solo reciben nota cuando hay al menos {MIN_SESIONES} sesiones
+              o {MIN_VOTOS} votaciones registradas. Por debajo de ese umbral se muestran como{" "}
+              <em>Preliminar</em>. Las otras tres dimensiones se incorporan al puntaje general en
+              cuanto hay dato disponible.
             </p>
           </Section>
 
           <Section title="Quiénes no se clasifican">
             <p>
-              Los diputados en licencia o que no se incorporaron no se clasifican. Aparecen en la
-              lista, pero sin nota ni posición en el ranking.
+              Los diputados en licencia, que no se incorporaron o que cesaron no se clasifican.
+              Aparecen en la lista sin nota ni posición en el ranking.
             </p>
           </Section>
 
-          <Section title="Fuente y actualización">
-            <p>
-              El porcentaje de asistencia (Sesiones) y de participación (Votaciones) de cada
-              congresista es el que publica su ficha en Delfino.cr. El total de sesiones del
-              plenario y de votaciones registradas se cuenta directamente del registro público de
-              Delfino.cr. La cantidad de sesiones y votos que se atribuye a cada persona se deriva
-              de ese porcentaje, por lo que se muestra como una cifra aproximada.
-              {getGeneratedAt() && <> Actualizado {formatDateCR(getGeneratedAt())}.</>}
+          <Section title="Fuentes de datos">
+            <p>Usamos varias fuentes públicas, cada una para dimensiones específicas:</p>
+            <ul className="list-disc list-inside space-y-1.5 mt-2 text-zinc-400">
+              <li><span className="text-white">Delfino.cr</span> — asistencia al plenario, participación en votaciones y gasto discrecional.</li>
+              <li><span className="text-white">Asamblea Legislativa</span> — registro de proyectos de ley y mociones (SIL).</li>
+              <li><span className="text-white">Contraloría General de la República (CGR)</span> — Declaración Jurada de Bienes y lista de morosos.</li>
+            </ul>
+            <p className="mt-3">
+              Cada cifra enlaza a su fuente original. Si ves un dato que no calza, revisá el
+              registro original en la fuente indicada.
+              {getGeneratedAt() && <> Última actualización: {formatDateCR(getGeneratedAt())}.</>}
             </p>
           </Section>
 
           <Section title="Independencia">
             <p>
-              Este es un proyecto independiente. No está afiliado a la Asamblea Legislativa, a
-              Delfino.cr ni a ningún partido.
-            </p>
-          </Section>
-
-          <Section title="Correcciones">
-            <p>
-              Cada cifra publicada enlaza a su fuente. Si ves un dato que no calza, comparalo con
-              el registro original en{" "}
-              <a
-                href="https://delfino.cr/asamblea"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-emerald-400 hover:underline"
-              >
-                Delfino.cr
-              </a>
-              , que es la fuente de toda la información mostrada.
+              Proyecto independiente. No está afiliado a la Asamblea Legislativa, a Delfino.cr,
+              a la CGR ni a ningún partido político.
             </p>
           </Section>
         </div>

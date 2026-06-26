@@ -4,8 +4,9 @@
     {
       "name": "diputado-score",
       "runtimeExecutable": "bash",
-      "runtimeArgs": ["-c", "export PATH=/tmp/node-v20.19.2-darwin-arm64/bin:$PATH && DATABASE_URL=postgresql://postgres:password@localhost:5432/diputadoscore npm run dev"],
-      "port": 3000
+      "runtimeArgs": ["-c", "eval \"$(/opt/homebrew/bin/brew shellenv)\" && npm run dev"],
+      "port": 3001,
+      "autoPort": true
     }
   ]
 }

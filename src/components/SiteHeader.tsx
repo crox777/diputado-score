@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 type NavKey = "diputados" | "rankings" | "metodologia";
 
@@ -19,13 +20,8 @@ export function SiteHeader({
   return (
     <header className="sticky top-0 z-50 bg-[#0c0c0e]/80 backdrop-blur-xl border-b border-white/[0.05]">
       <div className={`${width} mx-auto px-5 h-14 flex items-center justify-between gap-4`}>
-        <Link href="/" className="flex items-center gap-2.5">
-          <span className="text-[1.05rem] font-black tracking-tight text-white">
-            Diputado<span className="text-emerald-400">Score</span>
-          </span>
-          <span className="hidden sm:inline-flex items-center text-[0.65rem] font-semibold text-zinc-600 bg-zinc-800/60 px-2 py-0.5 rounded-full border border-white/[0.05] tracking-wide uppercase">
-            Costa Rica
-          </span>
+        <Link href="/" className="flex items-center gap-3">
+          <Image src="/logo.png" alt="DiputadoScore" width={220} height={44} className="object-contain" />
         </Link>
         <nav className="flex items-center gap-1">
           {NAV.map((n) => (

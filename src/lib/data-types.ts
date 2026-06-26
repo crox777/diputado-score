@@ -51,6 +51,31 @@ export interface Gastos {
   sources: SourceRef[];
 }
 
+/** Scored dimension: legislative productivity (bills presented + approval rate). */
+export interface ProductividadScore {
+  presentados: number;       // total bills/motions filed
+  aprobados: number;         // of those, how many passed
+  tasaAprobacion: number;    // 0..1
+  score: number | null;      // 1..10
+  sources: SourceRef[];
+}
+
+/** Scored dimension: compliance with CGR asset declaration (Declaración Jurada de Bienes). */
+export interface TransparenciaScore {
+  djbPresentada: boolean | null; // null = no data yet
+  score: number | null;          // 10 if presented on time, 2 if moroso, null if unknown
+  sources: SourceRef[];
+}
+
+/** Scored dimension: discretionary spending relative to cohort. Lower spend = higher score. */
+export interface GastoScore {
+  totalColones: number | null;          // raw total (vehicle + travel)
+  promedioCohorteColones: number | null;
+  rangoEnCohort: "bajo" | "medio" | "alto" | null;
+  score: number | null;                 // 1..10 (bajo→9-10, medio→5-7, alto→1-3)
+  sources: SourceRef[];
+}
+
 export interface DiputadoRecord {
   id: string; // slug — canonical public id and route param
   cedula: string | null; // INTERNAL identity key only — never rendered publicly (Ley 8968)
@@ -64,13 +89,16 @@ export interface DiputadoRecord {
   tenureStart: string; // ISO
   tenureEnd: string | null;
 
-  presencia: DimensionScore | null; // plenary attendance
-  participacion: DimensionScore | null; // roll-call voting
+  presencia: DimensionScore | null;         // 20% weight — plenary attendance
+  participacion: DimensionScore | null;     // 25% weight — roll-call voting
+  productividad: ProductividadScore | null; // 20% weight — bills presented/approved
+  transparencia: TransparenciaScore | null; // 20% weight — CGR DJB compliance
+  gasto: GastoScore | null;                 // 15% weight — spending vs cohort
   overall: number | null; // null when gated or non-sitting
   ranked: boolean; // included in the numeric ranking?
 
-  proyectosPresentados: { value: number; sources: SourceRef[] } | null; // attributed fact
-  gastos: Gastos | null; // attributed facts
+  proyectosPresentados: { value: number; sources: SourceRef[] } | null; // attributed fact (legacy)
+  gastos: Gastos | null; // attributed facts (legacy display)
   bills: BillRef[]; // recent votes/bills involving this diputado/a
 
   sources: SourceRef[]; // profile-level provenance

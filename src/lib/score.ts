@@ -65,19 +65,43 @@ export function buildDimension(
   };
 }
 
+// Dimension weights — must sum to 1.0
+const WEIGHTS = {
+  presencia: 0.20,
+  participacion: 0.25,
+  productividad: 0.20,
+  transparencia: 0.20,
+  gasto: 0.15,
+} as const;
+
 /**
- * Overall = mean of the two dimension scores, but only for a sitting diputado/a with both
- * dimensions past their gate. Otherwise null (UI shows dimensions individually).
+ * Weighted overall across up to 5 dimensions. Re-normalises weights when dimensions are missing
+ * so the score is always interpretable. Requires presencia + participacion past their gate;
+ * the three new dimensions are optional (contribute when present, skipped when null).
  */
 export function computeOverall(
   status: Status,
   presencia: DimensionScore | null,
-  participacion: DimensionScore | null
+  participacion: DimensionScore | null,
+  productividadScore: number | null = null,
+  transparenciaScore: number | null = null,
+  gastoScore: number | null = null,
 ): number | null {
   if (status !== "EN_EJERCICIO") return null;
   if (!presencia || !participacion) return null;
   if (presencia.score === null || participacion.score === null) return null;
-  return round1((presencia.score + participacion.score) / 2);
+
+  const dims: { score: number; weight: number }[] = [
+    { score: presencia.score, weight: WEIGHTS.presencia },
+    { score: participacion.score, weight: WEIGHTS.participacion },
+  ];
+  if (productividadScore !== null) dims.push({ score: productividadScore, weight: WEIGHTS.productividad });
+  if (transparenciaScore !== null) dims.push({ score: transparenciaScore, weight: WEIGHTS.transparencia });
+  if (gastoScore !== null) dims.push({ score: gastoScore, weight: WEIGHTS.gasto });
+
+  const totalWeight = dims.reduce((s, d) => s + d.weight, 0);
+  const weighted = dims.reduce((s, d) => s + d.score * d.weight, 0);
+  return round1(weighted / totalWeight);
 }
 
 /** A diputado/a is ranked only when sitting and with a computed overall. */

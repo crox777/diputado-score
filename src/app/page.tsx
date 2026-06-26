@@ -54,7 +54,7 @@ export default async function Home({ searchParams }: HomeProps) {
           <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-3 py-1 mb-5">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
             <span className="text-emerald-400 text-[0.7rem] font-semibold tracking-wide uppercase">
-              Registro legislativo · datos vía Delfino.cr
+              Registro legislativo · Delfino.cr · Asamblea · CGR
             </span>
           </div>
           <h1 className="text-4xl sm:text-[3.25rem] font-black tracking-tight leading-[1.05] mb-4">
@@ -65,15 +65,21 @@ export default async function Home({ searchParams }: HomeProps) {
             Así rendirían nuestros diputados y esta sería su calificación.
           </p>
           <p className="text-zinc-500 text-sm max-w-2xl leading-relaxed mt-3">
-            Asistencia al plenario y participación en votaciones de los 57 diputados (2026–2030), a
-            partir del registro legislativo público que publica{" "}
-            <a
-              href="https://delfino.cr/asamblea"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-zinc-400 underline decoration-zinc-700 underline-offset-2 hover:text-emerald-400"
-            >
+            Puntaje de los 57 diputados (2026–2030) basado en 5 dimensiones: presencia, participación
+            en votos, productividad legislativa, transparencia patrimonial y gasto. Datos de{" "}
+            <a href="https://delfino.cr/asamblea" target="_blank" rel="noopener noreferrer"
+              className="text-zinc-400 underline decoration-zinc-700 underline-offset-2 hover:text-emerald-400">
               Delfino.cr
+            </a>
+            ,{" "}
+            <a href="https://www.asamblea.go.cr" target="_blank" rel="noopener noreferrer"
+              className="text-zinc-400 underline decoration-zinc-700 underline-offset-2 hover:text-emerald-400">
+              Asamblea Legislativa
+            </a>{" "}
+            y{" "}
+            <a href="https://www.cgr.go.cr" target="_blank" rel="noopener noreferrer"
+              className="text-zinc-400 underline decoration-zinc-700 underline-offset-2 hover:text-emerald-400">
+              CGR
             </a>
             .
           </p>

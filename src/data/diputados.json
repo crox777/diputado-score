@@ -46,7 +46,7 @@
           }
         ]
       },
-      "overall": 9.9,
+      "overall": 7.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -65,7 +65,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
           "retrievedAt": "2026-06-26T01:32:49.446Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 10,
+        "aprobados": 1,
+        "tasaAprobacion": 0.1,
+        "score": 7.0,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": false,
+        "score": 2.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 630888,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "kattia-alejandra-mora-montoya",
@@ -105,7 +139,7 @@
           }
         ]
       },
-      "overall": 9.8,
+      "overall": 8.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -124,7 +158,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
           "retrievedAt": "2026-06-26T01:32:50.240Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 11,
+        "aprobados": 1,
+        "tasaAprobacion": 0.091,
+        "score": 7.6,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 782427,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 6.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "stephan-brunner-neibig",
@@ -164,7 +232,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 7.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -183,7 +251,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
           "retrievedAt": "2026-06-26T01:32:51.037Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 3,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 2.7,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1193047,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 2.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "mayuli-del-carmen-ortega-guzman",
@@ -223,7 +325,7 @@
           }
         ]
       },
-      "overall": 8.9,
+      "overall": 6.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -242,7 +344,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
           "retrievedAt": "2026-06-26T01:32:52.026Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 3,
+        "aprobados": 1,
+        "tasaAprobacion": 0.333,
+        "score": 3.4,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 2411614,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 1.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "gonzalo-alberto-ramirez-zamora",
@@ -282,7 +418,7 @@
           }
         ]
       },
-      "overall": 9.7,
+      "overall": 5.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -301,7 +437,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
           "retrievedAt": "2026-06-26T01:32:52.831Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 5,
+        "aprobados": 2,
+        "tasaAprobacion": 0.4,
+        "score": 4.7,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": false,
+        "score": 2.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1727848,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 1.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "anna-katharina-muller-castro",
@@ -341,7 +511,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 7.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -360,7 +530,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
           "retrievedAt": "2026-06-26T01:32:53.600Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 1,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 1.6,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 681283,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 6.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "antonio-barzuna-thompson",
@@ -400,7 +604,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 7.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -419,7 +623,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
           "retrievedAt": "2026-06-26T01:32:54.381Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 4,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 3.3,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 3402620,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 1.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "sadie-esmeralda-britton-gonzalez",
@@ -459,7 +697,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 7.6,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -478,7 +716,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
           "retrievedAt": "2026-06-26T01:32:55.209Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 6,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 2067389,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 1.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "alvaro-ramirez-bogantes",
@@ -518,7 +790,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 7.2,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -537,7 +809,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
           "retrievedAt": "2026-06-26T01:32:56.036Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 5,
+        "aprobados": 4,
+        "tasaAprobacion": 0.8,
+        "score": 5.5,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": false,
+        "score": 2.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 678235,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "iztaru-alfaro-guerrero",
@@ -577,7 +883,7 @@
           }
         ]
       },
-      "overall": 8.2,
+      "overall": 7.7,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -596,7 +902,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
           "retrievedAt": "2026-06-26T01:32:57.180Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 5,
+        "aprobados": 1,
+        "tasaAprobacion": 0.2,
+        "score": 4.3,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 565281,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "rafael-angel-vargas-brenes",
@@ -636,7 +976,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 9.3,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -655,7 +995,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
           "retrievedAt": "2026-06-26T01:32:58.109Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 10,
+        "aprobados": 1,
+        "tasaAprobacion": 0.1,
+        "score": 7.0,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 243609,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 9.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "andrea-patricia-valverde-palavicini",
@@ -695,7 +1069,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 7.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -714,7 +1088,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
           "retrievedAt": "2026-06-26T01:32:59.116Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 2,
+        "aprobados": 1,
+        "tasaAprobacion": 0.5,
+        "score": 3.2,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1023621,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "marco-francisco-badilla-chavarria",
@@ -754,7 +1162,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 9.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -773,7 +1181,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
           "retrievedAt": "2026-06-26T01:33:00.378Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 12,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 420599,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 9.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "jose-maria-villalta-florez-estrada",
@@ -813,7 +1255,7 @@
           }
         ]
       },
-      "overall": 9.9,
+      "overall": 8.3,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -832,7 +1274,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
           "retrievedAt": "2026-06-26T01:33:01.393Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 4,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 3.3,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 488636,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "vianey-briyith-mora-vega",
@@ -872,7 +1348,7 @@
           }
         ]
       },
-      "overall": 9.9,
+      "overall": 8.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -891,7 +1367,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
           "retrievedAt": "2026-06-26T01:33:02.262Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 6,
+        "aprobados": 5,
+        "tasaAprobacion": 0.833,
+        "score": 6.1,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 616462,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "antonio-trejos-mazariegos",
@@ -931,7 +1441,7 @@
           }
         ]
       },
-      "overall": 9.7,
+      "overall": 8.6,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -950,7 +1460,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
           "retrievedAt": "2026-06-26T01:33:03.056Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 8,
+        "aprobados": 4,
+        "tasaAprobacion": 0.5,
+        "score": 6.6,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 712199,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 6.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "claudia-vanessa-dobles-camargo",
@@ -990,7 +1534,7 @@
           }
         ]
       },
-      "overall": 9.8,
+      "overall": 8.7,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1009,7 +1553,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
           "retrievedAt": "2026-06-26T01:33:03.827Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 5,
+        "aprobados": 1,
+        "tasaAprobacion": 0.2,
+        "score": 4.3,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 407575,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 9.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "abril-gordienko-lopez",
@@ -1049,7 +1627,7 @@
           }
         ]
       },
-      "overall": 9.4,
+      "overall": 9.0,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1068,7 +1646,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
           "retrievedAt": "2026-06-26T01:33:04.978Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 12,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 555487,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "jose-miguel-villalobos-umana",
@@ -1108,7 +1720,7 @@
           }
         ]
       },
-      "overall": 9.8,
+      "overall": 9.2,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1127,7 +1739,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
           "retrievedAt": "2026-06-26T01:33:06.146Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 10,
+        "aprobados": 6,
+        "tasaAprobacion": 0.6,
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 633795,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "zaira-murillo-marin",
@@ -1167,7 +1813,7 @@
           }
         ]
       },
-      "overall": 9.9,
+      "overall": 7.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1186,7 +1832,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
           "retrievedAt": "2026-06-26T01:33:07.076Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 7,
+        "aprobados": 4,
+        "tasaAprobacion": 0.571,
+        "score": 6.2,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 2201506,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 1.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "gerardo-bogantes-rivera",
@@ -1226,7 +1906,7 @@
           }
         ]
       },
-      "overall": 9.8,
+      "overall": 8.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1245,7 +1925,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
           "retrievedAt": "2026-06-26T01:33:07.918Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 10,
+        "aprobados": 1,
+        "tasaAprobacion": 0.1,
+        "score": 7.0,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 895282,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "grethel-maria-avila-vargas",
@@ -1285,7 +1999,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 7.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1304,7 +2018,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
           "retrievedAt": "2026-06-26T01:33:09.016Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 10,
+        "aprobados": 5,
+        "tasaAprobacion": 0.5,
+        "score": 7.8,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": false,
+        "score": 2.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 751685,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 6.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "wilson-alfredo-jimenez-cordero",
@@ -1344,7 +2092,7 @@
           }
         ]
       },
-      "overall": 9.9,
+      "overall": 8.3,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1363,7 +2111,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
           "retrievedAt": "2026-06-26T01:33:09.995Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 11,
+        "aprobados": 4,
+        "tasaAprobacion": 0.364,
+        "score": 8.1,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1469878,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 1.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "kattia-maria-ulate-alvarado",
@@ -1403,7 +2185,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 8.0,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1422,7 +2204,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
           "retrievedAt": "2026-06-26T01:33:10.816Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 1,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 1.6,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 478484,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "fernando-obaldia-alvarez",
@@ -1462,7 +2278,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 6.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1481,7 +2297,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
           "retrievedAt": "2026-06-26T01:33:11.679Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 9,
+        "aprobados": 3,
+        "tasaAprobacion": 0.333,
+        "score": 6.9,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": false,
+        "score": 2.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1528206,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 1.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "diana-murillo-murillo",
@@ -1521,7 +2371,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 9.0,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1540,7 +2390,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
           "retrievedAt": "2026-06-26T01:33:12.481Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 12,
+        "aprobados": 8,
+        "tasaAprobacion": 0.667,
+        "score": 9.3,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1037312,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "eder-francisco-hernandez-ulloa",
@@ -1580,7 +2464,7 @@
           }
         ]
       },
-      "overall": 9.6,
+      "overall": 7.6,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1599,7 +2483,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
           "retrievedAt": "2026-06-26T01:33:13.385Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 1,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 1.6,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 688782,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 6.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "karen-tatiana-alfaro-jimenez",
@@ -1639,7 +2557,7 @@
           }
         ]
       },
-      "overall": 8.2,
+      "overall": 6.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1658,7 +2576,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
           "retrievedAt": "2026-06-26T01:33:14.307Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 9,
+        "aprobados": 1,
+        "tasaAprobacion": 0.111,
+        "score": 6.4,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": false,
+        "score": 2.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 836932,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 6.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "edgardo-vinicio-araya-sibaja",
@@ -1717,7 +2669,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
           "retrievedAt": "2026-06-26T01:33:15.073Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 12,
+        "aprobados": 8,
+        "tasaAprobacion": 0.667,
+        "score": 9.3,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 410045,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 9.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "sigrid-violeta-segura-artavia",
@@ -1757,7 +2743,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 7.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1776,7 +2762,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
           "retrievedAt": "2026-06-26T01:33:15.896Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 8,
+        "aprobados": 2,
+        "tasaAprobacion": 0.25,
+        "score": 6.1,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1652067,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 1.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "cindy-maria-blanco-gonzalez",
@@ -1816,7 +2836,7 @@
           }
         ]
       },
-      "overall": 9.9,
+      "overall": 7.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1835,7 +2855,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
           "retrievedAt": "2026-06-26T01:33:16.698Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 3,
+        "aprobados": 2,
+        "tasaAprobacion": 0.667,
+        "score": 4.1,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1679194,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 1.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "robert-johsan-barrantes-camacho",
@@ -1875,7 +2929,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 8.7,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1894,7 +2948,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
           "retrievedAt": "2026-06-26T01:33:17.477Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 6,
+        "aprobados": 5,
+        "tasaAprobacion": 0.833,
+        "score": 6.1,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 744836,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 6.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "yara-vanessa-jimenez-fallas",
@@ -1934,7 +3022,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 7.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1953,7 +3041,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
           "retrievedAt": "2026-06-26T01:33:18.642Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 1,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 1.6,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 972718,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "janice-patricia-sandi-morales",
@@ -1993,7 +3115,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 5.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2012,7 +3134,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
           "retrievedAt": "2026-06-26T01:33:19.456Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 0,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 1.0,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": false,
+        "score": 2.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1012574,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "salvador-padilla-villanueva",
@@ -2052,7 +3208,7 @@
           }
         ]
       },
-      "overall": 9,
+      "overall": 7.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2071,7 +3227,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
           "retrievedAt": "2026-06-26T01:33:20.237Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 0,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 1.0,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 476059,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "joselyn-fabiola-saenz-nunez",
@@ -2111,7 +3301,7 @@
           }
         ]
       },
-      "overall": 9.9,
+      "overall": 8.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2130,7 +3320,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
           "retrievedAt": "2026-06-26T01:33:21.139Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 10,
+        "aprobados": 7,
+        "tasaAprobacion": 0.7,
+        "score": 8.2,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 976435,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "marta-eugenia-esquivel-rodriguez",
@@ -2170,7 +3394,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 9.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2189,7 +3413,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
           "retrievedAt": "2026-06-26T01:33:22.002Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 12,
+        "aprobados": 7,
+        "tasaAprobacion": 0.583,
+        "score": 9.1,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 597268,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "juan-manuel-quesada-espinoza",
@@ -2229,7 +3487,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 8.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2248,7 +3506,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
           "retrievedAt": "2026-06-26T01:33:22.929Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 6,
+        "aprobados": 2,
+        "tasaAprobacion": 0.333,
+        "score": 5.1,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 749910,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 6.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "victor-manuel-hidalgo-solis",
@@ -2288,7 +3580,7 @@
           }
         ]
       },
-      "overall": 9.8,
+      "overall": 6.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2307,7 +3599,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
           "retrievedAt": "2026-06-26T01:33:23.699Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 10,
+        "aprobados": 1,
+        "tasaAprobacion": 0.1,
+        "score": 7.0,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": false,
+        "score": 2.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 2760719,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 1.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "angela-ileana-aguilar-vargas",
@@ -2347,7 +3673,7 @@
           }
         ]
       },
-      "overall": 9.9,
+      "overall": 8.0,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2366,7 +3692,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
           "retrievedAt": "2026-06-26T01:33:24.589Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 1,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 1.6,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 476717,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "maria-eugenia-roman-mora",
@@ -2406,7 +3766,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 8.6,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2425,7 +3785,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
           "retrievedAt": "2026-06-26T01:33:25.543Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 6,
+        "aprobados": 1,
+        "tasaAprobacion": 0.167,
+        "score": 4.8,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 557270,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "nayuribe-guadamuz-rosales",
@@ -2465,7 +3859,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 6.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2484,7 +3878,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
           "retrievedAt": "2026-06-26T01:33:26.418Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 8,
+        "aprobados": 1,
+        "tasaAprobacion": 0.125,
+        "score": 5.9,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": false,
+        "score": 2.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1307346,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 2.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "daniel-asdrubal-siezar-cardenas",
@@ -2524,7 +3952,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 8.7,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2543,7 +3971,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
           "retrievedAt": "2026-06-26T01:33:27.230Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 7,
+        "aprobados": 3,
+        "tasaAprobacion": 0.429,
+        "score": 5.9,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 762826,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 6.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "cindy-dayana-murillo-artavia",
@@ -2583,7 +4045,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 8.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2602,7 +4064,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
           "retrievedAt": "2026-06-26T01:33:28.078Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 6,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 277544,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 9.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "ronald-alberto-campos-villegas",
@@ -2642,7 +4138,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 8.3,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2661,7 +4157,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
           "retrievedAt": "2026-06-26T01:33:28.878Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 7,
+        "aprobados": 2,
+        "tasaAprobacion": 0.286,
+        "score": 5.6,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1042200,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "karol-vanessa-matamoros-montoya",
@@ -2701,7 +4231,7 @@
           }
         ]
       },
-      "overall": 9.6,
+      "overall": 7.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2720,7 +4250,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
           "retrievedAt": "2026-06-26T01:33:29.996Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 2,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 2.2,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1009862,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "royner-mora-ruiz",
@@ -2760,7 +4324,7 @@
           }
         ]
       },
-      "overall": 9.8,
+      "overall": 6.2,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2779,7 +4343,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
           "retrievedAt": "2026-06-26T01:33:30.766Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 0,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 1.0,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": false,
+        "score": 2.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 631979,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "maria-isabel-camareno-camareno",
@@ -2819,7 +4417,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 6.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2838,7 +4436,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
           "retrievedAt": "2026-06-26T01:33:31.706Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 8,
+        "aprobados": 2,
+        "tasaAprobacion": 0.25,
+        "score": 6.1,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": false,
+        "score": 2.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 897346,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "ariel-alfonso-mora-fallas",
@@ -2878,7 +4510,7 @@
           }
         ]
       },
-      "overall": 9.8,
+      "overall": 7.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2897,7 +4529,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
           "retrievedAt": "2026-06-26T01:33:32.476Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 1,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 1.6,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1076047,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "ana-ruth-esquivel-medrano",
@@ -2937,7 +4603,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 7.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2956,7 +4622,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
           "retrievedAt": "2026-06-26T01:33:33.291Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 1,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 1.6,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1007830,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "norjelens-maria-lobo-vargas",
@@ -2996,7 +4696,7 @@
           }
         ]
       },
-      "overall": 9.1,
+      "overall": 7.3,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3015,7 +4715,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
           "retrievedAt": "2026-06-26T01:33:34.095Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 0,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 1.0,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 696125,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 6.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "jesus-antonio-calderon-calderon",
@@ -3055,7 +4789,7 @@
           }
         ]
       },
-      "overall": 9.9,
+      "overall": 9.2,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3074,7 +4808,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
           "retrievedAt": "2026-06-26T01:33:34.854Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 8,
+        "aprobados": 5,
+        "tasaAprobacion": 0.625,
+        "score": 6.9,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 290801,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 9.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "osvaldo-artavia-carballo",
@@ -3114,7 +4882,7 @@
           }
         ]
       },
-      "overall": 9.6,
+      "overall": 7.7,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3133,7 +4901,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
           "retrievedAt": "2026-06-26T01:33:35.621Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 3,
+        "aprobados": 1,
+        "tasaAprobacion": 0.333,
+        "score": 3.4,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1094111,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 4.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "kristel-lizeth-ward-hudson",
@@ -3173,7 +4975,7 @@
           }
         ]
       },
-      "overall": 1.1,
+      "overall": 2.0,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3192,7 +4994,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
           "retrievedAt": "2026-06-26T01:33:36.398Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 5,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 3.9,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": false,
+        "score": 2.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 1130723,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "alto",
+        "score": 2.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "reynaldo-arias-mora",
@@ -3232,7 +5068,7 @@
           }
         ]
       },
-      "overall": 8.5,
+      "overall": 5.7,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3251,7 +5087,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
           "retrievedAt": "2026-06-26T01:33:37.244Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 1,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 1.6,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": false,
+        "score": 2.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 568737,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "kathia-calvo-cruz",
@@ -3291,7 +5161,7 @@
           }
         ]
       },
-      "overall": 10,
+      "overall": 8.2,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3310,7 +5180,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
           "retrievedAt": "2026-06-26T01:33:38.564Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 5,
+        "aprobados": 0,
+        "tasaAprobacion": 0.0,
+        "score": 3.9,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 724720,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "medio",
+        "score": 6.5,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     },
     {
       "id": "mangell-mc-lean-villalobos",
@@ -3350,7 +5254,7 @@
           }
         ]
       },
-      "overall": 9.7,
+      "overall": 8.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3369,7 +5273,41 @@
           "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
           "retrievedAt": "2026-06-26T01:33:39.337Z"
         }
-      ]
+      ],
+      "productividad": {
+        "presentados": 8,
+        "aprobados": 4,
+        "tasaAprobacion": 0.5,
+        "score": 6.6,
+        "sources": [
+          {
+            "url": "https://diputadoscore.cr/mock",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "transparencia": {
+        "djbPresentada": true,
+        "score": 10.0,
+        "sources": [
+          {
+            "url": "https://cgrfiles.cgr.go.cr/publico/docs_cgr/2026/SIGYD_D_2026006506.pdf",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "gasto": {
+        "totalColones": 460245,
+        "promedioCohorteColones": 850000,
+        "rangoEnCohort": "bajo",
+        "score": 8.0,
+        "sources": [
+          {
+            "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
+            "retrievedAt": "2026-06-26T00:00:00.000Z"
+          }
+        ]
+      }
     }
   ]
 }

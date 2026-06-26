@@ -1,12 +1,13 @@
 export const revalidate = 86400;
 
+import React from "react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { getAllDiputados, getDiputadoById } from "@/lib/data";
 import { scoreColor } from "@/lib/score";
 import { PARTIDO_LABEL, STATUS_LABEL } from "@/lib/data-types";
-import type { DimensionScore, SourceRef } from "@/lib/data-types";
+import type { DimensionScore, ProductividadScore, TransparenciaScore, GastoScore, SourceRef } from "@/lib/data-types";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import {
@@ -46,42 +47,105 @@ function SourceLink({ sources }: { sources: SourceRef[] }) {
   );
 }
 
-function DimensionCard({
-  title,
-  unit,
-  dim,
-}: {
-  title: string;
-  unit: string;
-  dim: DimensionScore | null;
-}) {
-  const score = dim?.score ?? null;
+function ScoreDisplay({ score }: { score: number | null }) {
   const color = scoreColor(score);
   return (
+    <span className={`${SCORE_TEXT[color]} text-3xl font-black tabular-nums leading-none`}>
+      {score === null
+        ? <span className="text-base text-zinc-500 font-semibold">Preliminar</span>
+        : score.toFixed(1)}
+    </span>
+  );
+}
+
+function DimensionCard({ title, weight, score, children }: {
+  title: string; weight: string; score: number | null; children: React.ReactNode;
+}) {
+  return (
     <div className="bg-zinc-900 rounded-2xl ring-1 ring-white/[0.06] p-6">
-      <div className="flex items-baseline justify-between mb-3">
-        <h2 className="text-sm font-bold text-white">{title}</h2>
-        <span className={`${SCORE_TEXT[color]} text-3xl font-black tabular-nums leading-none`}>
-          {score === null ? (
-            <span className="text-base text-zinc-500 font-semibold">Preliminar</span>
-          ) : (
-            score.toFixed(1)
-          )}
-        </span>
+      <div className="flex items-start justify-between mb-3 gap-2">
+        <div>
+          <h2 className="text-sm font-bold text-white">{title}</h2>
+          <span className="text-[0.65rem] text-zinc-600 uppercase tracking-wider">{weight} del score</span>
+        </div>
+        <ScoreDisplay score={score} />
       </div>
+      {children}
+    </div>
+  );
+}
+
+function AttendanceDim({ title, weight, unit, dim }: { title: string; weight: string; unit: string; dim: DimensionScore | null }) {
+  return (
+    <DimensionCard title={title} weight={weight} score={dim?.score ?? null}>
+      {dim
+        ? <><p className="text-sm text-zinc-400 tabular-nums">≈{dim.hits}/{dim.eligible} {unit} · {(dim.pct * 100).toFixed(1)}%</p><div className="mt-3"><SourceLink sources={dim.sources} /></div></>
+        : <p className="text-sm text-zinc-600">Sin datos.</p>}
+    </DimensionCard>
+  );
+}
+
+function ProductividadDim({ dim }: { dim: ProductividadScore | null }) {
+  return (
+    <DimensionCard title="Productividad legislativa" weight="20%" score={dim?.score ?? null}>
       {dim ? (
         <>
-          <p className="text-sm text-zinc-400 tabular-nums">
-            ≈{dim.hits}/{dim.eligible} {unit} · {(dim.pct * 100).toFixed(1)}%
+          <p className="text-sm text-zinc-400">
+            <span className="text-white font-bold">{dim.presentados}</span> proyectos presentados ·{" "}
+            <span className="text-white font-bold">{dim.aprobados}</span> aprobados
           </p>
-          <div className="mt-3">
-            <SourceLink sources={dim.sources} />
-          </div>
+          <p className="text-xs text-zinc-600 mt-1">Tasa de aprobación: {(dim.tasaAprobacion * 100).toFixed(0)}%</p>
+          <div className="mt-3"><SourceLink sources={dim.sources} /></div>
         </>
-      ) : (
-        <p className="text-sm text-zinc-600">Sin datos.</p>
-      )}
-    </div>
+      ) : <p className="text-sm text-zinc-600">Sin datos.</p>}
+    </DimensionCard>
+  );
+}
+
+function TransparenciaDim({ dim }: { dim: TransparenciaScore | null }) {
+  return (
+    <DimensionCard title="Transparencia patrimonial" weight="20%" score={dim?.score ?? null}>
+      {dim ? (
+        <>
+          <p className="text-sm text-zinc-400">
+            DJB ante CGR:{" "}
+            {dim.djbPresentada === null
+              ? <span className="text-zinc-500">Sin datos</span>
+              : dim.djbPresentada
+              ? <span className="text-emerald-400 font-semibold">Presentada ✓</span>
+              : <span className="text-red-400 font-semibold">Moroso/a ✗</span>}
+          </p>
+          <p className="text-xs text-zinc-600 mt-1">Declaración Jurada de Bienes · CGR</p>
+          <div className="mt-3"><SourceLink sources={dim.sources} /></div>
+        </>
+      ) : <p className="text-sm text-zinc-600">Sin datos.</p>}
+    </DimensionCard>
+  );
+}
+
+function GastoDim({ dim }: { dim: GastoScore | null }) {
+  const rangoLabel = { bajo: "Bajo ✓", medio: "Medio", alto: "Alto ✗" };
+  const rangoColor = { bajo: "text-emerald-400", medio: "text-yellow-400", alto: "text-red-400" };
+  return (
+    <DimensionCard title="Gasto discrecional" weight="15%" score={dim?.score ?? null}>
+      {dim ? (
+        <>
+          <p className="text-sm text-zinc-400">
+            Total:{" "}
+            <span className="text-white font-bold">
+              ₡{dim.totalColones?.toLocaleString("es-CR") ?? "—"}
+            </span>
+          </p>
+          <p className="text-xs text-zinc-600 mt-1">
+            Promedio cohort: ₡{dim.promedioCohorteColones?.toLocaleString("es-CR") ?? "—"} ·{" "}
+            {dim.rangoEnCohort && (
+              <span className={rangoColor[dim.rangoEnCohort]}>{rangoLabel[dim.rangoEnCohort]}</span>
+            )}
+          </p>
+          <div className="mt-3"><SourceLink sources={dim.sources} /></div>
+        </>
+      ) : <p className="text-sm text-zinc-600">Sin datos.</p>}
+    </DimensionCard>
   );
 }
 
@@ -163,9 +227,12 @@ export default async function DiputadoPage({ params }: Props) {
         </div>
 
         {/* Dimensions */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-          <DimensionCard title="Presencia" unit="sesiones" dim={d.presencia} />
-          <DimensionCard title="Participación" unit="votaciones" dim={d.participacion} />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+          <AttendanceDim title="Presencia" weight="20%" unit="sesiones" dim={d.presencia} />
+          <AttendanceDim title="Participación en votos" weight="25%" unit="votaciones" dim={d.participacion} />
+          <ProductividadDim dim={d.productividad} />
+          <TransparenciaDim dim={d.transparencia} />
+          <GastoDim dim={d.gasto} />
         </div>
 
         {/* Datos reportados */}
