@@ -112,6 +112,8 @@ export interface Snapshot {
     votosTotales: number;
     fasePreliminar: boolean; // cohort below MIN_SAMPLE → site-wide preliminar banner
     fuente: string; // attribution string, e.g. "Delfino.cr · actos legislativos públicos"
+    transparenciaEstimada?: boolean; // true when DJB data is not yet verified with CGR
+    transparenciaNota?: string;
   };
   diputados: DiputadoRecord[];
 }

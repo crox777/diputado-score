@@ -4,7 +4,7 @@ import React from "react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { getAllDiputados, getDiputadoById } from "@/lib/data";
+import { getAllDiputados, getDiputadoById, getCohort } from "@/lib/data";
 import { scoreColor } from "@/lib/score";
 import { PARTIDO_LABEL, STATUS_LABEL } from "@/lib/data-types";
 import type { DimensionScore, ProductividadScore, TransparenciaScore, GastoScore, SourceRef } from "@/lib/data-types";
@@ -102,7 +102,7 @@ function ProductividadDim({ dim }: { dim: ProductividadScore | null }) {
   );
 }
 
-function TransparenciaDim({ dim }: { dim: TransparenciaScore | null }) {
+function TransparenciaDim({ dim, estimada }: { dim: TransparenciaScore | null; estimada?: boolean }) {
   return (
     <DimensionCard title="Transparencia patrimonial" weight="20%" score={dim?.score ?? null}>
       {dim ? (
@@ -116,6 +116,11 @@ function TransparenciaDim({ dim }: { dim: TransparenciaScore | null }) {
               : <span className="text-red-400 font-semibold">Moroso/a ✗</span>}
           </p>
           <p className="text-xs text-zinc-600 mt-1">Declaración Jurada de Bienes · CGR</p>
+          {estimada && (
+            <p className="text-[0.65rem] text-amber-600/80 mt-1.5">
+              ⚠ Dato estimado — pendiente de verificación con CGR
+            </p>
+          )}
           <div className="mt-3"><SourceLink sources={dim.sources} /></div>
         </>
       ) : <p className="text-sm text-zinc-600">Sin datos.</p>}
@@ -153,6 +158,7 @@ export default async function DiputadoPage({ params }: Props) {
   const { id } = await params;
   const d = getDiputadoById(id);
   if (!d) notFound();
+  const cohort = getCohort();
 
   const sitting = d.status === "EN_EJERCICIO";
   const color = sitting ? scoreColor(d.overall) : "gray";
@@ -231,7 +237,7 @@ export default async function DiputadoPage({ params }: Props) {
           <AttendanceDim title="Presencia" weight="20%" unit="sesiones" dim={d.presencia} />
           <AttendanceDim title="Participación en votos" weight="25%" unit="votaciones" dim={d.participacion} />
           <ProductividadDim dim={d.productividad} />
-          <TransparenciaDim dim={d.transparencia} />
+          <TransparenciaDim dim={d.transparencia} estimada={cohort.transparenciaEstimada} />
           <GastoDim dim={d.gasto} />
         </div>
 

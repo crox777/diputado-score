@@ -5,7 +5,9 @@
     "sesionesTotales": 32,
     "votosTotales": 214,
     "fasePreliminar": false,
-    "fuente": "Delfino.cr · registro de asistencia y votaciones del plenario"
+    "fuente": "Delfino.cr · registro de asistencia y votaciones del plenario",
+    "transparenciaEstimada": true,
+    "transparenciaNota": "Datos de DJB (Declaración Jurada de Bienes) pendientes de verificación oficial con CGR. La CGR no publica esta información de forma automatizada; el campo djbPresentada es estimado para la legislatura 2026-2030."
   },
   "diputados": [
     {
