@@ -14,8 +14,17 @@ export function SiteFooter({
         className={`${width} mx-auto px-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-zinc-700 text-xs`}
       >
         <p>
-          Proyecto independiente. No afiliado a la Asamblea Legislativa, a Delfino.cr ni a ningún
-          partido.
+          Datos del registro legislativo público vía{" "}
+          <a
+            href="https://delfino.cr/asamblea"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-zinc-600 hover:text-emerald-400 transition-colors"
+          >
+            Delfino.cr
+          </a>
+          . Proyecto independiente, sin afiliación a la Asamblea Legislativa, a Delfino.cr ni a
+          ningún partido.
         </p>
         <Link href="/metodologia" className="text-zinc-600 hover:text-emerald-400 transition-colors">
           {linkLabel}
