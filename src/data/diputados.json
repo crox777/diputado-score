@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T20:11:36.218Z",
+  "generatedAt": "2026-06-26T01:33:39.792Z",
   "periodo": "2026-2030",
   "cohort": {
     "sesionesTotales": 32,
@@ -29,7 +29,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
-            "retrievedAt": "2026-06-25T18:24:17.046Z"
+            "retrievedAt": "2026-06-26T01:32:49.446Z"
           }
         ]
       },
@@ -42,7 +42,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
-            "retrievedAt": "2026-06-25T18:24:17.046Z"
+            "retrievedAt": "2026-06-26T01:32:49.446Z"
           }
         ]
       },
@@ -55,7 +55,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
-            "retrievedAt": "2026-06-25T18:24:17.046Z"
+            "retrievedAt": "2026-06-26T01:32:49.446Z"
           }
         ]
       },
@@ -63,7 +63,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
-          "retrievedAt": "2026-06-25T18:24:17.046Z"
+          "retrievedAt": "2026-06-26T01:32:49.446Z"
         }
       ]
     },
@@ -88,24 +88,24 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
-            "retrievedAt": "2026-06-25T19:32:39.408Z"
+            "retrievedAt": "2026-06-26T01:32:50.240Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.966,
-        "hits": 207,
+        "pct": 0.95,
+        "hits": 203,
         "eligible": 214,
         "gated": false,
-        "score": 9.7,
+        "score": 9.5,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
-            "retrievedAt": "2026-06-25T19:32:39.408Z"
+            "retrievedAt": "2026-06-26T01:32:50.240Z"
           }
         ]
       },
-      "overall": 9.9,
+      "overall": 9.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -114,7 +114,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
-            "retrievedAt": "2026-06-25T19:32:39.408Z"
+            "retrievedAt": "2026-06-26T01:32:50.240Z"
           }
         ]
       },
@@ -122,7 +122,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
-          "retrievedAt": "2026-06-25T19:32:39.408Z"
+          "retrievedAt": "2026-06-26T01:32:50.240Z"
         }
       ]
     },
@@ -147,7 +147,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
-            "retrievedAt": "2026-06-25T19:32:40.949Z"
+            "retrievedAt": "2026-06-26T01:32:51.037Z"
           }
         ]
       },
@@ -160,7 +160,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
-            "retrievedAt": "2026-06-25T19:32:40.949Z"
+            "retrievedAt": "2026-06-26T01:32:51.037Z"
           }
         ]
       },
@@ -173,7 +173,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
-            "retrievedAt": "2026-06-25T19:32:40.949Z"
+            "retrievedAt": "2026-06-26T01:32:51.037Z"
           }
         ]
       },
@@ -181,7 +181,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
-          "retrievedAt": "2026-06-25T19:32:40.949Z"
+          "retrievedAt": "2026-06-26T01:32:51.037Z"
         }
       ]
     },
@@ -206,20 +206,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
-            "retrievedAt": "2026-06-25T19:32:41.887Z"
+            "retrievedAt": "2026-06-26T01:32:52.026Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.767,
-        "hits": 164,
+        "pct": 0.7709999999999999,
+        "hits": 165,
         "eligible": 214,
         "gated": false,
         "score": 7.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
-            "retrievedAt": "2026-06-25T19:32:41.887Z"
+            "retrievedAt": "2026-06-26T01:32:52.026Z"
           }
         ]
       },
@@ -232,7 +232,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
-            "retrievedAt": "2026-06-25T19:32:41.887Z"
+            "retrievedAt": "2026-06-26T01:32:52.026Z"
           }
         ]
       },
@@ -240,7 +240,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
-          "retrievedAt": "2026-06-25T19:32:41.887Z"
+          "retrievedAt": "2026-06-26T01:32:52.026Z"
         }
       ]
     },
@@ -265,24 +265,24 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
-            "retrievedAt": "2026-06-25T19:32:43.284Z"
+            "retrievedAt": "2026-06-26T01:32:52.831Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.958,
-        "hits": 205,
+        "pct": 0.9420000000000001,
+        "hits": 202,
         "eligible": 214,
         "gated": false,
-        "score": 9.6,
+        "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
-            "retrievedAt": "2026-06-25T19:32:43.284Z"
+            "retrievedAt": "2026-06-26T01:32:52.831Z"
           }
         ]
       },
-      "overall": 9.8,
+      "overall": 9.7,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -291,7 +291,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
-            "retrievedAt": "2026-06-25T19:32:43.284Z"
+            "retrievedAt": "2026-06-26T01:32:52.831Z"
           }
         ]
       },
@@ -299,7 +299,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
-          "retrievedAt": "2026-06-25T19:32:43.284Z"
+          "retrievedAt": "2026-06-26T01:32:52.831Z"
         }
       ]
     },
@@ -324,12 +324,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
-            "retrievedAt": "2026-06-25T19:32:44.241Z"
+            "retrievedAt": "2026-06-26T01:32:53.600Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.987,
+        "pct": 0.988,
         "hits": 211,
         "eligible": 214,
         "gated": false,
@@ -337,7 +337,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
-            "retrievedAt": "2026-06-25T19:32:44.241Z"
+            "retrievedAt": "2026-06-26T01:32:53.600Z"
           }
         ]
       },
@@ -350,7 +350,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
-            "retrievedAt": "2026-06-25T19:32:44.241Z"
+            "retrievedAt": "2026-06-26T01:32:53.600Z"
           }
         ]
       },
@@ -358,7 +358,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
-          "retrievedAt": "2026-06-25T19:32:44.241Z"
+          "retrievedAt": "2026-06-26T01:32:53.600Z"
         }
       ]
     },
@@ -383,7 +383,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
-            "retrievedAt": "2026-06-25T19:32:45.710Z"
+            "retrievedAt": "2026-06-26T01:32:54.381Z"
           }
         ]
       },
@@ -396,7 +396,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
-            "retrievedAt": "2026-06-25T19:32:45.710Z"
+            "retrievedAt": "2026-06-26T01:32:54.381Z"
           }
         ]
       },
@@ -409,7 +409,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
-            "retrievedAt": "2026-06-25T19:32:45.710Z"
+            "retrievedAt": "2026-06-26T01:32:54.381Z"
           }
         ]
       },
@@ -417,7 +417,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
-          "retrievedAt": "2026-06-25T19:32:45.710Z"
+          "retrievedAt": "2026-06-26T01:32:54.381Z"
         }
       ]
     },
@@ -442,7 +442,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
-            "retrievedAt": "2026-06-25T19:32:46.635Z"
+            "retrievedAt": "2026-06-26T01:32:55.209Z"
           }
         ]
       },
@@ -455,7 +455,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
-            "retrievedAt": "2026-06-25T19:32:46.635Z"
+            "retrievedAt": "2026-06-26T01:32:55.209Z"
           }
         ]
       },
@@ -468,7 +468,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
-            "retrievedAt": "2026-06-25T19:32:46.635Z"
+            "retrievedAt": "2026-06-26T01:32:55.209Z"
           }
         ]
       },
@@ -476,7 +476,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
-          "retrievedAt": "2026-06-25T19:32:46.635Z"
+          "retrievedAt": "2026-06-26T01:32:55.209Z"
         }
       ]
     },
@@ -501,7 +501,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
-            "retrievedAt": "2026-06-25T19:32:48.099Z"
+            "retrievedAt": "2026-06-26T01:32:56.036Z"
           }
         ]
       },
@@ -514,7 +514,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
-            "retrievedAt": "2026-06-25T19:32:48.099Z"
+            "retrievedAt": "2026-06-26T01:32:56.036Z"
           }
         ]
       },
@@ -527,7 +527,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
-            "retrievedAt": "2026-06-25T19:32:48.099Z"
+            "retrievedAt": "2026-06-26T01:32:56.036Z"
           }
         ]
       },
@@ -535,7 +535,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
-          "retrievedAt": "2026-06-25T19:32:48.099Z"
+          "retrievedAt": "2026-06-26T01:32:56.036Z"
         }
       ]
     },
@@ -560,24 +560,24 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
-            "retrievedAt": "2026-06-25T19:32:49.428Z"
+            "retrievedAt": "2026-06-26T01:32:57.180Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.767,
-        "hits": 164,
+        "pct": 0.754,
+        "hits": 161,
         "eligible": 214,
         "gated": false,
-        "score": 7.7,
+        "score": 7.5,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
-            "retrievedAt": "2026-06-25T19:32:49.428Z"
+            "retrievedAt": "2026-06-26T01:32:57.180Z"
           }
         ]
       },
-      "overall": 8.3,
+      "overall": 8.2,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -586,7 +586,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
-            "retrievedAt": "2026-06-25T19:32:49.428Z"
+            "retrievedAt": "2026-06-26T01:32:57.180Z"
           }
         ]
       },
@@ -594,7 +594,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
-          "retrievedAt": "2026-06-25T19:32:49.428Z"
+          "retrievedAt": "2026-06-26T01:32:57.180Z"
         }
       ]
     },
@@ -619,12 +619,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
-            "retrievedAt": "2026-06-25T19:32:50.837Z"
+            "retrievedAt": "2026-06-26T01:32:58.109Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.987,
+        "pct": 0.988,
         "hits": 211,
         "eligible": 214,
         "gated": false,
@@ -632,7 +632,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
-            "retrievedAt": "2026-06-25T19:32:50.837Z"
+            "retrievedAt": "2026-06-26T01:32:58.109Z"
           }
         ]
       },
@@ -645,7 +645,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
-            "retrievedAt": "2026-06-25T19:32:50.837Z"
+            "retrievedAt": "2026-06-26T01:32:58.109Z"
           }
         ]
       },
@@ -653,7 +653,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
-          "retrievedAt": "2026-06-25T19:32:50.837Z"
+          "retrievedAt": "2026-06-26T01:32:58.109Z"
         }
       ]
     },
@@ -678,12 +678,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
-            "retrievedAt": "2026-06-25T19:32:51.868Z"
+            "retrievedAt": "2026-06-26T01:32:59.116Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.987,
+        "pct": 0.988,
         "hits": 211,
         "eligible": 214,
         "gated": false,
@@ -691,7 +691,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
-            "retrievedAt": "2026-06-25T19:32:51.868Z"
+            "retrievedAt": "2026-06-26T01:32:59.116Z"
           }
         ]
       },
@@ -704,7 +704,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
-            "retrievedAt": "2026-06-25T19:32:51.868Z"
+            "retrievedAt": "2026-06-26T01:32:59.116Z"
           }
         ]
       },
@@ -712,7 +712,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
-          "retrievedAt": "2026-06-25T19:32:51.868Z"
+          "retrievedAt": "2026-06-26T01:32:59.116Z"
         }
       ]
     },
@@ -737,7 +737,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
-            "retrievedAt": "2026-06-25T19:32:53.111Z"
+            "retrievedAt": "2026-06-26T01:33:00.378Z"
           }
         ]
       },
@@ -750,7 +750,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
-            "retrievedAt": "2026-06-25T19:32:53.111Z"
+            "retrievedAt": "2026-06-26T01:33:00.378Z"
           }
         ]
       },
@@ -763,7 +763,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
-            "retrievedAt": "2026-06-25T19:32:53.111Z"
+            "retrievedAt": "2026-06-26T01:33:00.378Z"
           }
         ]
       },
@@ -771,7 +771,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
-          "retrievedAt": "2026-06-25T19:32:53.111Z"
+          "retrievedAt": "2026-06-26T01:33:00.378Z"
         }
       ]
     },
@@ -796,7 +796,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
-            "retrievedAt": "2026-06-25T19:32:54.304Z"
+            "retrievedAt": "2026-06-26T01:33:01.393Z"
           }
         ]
       },
@@ -809,7 +809,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
-            "retrievedAt": "2026-06-25T19:32:54.304Z"
+            "retrievedAt": "2026-06-26T01:33:01.393Z"
           }
         ]
       },
@@ -822,7 +822,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
-            "retrievedAt": "2026-06-25T19:32:54.304Z"
+            "retrievedAt": "2026-06-26T01:33:01.393Z"
           }
         ]
       },
@@ -830,7 +830,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
-          "retrievedAt": "2026-06-25T19:32:54.304Z"
+          "retrievedAt": "2026-06-26T01:33:01.393Z"
         }
       ]
     },
@@ -855,12 +855,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
-            "retrievedAt": "2026-06-25T19:32:55.634Z"
+            "retrievedAt": "2026-06-26T01:33:02.262Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.983,
+        "pct": 0.9790000000000001,
         "hits": 210,
         "eligible": 214,
         "gated": false,
@@ -868,7 +868,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
-            "retrievedAt": "2026-06-25T19:32:55.634Z"
+            "retrievedAt": "2026-06-26T01:33:02.262Z"
           }
         ]
       },
@@ -881,7 +881,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
-            "retrievedAt": "2026-06-25T19:32:55.634Z"
+            "retrievedAt": "2026-06-26T01:33:02.262Z"
           }
         ]
       },
@@ -889,7 +889,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
-          "retrievedAt": "2026-06-25T19:32:55.634Z"
+          "retrievedAt": "2026-06-26T01:33:02.262Z"
         }
       ]
     },
@@ -914,20 +914,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
-            "retrievedAt": "2026-06-25T19:32:56.569Z"
+            "retrievedAt": "2026-06-26T01:33:03.056Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.941,
-        "hits": 201,
+        "pct": 0.9420000000000001,
+        "hits": 202,
         "eligible": 214,
         "gated": false,
         "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
-            "retrievedAt": "2026-06-25T19:32:56.569Z"
+            "retrievedAt": "2026-06-26T01:33:03.056Z"
           }
         ]
       },
@@ -940,7 +940,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
-            "retrievedAt": "2026-06-25T19:32:56.569Z"
+            "retrievedAt": "2026-06-26T01:33:03.056Z"
           }
         ]
       },
@@ -948,7 +948,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
-          "retrievedAt": "2026-06-25T19:32:56.569Z"
+          "retrievedAt": "2026-06-26T01:33:03.056Z"
         }
       ]
     },
@@ -973,12 +973,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
-            "retrievedAt": "2026-06-25T19:32:58.356Z"
+            "retrievedAt": "2026-06-26T01:33:03.827Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.953,
+        "pct": 0.9540000000000001,
         "hits": 204,
         "eligible": 214,
         "gated": false,
@@ -986,7 +986,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
-            "retrievedAt": "2026-06-25T19:32:58.356Z"
+            "retrievedAt": "2026-06-26T01:33:03.827Z"
           }
         ]
       },
@@ -999,7 +999,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
-            "retrievedAt": "2026-06-25T19:32:58.356Z"
+            "retrievedAt": "2026-06-26T01:33:03.827Z"
           }
         ]
       },
@@ -1007,7 +1007,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
-          "retrievedAt": "2026-06-25T19:32:58.356Z"
+          "retrievedAt": "2026-06-26T01:33:03.827Z"
         }
       ]
     },
@@ -1032,12 +1032,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
-            "retrievedAt": "2026-06-25T19:32:59.301Z"
+            "retrievedAt": "2026-06-26T01:33:04.978Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.907,
+        "pct": 0.9079999999999999,
         "hits": 194,
         "eligible": 214,
         "gated": false,
@@ -1045,7 +1045,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
-            "retrievedAt": "2026-06-25T19:32:59.301Z"
+            "retrievedAt": "2026-06-26T01:33:04.978Z"
           }
         ]
       },
@@ -1058,7 +1058,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
-            "retrievedAt": "2026-06-25T19:32:59.301Z"
+            "retrievedAt": "2026-06-26T01:33:04.978Z"
           }
         ]
       },
@@ -1066,7 +1066,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
-          "retrievedAt": "2026-06-25T19:32:59.301Z"
+          "retrievedAt": "2026-06-26T01:33:04.978Z"
         }
       ]
     },
@@ -1091,12 +1091,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
-            "retrievedAt": "2026-06-25T19:33:00.763Z"
+            "retrievedAt": "2026-06-26T01:33:06.146Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.945,
+        "pct": 0.946,
         "hits": 202,
         "eligible": 214,
         "gated": false,
@@ -1104,7 +1104,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
-            "retrievedAt": "2026-06-25T19:33:00.763Z"
+            "retrievedAt": "2026-06-26T01:33:06.146Z"
           }
         ]
       },
@@ -1117,7 +1117,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
-            "retrievedAt": "2026-06-25T19:33:00.763Z"
+            "retrievedAt": "2026-06-26T01:33:06.146Z"
           }
         ]
       },
@@ -1125,7 +1125,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
-          "retrievedAt": "2026-06-25T19:33:00.763Z"
+          "retrievedAt": "2026-06-26T01:33:06.146Z"
         }
       ]
     },
@@ -1150,7 +1150,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
-            "retrievedAt": "2026-06-25T19:33:01.734Z"
+            "retrievedAt": "2026-06-26T01:33:07.076Z"
           }
         ]
       },
@@ -1163,7 +1163,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
-            "retrievedAt": "2026-06-25T19:33:01.734Z"
+            "retrievedAt": "2026-06-26T01:33:07.076Z"
           }
         ]
       },
@@ -1176,7 +1176,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
-            "retrievedAt": "2026-06-25T19:33:01.734Z"
+            "retrievedAt": "2026-06-26T01:33:07.076Z"
           }
         ]
       },
@@ -1184,7 +1184,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
-          "retrievedAt": "2026-06-25T19:33:01.734Z"
+          "retrievedAt": "2026-06-26T01:33:07.076Z"
         }
       ]
     },
@@ -1209,7 +1209,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
-            "retrievedAt": "2026-06-25T19:33:03.065Z"
+            "retrievedAt": "2026-06-26T01:33:07.918Z"
           }
         ]
       },
@@ -1222,7 +1222,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
-            "retrievedAt": "2026-06-25T19:33:03.065Z"
+            "retrievedAt": "2026-06-26T01:33:07.918Z"
           }
         ]
       },
@@ -1235,7 +1235,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
-            "retrievedAt": "2026-06-25T19:33:03.065Z"
+            "retrievedAt": "2026-06-26T01:33:07.918Z"
           }
         ]
       },
@@ -1243,7 +1243,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
-          "retrievedAt": "2026-06-25T19:33:03.065Z"
+          "retrievedAt": "2026-06-26T01:33:07.918Z"
         }
       ]
     },
@@ -1268,7 +1268,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
-            "retrievedAt": "2026-06-25T19:33:05.125Z"
+            "retrievedAt": "2026-06-26T01:33:09.016Z"
           }
         ]
       },
@@ -1281,7 +1281,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
-            "retrievedAt": "2026-06-25T19:33:05.125Z"
+            "retrievedAt": "2026-06-26T01:33:09.016Z"
           }
         ]
       },
@@ -1294,7 +1294,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
-            "retrievedAt": "2026-06-25T19:33:05.125Z"
+            "retrievedAt": "2026-06-26T01:33:09.016Z"
           }
         ]
       },
@@ -1302,7 +1302,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
-          "retrievedAt": "2026-06-25T19:33:05.125Z"
+          "retrievedAt": "2026-06-26T01:33:09.016Z"
         }
       ]
     },
@@ -1327,7 +1327,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
-            "retrievedAt": "2026-06-25T19:33:06.089Z"
+            "retrievedAt": "2026-06-26T01:33:09.995Z"
           }
         ]
       },
@@ -1340,7 +1340,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
-            "retrievedAt": "2026-06-25T19:33:06.089Z"
+            "retrievedAt": "2026-06-26T01:33:09.995Z"
           }
         ]
       },
@@ -1353,7 +1353,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
-            "retrievedAt": "2026-06-25T19:33:06.089Z"
+            "retrievedAt": "2026-06-26T01:33:09.995Z"
           }
         ]
       },
@@ -1361,7 +1361,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
-          "retrievedAt": "2026-06-25T19:33:06.089Z"
+          "retrievedAt": "2026-06-26T01:33:09.995Z"
         }
       ]
     },
@@ -1386,7 +1386,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
-            "retrievedAt": "2026-06-25T19:33:07.731Z"
+            "retrievedAt": "2026-06-26T01:33:10.816Z"
           }
         ]
       },
@@ -1399,7 +1399,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
-            "retrievedAt": "2026-06-25T19:33:07.731Z"
+            "retrievedAt": "2026-06-26T01:33:10.816Z"
           }
         ]
       },
@@ -1412,7 +1412,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
-            "retrievedAt": "2026-06-25T19:33:07.731Z"
+            "retrievedAt": "2026-06-26T01:33:10.816Z"
           }
         ]
       },
@@ -1420,7 +1420,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
-          "retrievedAt": "2026-06-25T19:33:07.731Z"
+          "retrievedAt": "2026-06-26T01:33:10.816Z"
         }
       ]
     },
@@ -1445,7 +1445,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
-            "retrievedAt": "2026-06-25T19:33:08.618Z"
+            "retrievedAt": "2026-06-26T01:33:11.679Z"
           }
         ]
       },
@@ -1458,7 +1458,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
-            "retrievedAt": "2026-06-25T19:33:08.618Z"
+            "retrievedAt": "2026-06-26T01:33:11.679Z"
           }
         ]
       },
@@ -1471,7 +1471,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
-            "retrievedAt": "2026-06-25T19:33:08.618Z"
+            "retrievedAt": "2026-06-26T01:33:11.679Z"
           }
         ]
       },
@@ -1479,7 +1479,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
-          "retrievedAt": "2026-06-25T19:33:08.618Z"
+          "retrievedAt": "2026-06-26T01:33:11.679Z"
         }
       ]
     },
@@ -1504,12 +1504,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
-            "retrievedAt": "2026-06-25T19:33:10.713Z"
+            "retrievedAt": "2026-06-26T01:33:12.481Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.987,
+        "pct": 0.988,
         "hits": 211,
         "eligible": 214,
         "gated": false,
@@ -1517,7 +1517,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
-            "retrievedAt": "2026-06-25T19:33:10.713Z"
+            "retrievedAt": "2026-06-26T01:33:12.481Z"
           }
         ]
       },
@@ -1530,7 +1530,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
-            "retrievedAt": "2026-06-25T19:33:10.713Z"
+            "retrievedAt": "2026-06-26T01:33:12.481Z"
           }
         ]
       },
@@ -1538,7 +1538,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
-          "retrievedAt": "2026-06-25T19:33:10.713Z"
+          "retrievedAt": "2026-06-26T01:33:12.481Z"
         }
       ]
     },
@@ -1563,20 +1563,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
-            "retrievedAt": "2026-06-25T19:33:11.602Z"
+            "retrievedAt": "2026-06-26T01:33:13.385Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.941,
-        "hits": 201,
+        "pct": 0.9420000000000001,
+        "hits": 202,
         "eligible": 214,
         "gated": false,
         "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
-            "retrievedAt": "2026-06-25T19:33:11.602Z"
+            "retrievedAt": "2026-06-26T01:33:13.385Z"
           }
         ]
       },
@@ -1589,7 +1589,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
-            "retrievedAt": "2026-06-25T19:33:11.602Z"
+            "retrievedAt": "2026-06-26T01:33:13.385Z"
           }
         ]
       },
@@ -1597,7 +1597,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
-          "retrievedAt": "2026-06-25T19:33:11.602Z"
+          "retrievedAt": "2026-06-26T01:33:13.385Z"
         }
       ]
     },
@@ -1622,12 +1622,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
-            "retrievedAt": "2026-06-25T19:33:13.070Z"
+            "retrievedAt": "2026-06-26T01:33:14.307Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.83,
+        "pct": 0.833,
         "hits": 178,
         "eligible": 214,
         "gated": false,
@@ -1635,7 +1635,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
-            "retrievedAt": "2026-06-25T19:33:13.070Z"
+            "retrievedAt": "2026-06-26T01:33:14.307Z"
           }
         ]
       },
@@ -1648,7 +1648,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
-            "retrievedAt": "2026-06-25T19:33:13.070Z"
+            "retrievedAt": "2026-06-26T01:33:14.307Z"
           }
         ]
       },
@@ -1656,7 +1656,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
-          "retrievedAt": "2026-06-25T19:33:13.070Z"
+          "retrievedAt": "2026-06-26T01:33:14.307Z"
         }
       ]
     },
@@ -1681,12 +1681,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
-            "retrievedAt": "2026-06-25T19:33:14.028Z"
+            "retrievedAt": "2026-06-26T01:33:15.073Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.97,
+        "pct": 0.971,
         "hits": 208,
         "eligible": 214,
         "gated": false,
@@ -1694,7 +1694,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
-            "retrievedAt": "2026-06-25T19:33:14.028Z"
+            "retrievedAt": "2026-06-26T01:33:15.073Z"
           }
         ]
       },
@@ -1707,7 +1707,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
-            "retrievedAt": "2026-06-25T19:33:14.028Z"
+            "retrievedAt": "2026-06-26T01:33:15.073Z"
           }
         ]
       },
@@ -1715,7 +1715,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
-          "retrievedAt": "2026-06-25T19:33:14.028Z"
+          "retrievedAt": "2026-06-26T01:33:15.073Z"
         }
       ]
     },
@@ -1740,7 +1740,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
-            "retrievedAt": "2026-06-25T19:33:15.200Z"
+            "retrievedAt": "2026-06-26T01:33:15.896Z"
           }
         ]
       },
@@ -1753,7 +1753,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
-            "retrievedAt": "2026-06-25T19:33:15.200Z"
+            "retrievedAt": "2026-06-26T01:33:15.896Z"
           }
         ]
       },
@@ -1766,7 +1766,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
-            "retrievedAt": "2026-06-25T19:33:15.200Z"
+            "retrievedAt": "2026-06-26T01:33:15.896Z"
           }
         ]
       },
@@ -1774,7 +1774,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
-          "retrievedAt": "2026-06-25T19:33:15.200Z"
+          "retrievedAt": "2026-06-26T01:33:15.896Z"
         }
       ]
     },
@@ -1799,7 +1799,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
-            "retrievedAt": "2026-06-25T19:33:16.095Z"
+            "retrievedAt": "2026-06-26T01:33:16.698Z"
           }
         ]
       },
@@ -1812,7 +1812,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
-            "retrievedAt": "2026-06-25T19:33:16.095Z"
+            "retrievedAt": "2026-06-26T01:33:16.698Z"
           }
         ]
       },
@@ -1825,7 +1825,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
-            "retrievedAt": "2026-06-25T19:33:16.095Z"
+            "retrievedAt": "2026-06-26T01:33:16.698Z"
           }
         ]
       },
@@ -1833,7 +1833,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
-          "retrievedAt": "2026-06-25T19:33:16.095Z"
+          "retrievedAt": "2026-06-26T01:33:16.698Z"
         }
       ]
     },
@@ -1858,7 +1858,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
-            "retrievedAt": "2026-06-25T19:33:17.412Z"
+            "retrievedAt": "2026-06-26T01:33:17.477Z"
           }
         ]
       },
@@ -1871,7 +1871,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
-            "retrievedAt": "2026-06-25T19:33:17.412Z"
+            "retrievedAt": "2026-06-26T01:33:17.477Z"
           }
         ]
       },
@@ -1884,7 +1884,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
-            "retrievedAt": "2026-06-25T19:33:17.412Z"
+            "retrievedAt": "2026-06-26T01:33:17.477Z"
           }
         ]
       },
@@ -1892,7 +1892,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
-          "retrievedAt": "2026-06-25T19:33:17.412Z"
+          "retrievedAt": "2026-06-26T01:33:17.477Z"
         }
       ]
     },
@@ -1917,7 +1917,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
-            "retrievedAt": "2026-06-25T19:33:18.361Z"
+            "retrievedAt": "2026-06-26T01:33:18.642Z"
           }
         ]
       },
@@ -1930,7 +1930,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
-            "retrievedAt": "2026-06-25T19:33:18.361Z"
+            "retrievedAt": "2026-06-26T01:33:18.642Z"
           }
         ]
       },
@@ -1943,7 +1943,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
-            "retrievedAt": "2026-06-25T19:33:18.361Z"
+            "retrievedAt": "2026-06-26T01:33:18.642Z"
           }
         ]
       },
@@ -1951,7 +1951,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
-          "retrievedAt": "2026-06-25T19:33:18.361Z"
+          "retrievedAt": "2026-06-26T01:33:18.642Z"
         }
       ]
     },
@@ -1976,7 +1976,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
-            "retrievedAt": "2026-06-25T19:33:20.490Z"
+            "retrievedAt": "2026-06-26T01:33:19.456Z"
           }
         ]
       },
@@ -1989,7 +1989,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
-            "retrievedAt": "2026-06-25T19:33:20.490Z"
+            "retrievedAt": "2026-06-26T01:33:19.456Z"
           }
         ]
       },
@@ -2002,7 +2002,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
-            "retrievedAt": "2026-06-25T19:33:20.490Z"
+            "retrievedAt": "2026-06-26T01:33:19.456Z"
           }
         ]
       },
@@ -2010,7 +2010,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
-          "retrievedAt": "2026-06-25T19:33:20.490Z"
+          "retrievedAt": "2026-06-26T01:33:19.456Z"
         }
       ]
     },
@@ -2035,12 +2035,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
-            "retrievedAt": "2026-06-25T19:33:21.388Z"
+            "retrievedAt": "2026-06-26T01:33:20.237Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.852,
+        "pct": 0.85,
         "hits": 182,
         "eligible": 214,
         "gated": false,
@@ -2048,7 +2048,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
-            "retrievedAt": "2026-06-25T19:33:21.388Z"
+            "retrievedAt": "2026-06-26T01:33:20.237Z"
           }
         ]
       },
@@ -2061,7 +2061,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
-            "retrievedAt": "2026-06-25T19:33:21.388Z"
+            "retrievedAt": "2026-06-26T01:33:20.237Z"
           }
         ]
       },
@@ -2069,7 +2069,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
-          "retrievedAt": "2026-06-25T19:33:21.388Z"
+          "retrievedAt": "2026-06-26T01:33:20.237Z"
         }
       ]
     },
@@ -2094,24 +2094,24 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
-            "retrievedAt": "2026-06-25T19:33:23.110Z"
+            "retrievedAt": "2026-06-26T01:33:21.139Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.992,
-        "hits": 212,
+        "pct": 0.983,
+        "hits": 210,
         "eligible": 214,
         "gated": false,
-        "score": 9.9,
+        "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
-            "retrievedAt": "2026-06-25T19:33:23.110Z"
+            "retrievedAt": "2026-06-26T01:33:21.139Z"
           }
         ]
       },
-      "overall": 10,
+      "overall": 9.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2120,7 +2120,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
-            "retrievedAt": "2026-06-25T19:33:23.110Z"
+            "retrievedAt": "2026-06-26T01:33:21.139Z"
           }
         ]
       },
@@ -2128,7 +2128,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
-          "retrievedAt": "2026-06-25T19:33:23.110Z"
+          "retrievedAt": "2026-06-26T01:33:21.139Z"
         }
       ]
     },
@@ -2153,7 +2153,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
-            "retrievedAt": "2026-06-25T19:33:24.068Z"
+            "retrievedAt": "2026-06-26T01:33:22.002Z"
           }
         ]
       },
@@ -2166,7 +2166,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
-            "retrievedAt": "2026-06-25T19:33:24.068Z"
+            "retrievedAt": "2026-06-26T01:33:22.002Z"
           }
         ]
       },
@@ -2179,7 +2179,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
-            "retrievedAt": "2026-06-25T19:33:24.068Z"
+            "retrievedAt": "2026-06-26T01:33:22.002Z"
           }
         ]
       },
@@ -2187,7 +2187,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
-          "retrievedAt": "2026-06-25T19:33:24.068Z"
+          "retrievedAt": "2026-06-26T01:33:22.002Z"
         }
       ]
     },
@@ -2212,7 +2212,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
-            "retrievedAt": "2026-06-25T19:33:25.887Z"
+            "retrievedAt": "2026-06-26T01:33:22.929Z"
           }
         ]
       },
@@ -2225,7 +2225,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
-            "retrievedAt": "2026-06-25T19:33:25.887Z"
+            "retrievedAt": "2026-06-26T01:33:22.929Z"
           }
         ]
       },
@@ -2238,7 +2238,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
-            "retrievedAt": "2026-06-25T19:33:25.887Z"
+            "retrievedAt": "2026-06-26T01:33:22.929Z"
           }
         ]
       },
@@ -2246,7 +2246,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
-          "retrievedAt": "2026-06-25T19:33:25.887Z"
+          "retrievedAt": "2026-06-26T01:33:22.929Z"
         }
       ]
     },
@@ -2271,12 +2271,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
-            "retrievedAt": "2026-06-25T19:33:26.814Z"
+            "retrievedAt": "2026-06-26T01:33:23.699Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.9490000000000001,
+        "pct": 0.95,
         "hits": 203,
         "eligible": 214,
         "gated": false,
@@ -2284,7 +2284,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
-            "retrievedAt": "2026-06-25T19:33:26.814Z"
+            "retrievedAt": "2026-06-26T01:33:23.699Z"
           }
         ]
       },
@@ -2297,7 +2297,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
-            "retrievedAt": "2026-06-25T19:33:26.814Z"
+            "retrievedAt": "2026-06-26T01:33:23.699Z"
           }
         ]
       },
@@ -2305,7 +2305,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
-          "retrievedAt": "2026-06-25T19:33:26.814Z"
+          "retrievedAt": "2026-06-26T01:33:23.699Z"
         }
       ]
     },
@@ -2330,7 +2330,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
-            "retrievedAt": "2026-06-25T19:33:28.123Z"
+            "retrievedAt": "2026-06-26T01:33:24.589Z"
           }
         ]
       },
@@ -2343,7 +2343,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
-            "retrievedAt": "2026-06-25T19:33:28.123Z"
+            "retrievedAt": "2026-06-26T01:33:24.589Z"
           }
         ]
       },
@@ -2356,7 +2356,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
-            "retrievedAt": "2026-06-25T19:33:28.123Z"
+            "retrievedAt": "2026-06-26T01:33:24.589Z"
           }
         ]
       },
@@ -2364,7 +2364,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
-          "retrievedAt": "2026-06-25T19:33:28.123Z"
+          "retrievedAt": "2026-06-26T01:33:24.589Z"
         }
       ]
     },
@@ -2389,20 +2389,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
-            "retrievedAt": "2026-06-25T19:33:29.036Z"
+            "retrievedAt": "2026-06-26T01:33:25.543Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.996,
-        "hits": 213,
+        "pct": 0.992,
+        "hits": 212,
         "eligible": 214,
         "gated": false,
-        "score": 10,
+        "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
-            "retrievedAt": "2026-06-25T19:33:29.036Z"
+            "retrievedAt": "2026-06-26T01:33:25.543Z"
           }
         ]
       },
@@ -2415,7 +2415,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
-            "retrievedAt": "2026-06-25T19:33:29.036Z"
+            "retrievedAt": "2026-06-26T01:33:25.543Z"
           }
         ]
       },
@@ -2423,7 +2423,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
-          "retrievedAt": "2026-06-25T19:33:29.036Z"
+          "retrievedAt": "2026-06-26T01:33:25.543Z"
         }
       ]
     },
@@ -2448,7 +2448,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
-            "retrievedAt": "2026-06-25T19:33:30.216Z"
+            "retrievedAt": "2026-06-26T01:33:26.418Z"
           }
         ]
       },
@@ -2461,7 +2461,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
-            "retrievedAt": "2026-06-25T19:33:30.216Z"
+            "retrievedAt": "2026-06-26T01:33:26.418Z"
           }
         ]
       },
@@ -2474,7 +2474,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
-            "retrievedAt": "2026-06-25T19:33:30.216Z"
+            "retrievedAt": "2026-06-26T01:33:26.418Z"
           }
         ]
       },
@@ -2482,7 +2482,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
-          "retrievedAt": "2026-06-25T19:33:30.216Z"
+          "retrievedAt": "2026-06-26T01:33:26.418Z"
         }
       ]
     },
@@ -2507,7 +2507,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
-            "retrievedAt": "2026-06-25T19:33:31.245Z"
+            "retrievedAt": "2026-06-26T01:33:27.230Z"
           }
         ]
       },
@@ -2520,7 +2520,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
-            "retrievedAt": "2026-06-25T19:33:31.245Z"
+            "retrievedAt": "2026-06-26T01:33:27.230Z"
           }
         ]
       },
@@ -2533,7 +2533,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
-            "retrievedAt": "2026-06-25T19:33:31.245Z"
+            "retrievedAt": "2026-06-26T01:33:27.230Z"
           }
         ]
       },
@@ -2541,7 +2541,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
-          "retrievedAt": "2026-06-25T19:33:31.245Z"
+          "retrievedAt": "2026-06-26T01:33:27.230Z"
         }
       ]
     },
@@ -2566,7 +2566,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
-            "retrievedAt": "2026-06-25T19:33:32.803Z"
+            "retrievedAt": "2026-06-26T01:33:28.078Z"
           }
         ]
       },
@@ -2579,7 +2579,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
-            "retrievedAt": "2026-06-25T19:33:32.803Z"
+            "retrievedAt": "2026-06-26T01:33:28.078Z"
           }
         ]
       },
@@ -2592,7 +2592,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
-            "retrievedAt": "2026-06-25T19:33:32.803Z"
+            "retrievedAt": "2026-06-26T01:33:28.078Z"
           }
         ]
       },
@@ -2600,7 +2600,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
-          "retrievedAt": "2026-06-25T19:33:32.803Z"
+          "retrievedAt": "2026-06-26T01:33:28.078Z"
         }
       ]
     },
@@ -2625,7 +2625,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
-            "retrievedAt": "2026-06-25T19:33:34.322Z"
+            "retrievedAt": "2026-06-26T01:33:28.878Z"
           }
         ]
       },
@@ -2638,7 +2638,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
-            "retrievedAt": "2026-06-25T19:33:34.322Z"
+            "retrievedAt": "2026-06-26T01:33:28.878Z"
           }
         ]
       },
@@ -2651,7 +2651,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
-            "retrievedAt": "2026-06-25T19:33:34.322Z"
+            "retrievedAt": "2026-06-26T01:33:28.878Z"
           }
         ]
       },
@@ -2659,7 +2659,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
-          "retrievedAt": "2026-06-25T19:33:34.322Z"
+          "retrievedAt": "2026-06-26T01:33:28.878Z"
         }
       ]
     },
@@ -2684,20 +2684,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
-            "retrievedAt": "2026-06-25T19:33:36.250Z"
+            "retrievedAt": "2026-06-26T01:33:29.996Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.941,
-        "hits": 201,
+        "pct": 0.9420000000000001,
+        "hits": 202,
         "eligible": 214,
         "gated": false,
         "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
-            "retrievedAt": "2026-06-25T19:33:36.250Z"
+            "retrievedAt": "2026-06-26T01:33:29.996Z"
           }
         ]
       },
@@ -2710,7 +2710,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
-            "retrievedAt": "2026-06-25T19:33:36.250Z"
+            "retrievedAt": "2026-06-26T01:33:29.996Z"
           }
         ]
       },
@@ -2718,7 +2718,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
-          "retrievedAt": "2026-06-25T19:33:36.250Z"
+          "retrievedAt": "2026-06-26T01:33:29.996Z"
         }
       ]
     },
@@ -2743,7 +2743,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
-            "retrievedAt": "2026-06-25T19:33:38.491Z"
+            "retrievedAt": "2026-06-26T01:33:30.766Z"
           }
         ]
       },
@@ -2756,7 +2756,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
-            "retrievedAt": "2026-06-25T19:33:38.491Z"
+            "retrievedAt": "2026-06-26T01:33:30.766Z"
           }
         ]
       },
@@ -2769,7 +2769,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
-            "retrievedAt": "2026-06-25T19:33:38.491Z"
+            "retrievedAt": "2026-06-26T01:33:30.766Z"
           }
         ]
       },
@@ -2777,7 +2777,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
-          "retrievedAt": "2026-06-25T19:33:38.491Z"
+          "retrievedAt": "2026-06-26T01:33:30.766Z"
         }
       ]
     },
@@ -2802,7 +2802,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
-            "retrievedAt": "2026-06-25T19:33:40.394Z"
+            "retrievedAt": "2026-06-26T01:33:31.706Z"
           }
         ]
       },
@@ -2815,7 +2815,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
-            "retrievedAt": "2026-06-25T19:33:40.394Z"
+            "retrievedAt": "2026-06-26T01:33:31.706Z"
           }
         ]
       },
@@ -2828,7 +2828,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
-            "retrievedAt": "2026-06-25T19:33:40.394Z"
+            "retrievedAt": "2026-06-26T01:33:31.706Z"
           }
         ]
       },
@@ -2836,7 +2836,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
-          "retrievedAt": "2026-06-25T19:33:40.394Z"
+          "retrievedAt": "2026-06-26T01:33:31.706Z"
         }
       ]
     },
@@ -2861,7 +2861,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
-            "retrievedAt": "2026-06-25T19:33:41.354Z"
+            "retrievedAt": "2026-06-26T01:33:32.476Z"
           }
         ]
       },
@@ -2874,7 +2874,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
-            "retrievedAt": "2026-06-25T19:33:41.354Z"
+            "retrievedAt": "2026-06-26T01:33:32.476Z"
           }
         ]
       },
@@ -2887,7 +2887,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
-            "retrievedAt": "2026-06-25T19:33:41.354Z"
+            "retrievedAt": "2026-06-26T01:33:32.476Z"
           }
         ]
       },
@@ -2895,7 +2895,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
-          "retrievedAt": "2026-06-25T19:33:41.354Z"
+          "retrievedAt": "2026-06-26T01:33:32.476Z"
         }
       ]
     },
@@ -2920,7 +2920,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
-            "retrievedAt": "2026-06-25T19:33:42.853Z"
+            "retrievedAt": "2026-06-26T01:33:33.291Z"
           }
         ]
       },
@@ -2933,7 +2933,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
-            "retrievedAt": "2026-06-25T19:33:42.853Z"
+            "retrievedAt": "2026-06-26T01:33:33.291Z"
           }
         ]
       },
@@ -2946,7 +2946,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
-            "retrievedAt": "2026-06-25T19:33:42.853Z"
+            "retrievedAt": "2026-06-26T01:33:33.291Z"
           }
         ]
       },
@@ -2954,7 +2954,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
-          "retrievedAt": "2026-06-25T19:33:42.853Z"
+          "retrievedAt": "2026-06-26T01:33:33.291Z"
         }
       ]
     },
@@ -2979,24 +2979,24 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
-            "retrievedAt": "2026-06-25T19:33:43.841Z"
+            "retrievedAt": "2026-06-26T01:33:34.095Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.89,
-        "hits": 190,
+        "pct": 0.875,
+        "hits": 187,
         "eligible": 214,
         "gated": false,
-        "score": 8.9,
+        "score": 8.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
-            "retrievedAt": "2026-06-25T19:33:43.841Z"
+            "retrievedAt": "2026-06-26T01:33:34.095Z"
           }
         ]
       },
-      "overall": 9.2,
+      "overall": 9.1,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3005,7 +3005,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
-            "retrievedAt": "2026-06-25T19:33:43.841Z"
+            "retrievedAt": "2026-06-26T01:33:34.095Z"
           }
         ]
       },
@@ -3013,7 +3013,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
-          "retrievedAt": "2026-06-25T19:33:43.841Z"
+          "retrievedAt": "2026-06-26T01:33:34.095Z"
         }
       ]
     },
@@ -3038,12 +3038,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
-            "retrievedAt": "2026-06-25T19:33:45.178Z"
+            "retrievedAt": "2026-06-26T01:33:34.854Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.97,
+        "pct": 0.971,
         "hits": 208,
         "eligible": 214,
         "gated": false,
@@ -3051,7 +3051,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
-            "retrievedAt": "2026-06-25T19:33:45.178Z"
+            "retrievedAt": "2026-06-26T01:33:34.854Z"
           }
         ]
       },
@@ -3064,7 +3064,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
-            "retrievedAt": "2026-06-25T19:33:45.178Z"
+            "retrievedAt": "2026-06-26T01:33:34.854Z"
           }
         ]
       },
@@ -3072,7 +3072,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
-          "retrievedAt": "2026-06-25T19:33:45.178Z"
+          "retrievedAt": "2026-06-26T01:33:34.854Z"
         }
       ]
     },
@@ -3097,12 +3097,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
-            "retrievedAt": "2026-06-25T19:33:47.253Z"
+            "retrievedAt": "2026-06-26T01:33:35.621Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.953,
+        "pct": 0.9540000000000001,
         "hits": 204,
         "eligible": 214,
         "gated": false,
@@ -3110,7 +3110,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
-            "retrievedAt": "2026-06-25T19:33:47.253Z"
+            "retrievedAt": "2026-06-26T01:33:35.621Z"
           }
         ]
       },
@@ -3123,7 +3123,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
-            "retrievedAt": "2026-06-25T19:33:47.253Z"
+            "retrievedAt": "2026-06-26T01:33:35.621Z"
           }
         ]
       },
@@ -3131,7 +3131,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
-          "retrievedAt": "2026-06-25T19:33:47.253Z"
+          "retrievedAt": "2026-06-26T01:33:35.621Z"
         }
       ]
     },
@@ -3156,12 +3156,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
-            "retrievedAt": "2026-06-25T19:33:48.160Z"
+            "retrievedAt": "2026-06-26T01:33:36.398Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.03,
+        "pct": 0.028999999999999998,
         "hits": 6,
         "eligible": 214,
         "gated": false,
@@ -3169,7 +3169,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
-            "retrievedAt": "2026-06-25T19:33:48.160Z"
+            "retrievedAt": "2026-06-26T01:33:36.398Z"
           }
         ]
       },
@@ -3182,7 +3182,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
-            "retrievedAt": "2026-06-25T19:33:48.160Z"
+            "retrievedAt": "2026-06-26T01:33:36.398Z"
           }
         ]
       },
@@ -3190,7 +3190,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
-          "retrievedAt": "2026-06-25T19:33:48.160Z"
+          "retrievedAt": "2026-06-26T01:33:36.398Z"
         }
       ]
     },
@@ -3215,20 +3215,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
-            "retrievedAt": "2026-06-25T19:33:49.683Z"
+            "retrievedAt": "2026-06-26T01:33:37.244Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.78,
-        "hits": 167,
+        "pct": 0.7829999999999999,
+        "hits": 168,
         "eligible": 214,
         "gated": false,
         "score": 7.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
-            "retrievedAt": "2026-06-25T19:33:49.683Z"
+            "retrievedAt": "2026-06-26T01:33:37.244Z"
           }
         ]
       },
@@ -3241,7 +3241,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
-            "retrievedAt": "2026-06-25T19:33:49.683Z"
+            "retrievedAt": "2026-06-26T01:33:37.244Z"
           }
         ]
       },
@@ -3249,7 +3249,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
-          "retrievedAt": "2026-06-25T19:33:49.683Z"
+          "retrievedAt": "2026-06-26T01:33:37.244Z"
         }
       ]
     },
@@ -3274,7 +3274,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
-            "retrievedAt": "2026-06-25T19:33:50.602Z"
+            "retrievedAt": "2026-06-26T01:33:38.564Z"
           }
         ]
       },
@@ -3287,7 +3287,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
-            "retrievedAt": "2026-06-25T19:33:50.602Z"
+            "retrievedAt": "2026-06-26T01:33:38.564Z"
           }
         ]
       },
@@ -3300,7 +3300,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
-            "retrievedAt": "2026-06-25T19:33:50.602Z"
+            "retrievedAt": "2026-06-26T01:33:38.564Z"
           }
         ]
       },
@@ -3308,7 +3308,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
-          "retrievedAt": "2026-06-25T19:33:50.602Z"
+          "retrievedAt": "2026-06-26T01:33:38.564Z"
         }
       ]
     },
@@ -3333,20 +3333,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
-            "retrievedAt": "2026-06-25T19:33:52.562Z"
+            "retrievedAt": "2026-06-26T01:33:39.337Z"
           }
         ]
       },
       "participacion": {
-        "pct": 0.932,
-        "hits": 199,
+        "pct": 0.925,
+        "hits": 198,
         "eligible": 214,
         "gated": false,
         "score": 9.3,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
-            "retrievedAt": "2026-06-25T19:33:52.562Z"
+            "retrievedAt": "2026-06-26T01:33:39.337Z"
           }
         ]
       },
@@ -3359,7 +3359,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
-            "retrievedAt": "2026-06-25T19:33:52.562Z"
+            "retrievedAt": "2026-06-26T01:33:39.337Z"
           }
         ]
       },
@@ -3367,7 +3367,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
-          "retrievedAt": "2026-06-25T19:33:52.562Z"
+          "retrievedAt": "2026-06-26T01:33:39.337Z"
         }
       ]
     }
