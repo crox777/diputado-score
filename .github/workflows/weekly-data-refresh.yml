@@ -1,21 +1,16 @@
 name: weekly-data-refresh
 
-# Re-scrapes Delfino.cr once a week, commits the snapshot only if it changed,
-# and ships it to Vercel production. Runnable on demand via "Run workflow".
-#
-# Required repository secrets (Settings → Secrets and variables → Actions):
-#   VERCEL_TOKEN        personal token from https://vercel.com/account/tokens
-#   VERCEL_ORG_ID       team_J5bg0ancJn1yE84d7CX034Qb
-#   VERCEL_PROJECT_ID   prj_XXtCrZPX5RMBrIA47tkFsNaThnTA
-#
-# If the Vercel project is connected to this GitHub repo (Vercel → Git), the
-# push alone deploys — in that case delete the "Deploy to Vercel" step and the
-# three secrets above.
+# Re-scrapes Delfino.cr once a week and commits the refreshed snapshot.
+# The Vercel project is connected to this repo (Vercel → Git), so the push
+# deploys to production automatically — no tokens or deploy step needed here.
+# Runnable on demand via the "Run workflow" button.
 
 on:
   schedule:
-    # Mondays 10:00 UTC = 04:00 Costa Rica, after the legislative week.
-    - cron: "0 10 * * 1"
+    # Saturday 07:00 UTC = Saturday 01:00 Costa Rica (UTC-6, no DST).
+    # The plenary sits Mon-Thu and Delfino posts attendance/votes within ~a day,
+    # so a Saturday run captures the full, settled legislative week.
+    - cron: "0 7 * * 6"
   workflow_dispatch: {}
 
 concurrency:
@@ -42,10 +37,8 @@ jobs:
         run: npm run ingest
 
       - name: Commit snapshot if it changed
-        id: snap
         run: |
           if git diff --quiet -- src/data/diputados.json; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes in src/data/diputados.json."
           else
             git config user.name "DiputadoScore Bot"
@@ -53,16 +46,4 @@ jobs:
             git add src/data/diputados.json
             git commit -m "chore(data): weekly refresh from Delfino.cr"
             git push
-            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-
-      - name: Deploy to Vercel
-        if: steps.snap.outputs.changed == 'true'
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-        run: |
-          npx vercel@latest pull --yes --environment=production --token="$VERCEL_TOKEN"
-          npx vercel@latest build --prod --token="$VERCEL_TOKEN"
-          npx vercel@latest deploy --prebuilt --prod --token="$VERCEL_TOKEN"
