@@ -77,17 +77,48 @@ const WEIGHTS = {
 } as const;
 
 /**
- * Score for media presence: based on article count in last 30 days (1–10).
- * Higher presence = higher score; sentiment not included here (qualitative only).
+ * Score for media presence with sentiment (1–10).
+ *
+ * Logic:
+ *   - No coverage at all → baseline 5 (no data to reward or punish)
+ *   - Only positive/constructive coverage → raises toward 9–10
+ *   - Only negative/scandal coverage → drops toward 1–2
+ *   - Neutral-only coverage → modest bump (visible but not notable)
+ *   - Mix: positivos raise, negativos drag, neutrales are ignored
  */
-export function computeMediosScore(m: Pick<MediosScore, "articulosMes">): number {
-  const n = m.articulosMes;
-  if (n === 0) return 1;
-  if (n <= 2) return 3.5;
-  if (n <= 5) return 5.5;
-  if (n <= 10) return 7.5;
-  if (n <= 20) return 8.5;
-  return 9.5;
+export function computeMediosScore(
+  m: Pick<MediosScore, "articulosMes" | "positivos" | "negativos" | "neutrales">
+): number {
+  const { articulosMes, positivos, negativos } = m;
+
+  // No coverage at all: neutral baseline (no info, no reward)
+  if (articulosMes === 0) return 5;
+
+  // Start from a neutral base and adjust by sentiment
+  let score = 5;
+
+  // Positive articles: each one lifts the score (diminishing returns)
+  if (positivos > 0) {
+    score += positivos === 1 ? 1.5
+           : positivos <= 3  ? 2.5
+           : positivos <= 6  ? 3.5
+           : 4.0;
+  }
+
+  // Negative articles: each one drags the score down
+  if (negativos > 0) {
+    score -= negativos === 1 ? 1.5
+           : negativos <= 3  ? 3.0
+           : negativos <= 6  ? 4.5
+           : 5.5;
+  }
+
+  // No positive, no negative, but has neutral coverage: tiny presence bump
+  if (positivos === 0 && negativos === 0 && articulosMes > 0) {
+    score += 0.5;
+  }
+
+  return clamp(round1(score), 1, 10);
 }
 
 /**

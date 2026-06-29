@@ -136,7 +136,27 @@ function MediosDim({ dim }: { dim: MediosScore | null }) {
           <p className="text-sm text-zinc-400">
             <span className="text-white font-bold tabular-nums">{dim.articulosMes}</span> artículos últimos 30 días
           </p>
-          <p className="text-xs text-zinc-600 mt-1">
+          {/* Sentiment pills */}
+          {dim.articulosMes > 0 && (
+            <div className="flex gap-2 mt-2 flex-wrap">
+              {dim.positivos > 0 && (
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-900/40 text-emerald-400 ring-1 ring-emerald-500/30">
+                  ↑ {dim.positivos} positivos
+                </span>
+              )}
+              {dim.negativos > 0 && (
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-red-900/40 text-red-400 ring-1 ring-red-500/30">
+                  ↓ {dim.negativos} negativos
+                </span>
+              )}
+              {dim.neutrales > 0 && (
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-zinc-800 text-zinc-500 ring-1 ring-white/[0.06]">
+                  · {dim.neutrales} neutros
+                </span>
+              )}
+            </div>
+          )}
+          <p className="text-xs text-zinc-600 mt-1.5">
             Esta semana: <span className="text-zinc-400">{dim.articulosSemana}</span>
             {dim.ultimaFecha && <> · última nota: {dim.ultimaFecha}</>}
           </p>

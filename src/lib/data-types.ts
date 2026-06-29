@@ -62,10 +62,13 @@ export interface ProductividadScore {
 
 /** Scored dimension: media presence in Costa Rican press (weekly scrape). */
 export interface MediosScore {
-  articulosSemana: number;   // articles mentioning the diputado in the last 7 days
+  articulosSemana: number;   // articles in the last 7 days
   articulosMes: number;      // articles in the last 30 days
+  positivos: number;         // articles with positive/constructive framing
+  negativos: number;         // articles with negative/scandal framing
+  neutrales: number;         // articles without clear positive/negative signal
   ultimaFecha: string | null; // ISO date of most recent article found
-  score: number | null;      // 1..10 (based on presence + sentiment)
+  score: number | null;      // 1..10: positive coverage raises, negative lowers, neutral/absent = baseline
   sources: SourceRef[];
 }
 

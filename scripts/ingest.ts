@@ -272,28 +272,25 @@ const NEGATIVE_KW = [
   "irregular", "fraude", "malvers",
 ];
 
-/** Scrape Observador.cr search results for a name. Returns article count and last date. */
-async function scrapeObservador(nombre: string, slug: string): Promise<{ count: number; dates: string[] }> {
-  // Build search query: first + last name (most distinctive part)
-  const parts = nombre.split(" ");
-  const query = parts.slice(0, 2).join("+"); // e.g. "Nogui+Acosta"
-  const searchUrl = `${OBSERVADOR}/?s=${encodeURIComponent(query)}`;
-  const { html, retrievedAt } = await fetchHtml(searchUrl, "medios", slug);
-  if (!html) return { count: 0, dates: [] };
+/** Keywords that suggest positive/constructive coverage (raises score). */
+const POSITIVE_KW = [
+  "presentó", "presento", "aprobó", "aprobo", "logró", "logro", "firmó", "firmo",
+  "propuso", "propuso", "impulsa", "impulsó", "impulso", "iniciativa", "proyecto aprobado",
+  "lideró", "lidero", "defendió", "defendio", "exigió", "exigio", "promovió", "promovio",
+  "destacó", "destaco", "reconoci", "galardón", "galardón", "premio",
+];
 
-  const $ = load(html);
-  const dates: string[] = [];
-  $("time[datetime]").each((_, el) => {
-    const dt = $(el).attr("datetime");
-    if (dt) dates.push(dt);
-  });
-  // Count <h2> or <h3> titles that contain the name
-  let count = 0;
-  $("h2, h3").each((_, el) => {
-    const text = $(el).text();
-    if (parts.some((p) => p.length > 3 && text.includes(p))) count++;
-  });
-  return { count: Math.max(count, dates.length > 0 ? 1 : 0), dates };
+/** Fold accents + lowercase for keyword matching. */
+function fold(s: string): string {
+  return s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+}
+
+/** Classify an article title as positive, negative, or neutral based on keyword matching. */
+function classifyTitle(title: string): "positivo" | "negativo" | "neutral" {
+  const t = fold(title);
+  if (NEGATIVE_KW.some((kw) => t.includes(fold(kw)))) return "negativo";
+  if (POSITIVE_KW.some((kw) => t.includes(fold(kw)))) return "positivo";
+  return "neutral";
 }
 
 function articlesInLastDays(dates: string[], days: number, retrievedAt: string): number {
@@ -303,32 +300,67 @@ function articlesInLastDays(dates: string[], days: number, retrievedAt: string):
 }
 
 async function getMediosScore(nombre: string, slug: string): Promise<MediosScore | null> {
-  const observadorUrl = `${OBSERVADOR}/?s=${encodeURIComponent(nombre.split(" ").slice(0, 2).join(" "))}`;
-  const { html, retrievedAt } = await fetchHtml(
-    observadorUrl, "medios", slug
-  );
+  const query = nombre.split(" ").slice(0, 2).join(" ");
+  const observadorUrl = `${OBSERVADOR}/?s=${encodeURIComponent(query)}`;
+  const { html, retrievedAt } = await fetchHtml(observadorUrl, "medios", slug);
   if (!html) return null;
 
   const $ = load(html);
-  const dates: string[] = [];
-  $("time[datetime]").each((_, el) => {
-    const dt = $(el).attr("datetime");
-    if (dt) dates.push(dt);
+  const nameParts = nombre.split(" ").filter((p) => p.length > 3);
+
+  // Collect articles: {date, title} pairs that mention the diputado
+  const articles: { date: string; title: string }[] = [];
+  $("article, .post, .entry, .result-item, li").each((_, el) => {
+    const titleEl = $(el).find("h2, h3, h4, .entry-title, .post-title").first();
+    const timeEl  = $(el).find("time[datetime]").first();
+    const title   = titleEl.text().trim();
+    const date    = timeEl.attr("datetime") ?? "";
+    if (!title || !date) return;
+    const titleFolded = fold(title);
+    if (nameParts.some((p) => titleFolded.includes(fold(p)))) {
+      articles.push({ date, title });
+    }
   });
 
-  const articulosSemana = articlesInLastDays(dates, 7, retrievedAt);
-  const articulosMes = articlesInLastDays(dates, 30, retrievedAt);
-  const ultimaFecha = dates.length > 0
-    ? dates.sort().reverse()[0].slice(0, 10)
-    : null;
+  // Fallback: if no structured articles found, at least count <time> tags for date window
+  const allDates: string[] = [];
+  $("time[datetime]").each((_, el) => {
+    const dt = $(el).attr("datetime");
+    if (dt) allDates.push(dt);
+  });
 
-  const baseScore = computeMediosScore({ articulosMes });
+  const cutoff30 = new Date(retrievedAt);
+  cutoff30.setDate(cutoff30.getDate() - 30);
+  const cutoff7 = new Date(retrievedAt);
+  cutoff7.setDate(cutoff7.getDate() - 7);
+
+  const recentArticles = articles.filter((a) => new Date(a.date) >= cutoff30);
+  const articulosSemana = articles.filter((a) => new Date(a.date) >= cutoff7).length;
+  const articulosMes = recentArticles.length;
+
+  // Sentiment classification
+  let positivos = 0, negativos = 0, neutrales = 0;
+  for (const a of recentArticles) {
+    const cls = classifyTitle(a.title);
+    if (cls === "positivo") positivos++;
+    else if (cls === "negativo") negativos++;
+    else neutrales++;
+  }
+
+  const ultimaFecha = articles.length > 0
+    ? articles.map((a) => a.date).sort().reverse()[0].slice(0, 10)
+    : (allDates.length > 0 ? allDates.sort().reverse()[0].slice(0, 10) : null);
+
+  const score = computeMediosScore({ articulosMes, positivos, negativos, neutrales });
 
   return {
     articulosSemana,
     articulosMes,
+    positivos,
+    negativos,
+    neutrales,
     ultimaFecha,
-    score: Math.round(baseScore * 10) / 10,
+    score: Math.round(score * 10) / 10,
     sources: [src(observadorUrl, retrievedAt)],
   };
 }
