@@ -77,46 +77,55 @@ const WEIGHTS = {
 } as const;
 
 /**
+ * Sentiment impact parameters for the media score.
+ * The score starts at MEDIOS_BASELINE (5) and is adjusted only by
+ * positive and negative articles. Neutral coverage has zero effect.
+ *
+ * Boost/penalty step functions keyed by article count thresholds:
+ *   [minCount, delta] — the last entry is the "n or more" catch-all.
+ */
+export const MEDIOS_BASELINE = 5;
+export const MEDIOS_POSITIVE_STEPS: [number, number][] = [
+  [1, 1.5],  // 1 positive article → +1.5
+  [2, 2.5],  // 2–3 → +2.5
+  [4, 3.5],  // 4–6 → +3.5
+  [7, 4.0],  // 7+  → +4.0
+];
+export const MEDIOS_NEGATIVE_STEPS: [number, number][] = [
+  [1, 1.5],  // 1 negative article → −1.5
+  [2, 3.0],  // 2–3 → −3.0
+  [4, 4.5],  // 4–6 → −4.5
+  [7, 5.5],  // 7+  → −5.5
+];
+
+/** Look up the delta for a count in a step table. */
+function stepValue(count: number, steps: [number, number][]): number {
+  let delta = 0;
+  for (const [min, d] of steps) {
+    if (count >= min) delta = d;
+  }
+  return delta;
+}
+
+/**
  * Score for media presence with sentiment (1–10).
  *
- * Logic:
- *   - No coverage at all → baseline 5 (no data to reward or punish)
- *   - Only positive/constructive coverage → raises toward 9–10
- *   - Only negative/scandal coverage → drops toward 1–2
- *   - Neutral-only coverage → modest bump (visible but not notable)
- *   - Mix: positivos raise, negativos drag, neutrales are ignored
+ * Rule: score only moves from the baseline (5) when there are positive
+ * or negative articles. Neutral coverage has NO effect on the score.
+ *   - No coverage at all       → 5  (baseline, no reward/punishment)
+ *   - Only neutral coverage    → 5  (same baseline, neutrales don't count)
+ *   - Positive articles        → raises toward 9–10
+ *   - Negative/scandal articles → drops toward 1–2
  */
 export function computeMediosScore(
   m: Pick<MediosScore, "articulosMes" | "positivos" | "negativos" | "neutrales">
 ): number {
-  const { articulosMes, positivos, negativos } = m;
+  const { positivos, negativos } = m;
 
-  // No coverage at all: neutral baseline (no info, no reward)
-  if (articulosMes === 0) return 5;
-
-  // Start from a neutral base and adjust by sentiment
-  let score = 5;
-
-  // Positive articles: each one lifts the score (diminishing returns)
-  if (positivos > 0) {
-    score += positivos === 1 ? 1.5
-           : positivos <= 3  ? 2.5
-           : positivos <= 6  ? 3.5
-           : 4.0;
-  }
-
-  // Negative articles: each one drags the score down
-  if (negativos > 0) {
-    score -= negativos === 1 ? 1.5
-           : negativos <= 3  ? 3.0
-           : negativos <= 6  ? 4.5
-           : 5.5;
-  }
-
-  // No positive, no negative, but has neutral coverage: tiny presence bump
-  if (positivos === 0 && negativos === 0 && articulosMes > 0) {
-    score += 0.5;
-  }
+  // Score only moves with sentiment — neutrales and bare presence are ignored
+  const score = MEDIOS_BASELINE
+    + stepValue(positivos, MEDIOS_POSITIVE_STEPS)
+    - stepValue(negativos, MEDIOS_NEGATIVE_STEPS);
 
   return clamp(round1(score), 1, 10);
 }
