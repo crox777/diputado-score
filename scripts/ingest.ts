@@ -353,6 +353,54 @@ async function getProyectosCount(): Promise<{ countBySlug: Map<string, number>; 
   }
 }
 
+// ── Delfino GraphQL — gasto discrecional ──────────────────────────────────────
+
+/** Fetch monthly expenses for all representatives. Returns slug → colones. */
+async function getGastoData(repIds: Map<string, number>): Promise<{
+  bySlug: Map<string, number>;
+  promedioCohorte: number | null;
+  retrievedAt: string;
+}> {
+  const retrievedAt = new Date().toISOString();
+  const bySlug = new Map<string, number>();
+
+  try {
+    // Batch all reps in one request using aliases
+    const currentMonth = new Date().getMonth() + 1; // 1-12
+    const entries = [...repIds.entries()];
+    const aliases = entries.map(
+      ([slug, id]) => `r${id}: representativeExpenses(month: ${currentMonth}) { expenses representative { slug } }`
+    ).join(" ");
+    const query = `{ ${aliases} }`;
+
+    const res = await fetch(DELFINO_GQL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({ query }),
+    });
+    if (!res.ok) return { bySlug, promedioCohorte: null, retrievedAt };
+
+    const data = await res.json() as { data?: Record<string, { expenses: number; representative: { slug: string } } | null> };
+    for (const item of Object.values(data?.data ?? {})) {
+      if (!item) continue;
+      bySlug.set(item.representative.slug, item.expenses ?? 0);
+    }
+
+    const values = [...bySlug.values()].filter((v) => v > 0);
+    const promedioCohorte = values.length > 0
+      ? Math.round(values.reduce((a, b) => a + b, 0) / values.length)
+      : null;
+
+    const nonZero = [...bySlug.values()].filter((v) => v > 0).length;
+    console.log(`      ${nonZero} diputados con gasto > ₡0 · promedio cohort: ${promedioCohorte ? `₡${promedioCohorte.toLocaleString()}` : "sin datos"}`);
+
+    return { bySlug, promedioCohorte, retrievedAt };
+  } catch (e) {
+    console.warn(`      ⚠ gasto GraphQL error: ${e}`);
+    return { bySlug, promedioCohorte: null, retrievedAt };
+  }
+}
+
 // ── Observador.cr media mentions ───────────────────────────────────────────────
 /** Keywords that suggest negative coverage (lower score). */
 const NEGATIVE_KW = [
@@ -460,7 +508,7 @@ async function main() {
   const todayISO = new Date().toISOString().slice(0, 10);
   console.log(`\n🗓  DiputadoScore ingest — ${todayISO}\n`);
 
-  console.log("[1/6] Roster from Delfino…");
+  console.log("[1/7] Roster from Delfino…");
   const roster = await getRoster();
   console.log(`      ${roster.length} congresistas`);
   if (roster.length !== 57) console.warn(`      ⚠ expected 57, got ${roster.length}`);
@@ -470,13 +518,13 @@ async function main() {
     : [];
   if (!existsSync(STATUS_OVERRIDES)) writeFileSync(STATUS_OVERRIDES, "[]\n");
 
-  console.log("[2/6] Sessions & votes held (eligible denominators)…");
+  console.log("[2/7] Sessions & votes held (eligible denominators)…");
   const sessionDates = await countSessions(todayISO);
   const sesionesTotales = sessionDates.length;
   const votosTotales = await countVotes(sessionDates);
   console.log(`      ${sesionesTotales} sesiones · ${votosTotales} votaciones`);
 
-  console.log("[3/6] Delfino profiles…");
+  console.log("[3/7] Delfino profiles…");
   const profiles = new Map<string, ProfileData>();
   for (const r of roster) {
     const url = `${DELFINO}/asamblea/congresistas/${r.slug}`;
@@ -485,10 +533,17 @@ async function main() {
     profiles.set(r.slug, parseProfile(html, url, retrievedAt));
   }
 
-  console.log("[4/6] Proyectos de ley (Delfino GraphQL)…");
+  console.log("[4/7] Proyectos de ley (Delfino GraphQL)…");
   const { countBySlug: proyectosCount, sourceUrl: proyectosUrl, retrievedAt: proyectosAt } = await getProyectosCount();
 
-  console.log("[5/6] Media mentions (Observador.cr)…");
+  console.log("[5/7] Gasto discrecional (Delfino GraphQL)…");
+  const repIdsReal = await getRepresentativeIds();
+  const { bySlug: gastoBySlug, promedioCohorte, retrievedAt: gastoAt } = await getGastoData(repIdsReal);
+  const gastoUrl = `${DELFINO}/asamblea/congresistas`;
+  const gastosConDatos = [...gastoBySlug.values()].filter((v) => v > 0).length;
+  console.log(`      ${gastosConDatos} diputados con datos de gasto · promedio ₡${promedioCohorte?.toLocaleString("es-CR") ?? "n/a"}`);
+
+  console.log("[6/7] Media mentions (Observador.cr)…");
   const mediosMap = new Map<string, MediosScore | null>();
   for (const r of roster) {
     process.stdout.write(`      ${r.nombre.split(" ")[0]}…`);
@@ -497,7 +552,7 @@ async function main() {
     process.stdout.write(` ${m?.articulosMes ?? 0} artículos/mes\n`);
   }
 
-  console.log("[6/6] Assembling snapshot…");
+  console.log("[7/7] Assembling snapshot…");
   const diputados: DiputadoRecord[] = [];
 
   for (const r of roster) {
@@ -528,13 +583,39 @@ async function main() {
     const ov = overrides.find((o) => o.slug === r.slug);
     const status: Status = ov?.status ?? "EN_EJERCICIO";
 
+    // Gasto discrecional: gate score null when ₡0 (data not yet published by Asamblea)
+    const totalColones = gastoBySlug.get(r.slug) ?? 0;
+    const rangoEnCohort: import("../src/lib/data-types.ts").GastoScore["rangoEnCohort"] =
+      totalColones === 0 || promedioCohorte === null
+        ? null
+        : totalColones < promedioCohorte * 0.75
+        ? "bajo"
+        : totalColones > promedioCohorte * 1.25
+        ? "alto"
+        : "medio";
+    const gastoScoreValue: number | null =
+      rangoEnCohort === null
+        ? null
+        : rangoEnCohort === "bajo"
+        ? 9
+        : rangoEnCohort === "medio"
+        ? 6
+        : 3;
+    const gasto: import("../src/lib/data-types.ts").GastoScore = {
+      totalColones: totalColones > 0 ? totalColones : null,
+      promedioCohorteColones: promedioCohorte,
+      rangoEnCohort,
+      score: gastoScoreValue,
+      sources: [src(gastoUrl, gastoAt)],
+    };
+
     const overall = computeOverall(
       status,
       presencia,
       participacion,
       productividad.score,  // null when gated — excluded from weighted average
       null, // transparencia — not yet automated
-      null, // gasto — Asamblea opendata not yet updated for 2026-2030
+      gasto.score,          // null when ₡0 (Asamblea hasn't published 2026 data yet)
       medios?.score ?? null,
     );
 
@@ -554,7 +635,7 @@ async function main() {
       participacion,
       productividad,
       transparencia: null, // CGR DJB — no public automated source yet
-      gasto: null,         // Asamblea vehicle data not yet available for 2026-2030
+      gasto,
       medios,
       overall,
       ranked: isRanked({ status, overall }),
@@ -596,10 +677,11 @@ async function main() {
   const ranked = diputados.filter((d) => d.ranked).length;
   const conProyectos = diputados.filter((d) => d.productividad !== null).length;
   const conMedios = diputados.filter((d) => d.medios !== null).length;
+  const conGasto = diputados.filter((d) => d.gasto?.score !== null).length;
   console.log(`\n📊 REPORT`);
   console.log(`   ${diputados.length}/57 diputados`);
   console.log(`   ${sesionesTotales} sesiones · ${votosTotales} votaciones · fasePreliminar=${cohort.fasePreliminar}`);
-  console.log(`   ${ranked} clasificados · ${conProyectos} con proyectos · ${conMedios} con datos de medios`);
+  console.log(`   ${ranked} clasificados · ${conProyectos} con proyectos · ${conMedios} con datos de medios · ${conGasto} con gasto`);
 }
 
 main().catch((e) => {
