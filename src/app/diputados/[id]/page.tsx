@@ -91,10 +91,14 @@ function ProductividadDim({ dim }: { dim: ProductividadScore | null }) {
       {dim ? (
         <>
           <p className="text-sm text-zinc-400">
-            <span className="text-white font-bold">{dim.presentados}</span> proyectos presentados ·{" "}
-            <span className="text-white font-bold">{dim.aprobados}</span> aprobados
+            <span className="text-white font-bold tabular-nums">{dim.presentados}</span>{" "}
+            {dim.presentados === 1 ? "proyecto presentado" : "proyectos presentados"}
           </p>
-          <p className="text-xs text-zinc-600 mt-1">Tasa de aprobación: {(dim.tasaAprobacion * 100).toFixed(0)}%</p>
+          {dim.score === null && (
+            <p className="text-xs text-amber-500/80 mt-1">
+              Preliminar — sin proyectos aún. No entra al puntaje general.
+            </p>
+          )}
           <div className="mt-3"><SourceLink sources={dim.sources} /></div>
         </>
       ) : <p className="text-sm text-zinc-600">Sin datos.</p>}

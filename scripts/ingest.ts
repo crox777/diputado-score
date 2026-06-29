@@ -397,25 +397,23 @@ async function getMediosScore(nombre: string, slug: string): Promise<MediosScore
   const $ = load(html);
   const nameParts = nombre.split(" ").filter((p) => p.length > 3);
 
-  // Collect articles: {date, title} pairs that mention the diputado
+  // Collect articles: {date, title} pairs that mention the diputado.
+  // Observador.cr uses div.promo > div.content > (div.meta > time) + h3.title
+  // We also try generic article/li containers as fallback for other sites.
   const articles: { date: string; title: string }[] = [];
-  $("article, .post, .entry, .result-item, li").each((_, el) => {
-    const titleEl = $(el).find("h2, h3, h4, .entry-title, .post-title").first();
+  const seen = new Set<string>();
+
+  $("div.promo, article, .post, .entry, .result-item, li").each((_, el) => {
+    const titleEl = $(el).find("h3.title, h2, h3, h4, .entry-title, .post-title").first();
     const timeEl  = $(el).find("time[datetime]").first();
     const title   = titleEl.text().trim();
     const date    = timeEl.attr("datetime") ?? "";
-    if (!title || !date) return;
+    if (!title || !date || seen.has(title)) return;
+    seen.add(title);
     const titleFolded = fold(title);
     if (nameParts.some((p) => titleFolded.includes(fold(p)))) {
       articles.push({ date, title });
     }
-  });
-
-  // Fallback: if no structured articles found, at least count <time> tags for date window
-  const allDates: string[] = [];
-  $("time[datetime]").each((_, el) => {
-    const dt = $(el).attr("datetime");
-    if (dt) allDates.push(dt);
   });
 
   const cutoff30 = new Date(retrievedAt);
@@ -423,11 +421,13 @@ async function getMediosScore(nombre: string, slug: string): Promise<MediosScore
   const cutoff7 = new Date(retrievedAt);
   cutoff7.setDate(cutoff7.getDate() - 7);
 
+  // Only count articles that matched the diputado's name — no fallback to generic page dates.
+  // ultimaFecha must be from a named article; showing a date from an unrelated article is misleading.
   const recentArticles = articles.filter((a) => new Date(a.date) >= cutoff30);
   const articulosSemana = articles.filter((a) => new Date(a.date) >= cutoff7).length;
   const articulosMes = recentArticles.length;
 
-  // Sentiment classification
+  // Sentiment classification (only on named, recent articles)
   let positivos = 0, negativos = 0, neutrales = 0;
   for (const a of recentArticles) {
     const cls = classifyTitle(a.title);
@@ -436,9 +436,10 @@ async function getMediosScore(nombre: string, slug: string): Promise<MediosScore
     else neutrales++;
   }
 
+  // Only set ultimaFecha if we actually found a named article — never infer from generic page dates
   const ultimaFecha = articles.length > 0
     ? articles.map((a) => a.date).sort().reverse()[0].slice(0, 10)
-    : (allDates.length > 0 ? allDates.sort().reverse()[0].slice(0, 10) : null);
+    : null;
 
   const score = computeMediosScore({ articulosMes, positivos, negativos, neutrales });
 
@@ -511,11 +512,15 @@ async function main() {
     // Productividad from Delfino GraphQL (real per-author count)
     const numProyectos = proyectosCount.get(r.slug) ?? 0;
     const prodScore = computeProductividadScore(numProyectos);
+    // Productividad: gate the score (don't include in overall) when 0 projects presented.
+    // A 2-month-old legislature cannot be penalised for not filing bills yet — that is not
+    // a verifiable incumplimiento, just early timing. The count is still displayed as a fact.
+    // Once a diputado files at least one bill the score becomes meaningful and enters the overall.
     const productividad: import("../src/lib/data-types.ts").ProductividadScore = {
       presentados: numProyectos,
-      aprobados: 0, // approval status available via project details in future
+      aprobados: 0,
       tasaAprobacion: 0,
-      score: prodScore,
+      score: numProyectos > 0 ? prodScore : null, // null = gated, not enough activity yet
       sources: [src(proyectosUrl, proyectosAt)],
     };
 
@@ -527,9 +532,9 @@ async function main() {
       status,
       presencia,
       participacion,
-      productividad?.score ?? null,
+      productividad.score,  // null when gated — excluded from weighted average
       null, // transparencia — not yet automated
-      null, // gasto — ₡0 for new legislature
+      null, // gasto — Asamblea opendata not yet updated for 2026-2030
       medios?.score ?? null,
     );
 
