@@ -264,6 +264,95 @@ async function countVotes(sessionDates: string[]): Promise<number> {
   return total;
 }
 
+// ── Delfino GraphQL — proyectos por diputado ───────────────────────────────────
+const DELFINO_GQL = "https://api.delfino.cr/graphql";
+
+/** Fetch all representative IDs for the current term. */
+async function getRepresentativeIds(): Promise<Map<string, number>> {
+  const query = `{ representatives(term: "2026-2030") { id slug } }`;
+  const res = await fetch(DELFINO_GQL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", Accept: "application/json" },
+    body: JSON.stringify({ query }),
+  });
+  if (!res.ok) return new Map();
+  const data = await res.json() as { data?: { representatives?: { id: number; slug: string }[] } };
+  const reps = data?.data?.representatives ?? [];
+  return new Map(reps.map((r) => [r.slug, r.id]));
+}
+
+/** Fetch all project expediente numbers from the current term (paginate if needed). */
+async function getAllProjectFiles(): Promise<string[]> {
+  const files: string[] = [];
+  let offset = 0;
+  const limit = 100;
+  while (true) {
+    const query = `{ projects(limit: ${limit}, offset: ${offset}) { file } }`;
+    const res = await fetch(DELFINO_GQL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({ query }),
+    });
+    if (!res.ok) break;
+    const data = await res.json() as { data?: { projects?: { file: string }[] } };
+    const batch = data?.data?.projects ?? [];
+    if (batch.length === 0) break;
+    files.push(...batch.map((p) => p.file));
+    if (batch.length < limit) break;
+    offset += limit;
+  }
+  return files;
+}
+
+/** Batch-fetch project details (with author) using GraphQL aliases. Max 50 per request. */
+async function fetchProjectDetails(files: string[]): Promise<Map<string, string[]>> {
+  // returns: expediente → [authorSlugs]
+  const result = new Map<string, string[]>();
+  const BATCH = 50;
+  for (let i = 0; i < files.length; i += BATCH) {
+    const batch = files.slice(i, i + BATCH);
+    const aliases = batch.map(
+      (f) => `p${f}: project(file: "${f}") { file representatives { slug } }`
+    ).join(" ");
+    const query = `{ ${aliases} }`;
+    const res = await fetch(DELFINO_GQL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({ query }),
+    });
+    if (!res.ok) continue;
+    const data = await res.json() as { data?: Record<string, { file: string; representatives: { slug: string }[] } | null> };
+    for (const [, proj] of Object.entries(data?.data ?? {})) {
+      if (!proj) continue;
+      const slugs = (proj.representatives ?? []).map((r) => r.slug);
+      result.set(proj.file, slugs);
+    }
+    await sleep(300);
+  }
+  return result;
+}
+
+/** Build a count of projects per diputado slug for the current term. */
+async function getProyectosCount(): Promise<{ countBySlug: Map<string, number>; sourceUrl: string; retrievedAt: string }> {
+  const retrievedAt = new Date().toISOString();
+  const sourceUrl = `${DELFINO}/asamblea/proyectos`;
+  try {
+    const files = await getAllProjectFiles();
+    const details = await fetchProjectDetails(files);
+    const countBySlug = new Map<string, number>();
+    for (const slugs of details.values()) {
+      for (const slug of slugs) {
+        countBySlug.set(slug, (countBySlug.get(slug) ?? 0) + 1);
+      }
+    }
+    console.log(`      ${files.length} proyectos · ${countBySlug.size} diputados con proyectos`);
+    return { countBySlug, sourceUrl, retrievedAt };
+  } catch (e) {
+    console.warn(`      ⚠ proyectos GraphQL error: ${e}`);
+    return { countBySlug: new Map(), sourceUrl, retrievedAt };
+  }
+}
+
 // ── Observador.cr media mentions ───────────────────────────────────────────────
 /** Keywords that suggest negative coverage (lower score). */
 const NEGATIVE_KW = [
@@ -370,7 +459,7 @@ async function main() {
   const todayISO = new Date().toISOString().slice(0, 10);
   console.log(`\n🗓  DiputadoScore ingest — ${todayISO}\n`);
 
-  console.log("[1/5] Roster from Delfino…");
+  console.log("[1/6] Roster from Delfino…");
   const roster = await getRoster();
   console.log(`      ${roster.length} congresistas`);
   if (roster.length !== 57) console.warn(`      ⚠ expected 57, got ${roster.length}`);
@@ -380,13 +469,13 @@ async function main() {
     : [];
   if (!existsSync(STATUS_OVERRIDES)) writeFileSync(STATUS_OVERRIDES, "[]\n");
 
-  console.log("[2/5] Sessions & votes held (eligible denominators)…");
+  console.log("[2/6] Sessions & votes held (eligible denominators)…");
   const sessionDates = await countSessions(todayISO);
   const sesionesTotales = sessionDates.length;
   const votosTotales = await countVotes(sessionDates);
   console.log(`      ${sesionesTotales} sesiones · ${votosTotales} votaciones`);
 
-  console.log("[3/5] Delfino profiles…");
+  console.log("[3/6] Delfino profiles…");
   const profiles = new Map<string, ProfileData>();
   for (const r of roster) {
     const url = `${DELFINO}/asamblea/congresistas/${r.slug}`;
@@ -395,7 +484,10 @@ async function main() {
     profiles.set(r.slug, parseProfile(html, url, retrievedAt));
   }
 
-  console.log("[4/5] Media mentions (Observador.cr)…");
+  console.log("[4/6] Proyectos de ley (Delfino GraphQL)…");
+  const { countBySlug: proyectosCount, sourceUrl: proyectosUrl, retrievedAt: proyectosAt } = await getProyectosCount();
+
+  console.log("[5/6] Media mentions (Observador.cr)…");
   const mediosMap = new Map<string, MediosScore | null>();
   for (const r of roster) {
     process.stdout.write(`      ${r.nombre.split(" ")[0]}…`);
@@ -404,7 +496,7 @@ async function main() {
     process.stdout.write(` ${m?.articulosMes ?? 0} artículos/mes\n`);
   }
 
-  console.log("[5/5] Assembling snapshot…");
+  console.log("[6/6] Assembling snapshot…");
   const diputados: DiputadoRecord[] = [];
 
   for (const r of roster) {
@@ -416,19 +508,16 @@ async function main() {
     const presencia = buildDimension(p.sesionesPct, sesionesTotales, MIN_SESIONES, profileSrc);
     const participacion = buildDimension(p.votacionesPct, votosTotales, MIN_VOTOS, profileSrc);
 
-    // Productividad from Delfino proyectos count
-    let productividad = null;
-    if (p.proyectos !== null) {
-      const score = computeProductividadScore(p.proyectos);
-      const prod: import("../src/lib/data-types.ts").ProductividadScore = {
-        presentados: p.proyectos,
-        aprobados: 0, // not yet available from Delfino static HTML
-        tasaAprobacion: 0,
-        score,
-        sources: profileSrc,
-      };
-      productividad = prod;
-    }
+    // Productividad from Delfino GraphQL (real per-author count)
+    const numProyectos = proyectosCount.get(r.slug) ?? 0;
+    const prodScore = computeProductividadScore(numProyectos);
+    const productividad: import("../src/lib/data-types.ts").ProductividadScore = {
+      presentados: numProyectos,
+      aprobados: 0, // approval status available via project details in future
+      tasaAprobacion: 0,
+      score: prodScore,
+      sources: [src(proyectosUrl, proyectosAt)],
+    };
 
     const medios = mediosMap.get(r.slug) ?? null;
     const ov = overrides.find((o) => o.slug === r.slug);
