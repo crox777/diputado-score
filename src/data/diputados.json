@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-11T09:10:56.537Z",
+  "generatedAt": "2026-07-13T15:13:42.033Z",
   "periodo": "2026-2030",
   "cohort": {
     "sesionesTotales": 37,
-    "votosTotales": 224,
+    "votosTotales": 223,
     "fasePreliminar": false,
     "fuente": "Delfino.cr · Observador.cr · registro legislativo público",
     "transparenciaEstimada": true,
@@ -31,20 +31,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
-            "retrievedAt": "2026-07-11T09:10:56.535Z"
+            "retrievedAt": "2026-07-13T15:13:42.031Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.9840000000000001,
-        "hits": 220,
-        "eligible": 224,
+        "hits": 219,
+        "eligible": 223,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
-            "retrievedAt": "2026-07-11T09:10:56.535Z"
+            "retrievedAt": "2026-07-13T15:13:42.031Z"
           }
         ]
       },
@@ -56,7 +56,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -69,26 +69,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Nogui%20Acosta",
-            "retrievedAt": "2026-07-11T09:04:20.799Z"
-          }
-        ]
-      },
-      "overall": 7,
+      "medios": null,
+      "overall": 7.7,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -97,7 +83,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
-            "retrievedAt": "2026-07-11T09:03:20.584Z"
+            "retrievedAt": "2026-07-13T15:03:58.681Z"
           }
         ]
       },
@@ -105,7 +91,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/nogui-acosta-jaen",
-          "retrievedAt": "2026-07-11T09:10:56.535Z"
+          "retrievedAt": "2026-07-13T15:13:42.031Z"
         }
       ]
     },
@@ -130,20 +116,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.031Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.9520000000000001,
-        "hits": 213,
-        "eligible": 224,
+        "hits": 212,
+        "eligible": 223,
         "gated": false,
         "score": 9.5,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.031Z"
           }
         ]
       },
@@ -155,7 +141,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -168,26 +154,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Kattia%20Mora",
-            "retrievedAt": "2026-07-11T09:04:26.760Z"
-          }
-        ]
-      },
-      "overall": 7.4,
+      "medios": null,
+      "overall": 8.3,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -196,7 +168,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
-            "retrievedAt": "2026-07-11T09:03:21.428Z"
+            "retrievedAt": "2026-07-13T15:03:59.491Z"
           }
         ]
       },
@@ -204,7 +176,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/kattia-alejandra-mora-montoya",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.031Z"
         }
       ]
     },
@@ -229,20 +201,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.032Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.992,
-        "hits": 222,
-        "eligible": 224,
+        "hits": 221,
+        "eligible": 223,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.032Z"
           }
         ]
       },
@@ -254,7 +226,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -267,26 +239,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Stephan%20Brunner",
-            "retrievedAt": "2026-07-11T09:04:35.419Z"
-          }
-        ]
-      },
-      "overall": 7,
+      "medios": null,
+      "overall": 7.7,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -295,7 +253,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
-            "retrievedAt": "2026-07-11T09:03:22.261Z"
+            "retrievedAt": "2026-07-13T15:04:00.559Z"
           }
         ]
       },
@@ -303,7 +261,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/stephan-brunner-neibig",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.032Z"
         }
       ]
     },
@@ -328,20 +286,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.032Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.778,
-        "hits": 174,
-        "eligible": 224,
+        "hits": 173,
+        "eligible": 223,
         "gated": false,
         "score": 7.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.032Z"
           }
         ]
       },
@@ -353,7 +311,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -366,26 +324,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Mayuli%20Ortega",
-            "retrievedAt": "2026-07-11T09:04:41.688Z"
-          }
-        ]
-      },
-      "overall": 7.3,
+      "medios": null,
+      "overall": 8.6,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -394,7 +338,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
-            "retrievedAt": "2026-07-11T09:03:23.109Z"
+            "retrievedAt": "2026-07-13T15:04:01.382Z"
           }
         ]
       },
@@ -402,7 +346,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/mayuli-del-carmen-ortega-guzman",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.032Z"
         }
       ]
     },
@@ -427,20 +371,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.032Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.932,
-        "hits": 209,
-        "eligible": 224,
+        "hits": 208,
+        "eligible": 223,
         "gated": false,
         "score": 9.3,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.032Z"
           }
         ]
       },
@@ -452,7 +396,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -465,26 +409,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Gonzalo%20Ram%C3%ADrez",
-            "retrievedAt": "2026-07-11T09:04:48.264Z"
-          }
-        ]
-      },
-      "overall": 6.7,
+      "medios": null,
+      "overall": 7.3,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -493,7 +423,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
-            "retrievedAt": "2026-07-11T09:03:23.934Z"
+            "retrievedAt": "2026-07-13T15:04:02.211Z"
           }
         ]
       },
@@ -501,7 +431,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/gonzalo-alberto-ramirez-zamora",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.032Z"
         }
       ]
     },
@@ -526,20 +456,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.032Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.9840000000000001,
-        "hits": 220,
-        "eligible": 224,
+        "hits": 219,
+        "eligible": 223,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.032Z"
           }
         ]
       },
@@ -551,7 +481,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -564,26 +494,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Anna%20Katharina",
-            "retrievedAt": "2026-07-11T09:04:58.087Z"
-          }
-        ]
-      },
-      "overall": 8.1,
+      "medios": null,
+      "overall": 9.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -592,7 +508,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
-            "retrievedAt": "2026-07-11T09:03:24.761Z"
+            "retrievedAt": "2026-07-13T15:04:03.111Z"
           }
         ]
       },
@@ -600,7 +516,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/anna-katharina-muller-castro",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.032Z"
         }
       ]
     },
@@ -625,20 +541,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.032Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.996,
-        "hits": 223,
-        "eligible": 224,
+        "hits": 222,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.032Z"
           }
         ]
       },
@@ -650,7 +566,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -663,26 +579,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Antonio%20Barzuna",
-            "retrievedAt": "2026-07-11T09:05:07.255Z"
-          }
-        ]
-      },
-      "overall": 7.1,
+      "medios": null,
+      "overall": 7.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -691,7 +593,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
-            "retrievedAt": "2026-07-11T09:03:25.579Z"
+            "retrievedAt": "2026-07-13T15:04:03.919Z"
           }
         ]
       },
@@ -699,7 +601,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/antonio-barzuna-thompson",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.032Z"
         }
       ]
     },
@@ -724,20 +626,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.032Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.996,
-        "hits": 223,
-        "eligible": 224,
+        "hits": 222,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.032Z"
           }
         ]
       },
@@ -749,7 +651,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -762,26 +664,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Esmeralda%20Britton",
-            "retrievedAt": "2026-07-11T09:05:15.422Z"
-          }
-        ]
-      },
-      "overall": 8.1,
+      "medios": null,
+      "overall": 9.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -790,7 +678,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
-            "retrievedAt": "2026-07-11T09:03:26.407Z"
+            "retrievedAt": "2026-07-13T15:04:04.938Z"
           }
         ]
       },
@@ -798,7 +686,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/sadie-esmeralda-britton-gonzalez",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.032Z"
         }
       ]
     },
@@ -823,20 +711,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.992,
-        "hits": 222,
-        "eligible": 224,
+        "hits": 221,
+        "eligible": 223,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -848,7 +736,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -861,26 +749,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=%C3%81lvaro%20Ram%C3%ADrez",
-            "retrievedAt": "2026-07-11T09:05:23.234Z"
-          }
-        ]
-      },
-      "overall": 7.6,
+      "medios": null,
+      "overall": 8.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -889,7 +763,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
-            "retrievedAt": "2026-07-11T09:03:27.195Z"
+            "retrievedAt": "2026-07-13T15:04:05.772Z"
           }
         ]
       },
@@ -897,7 +771,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/alvaro-ramirez-bogantes",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -922,20 +796,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.73,
-        "hits": 164,
-        "eligible": 224,
+        "hits": 163,
+        "eligible": 223,
         "gated": false,
         "score": 7.3,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -947,7 +821,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -960,26 +834,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Iztar%C3%BA%20Alfaro",
-            "retrievedAt": "2026-07-11T09:05:30.707Z"
-          }
-        ]
-      },
-      "overall": 6.5,
+      "medios": null,
+      "overall": 7.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -988,7 +848,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
-            "retrievedAt": "2026-07-11T09:03:28.099Z"
+            "retrievedAt": "2026-07-13T15:04:06.587Z"
           }
         ]
       },
@@ -996,7 +856,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/iztaru-alfaro-guerrero",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -1021,20 +881,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.988,
-        "hits": 221,
-        "eligible": 224,
+        "hits": 220,
+        "eligible": 223,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -1046,7 +906,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -1059,26 +919,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Rafael%20%C3%81ngel",
-            "retrievedAt": "2026-07-11T09:05:38.047Z"
-          }
-        ]
-      },
-      "overall": 8.1,
+      "medios": null,
+      "overall": 9.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1087,7 +933,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
-            "retrievedAt": "2026-07-11T09:03:28.938Z"
+            "retrievedAt": "2026-07-13T15:04:07.536Z"
           }
         ]
       },
@@ -1095,7 +941,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/rafael-angel-vargas-brenes",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -1120,20 +966,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.988,
-        "hits": 221,
-        "eligible": 224,
+        "hits": 220,
+        "eligible": 223,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -1145,7 +991,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -1158,26 +1004,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Andrea%20Valverde",
-            "retrievedAt": "2026-07-11T09:05:45.775Z"
-          }
-        ]
-      },
-      "overall": 8.1,
+      "medios": null,
+      "overall": 9.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1186,7 +1018,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
-            "retrievedAt": "2026-07-11T09:03:29.815Z"
+            "retrievedAt": "2026-07-13T15:04:08.412Z"
           }
         ]
       },
@@ -1194,7 +1026,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/andrea-patricia-valverde-palavicini",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -1219,20 +1051,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.996,
-        "hits": 223,
-        "eligible": 224,
+        "hits": 222,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -1244,7 +1076,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -1257,26 +1089,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Marco%20Francisco",
-            "retrievedAt": "2026-07-11T09:05:52.252Z"
-          }
-        ]
-      },
-      "overall": 8.2,
+      "medios": null,
+      "overall": 10,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1285,7 +1103,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
-            "retrievedAt": "2026-07-11T09:03:30.643Z"
+            "retrievedAt": "2026-07-13T15:04:09.298Z"
           }
         ]
       },
@@ -1293,7 +1111,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/marco-francisco-badilla-chavarria",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -1318,20 +1136,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.9840000000000001,
-        "hits": 220,
-        "eligible": 224,
+        "hits": 219,
+        "eligible": 223,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -1343,7 +1161,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -1356,26 +1174,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Jos%C3%A9%20Mar%C3%ADa",
-            "retrievedAt": "2026-07-11T09:05:58.186Z"
-          }
-        ]
-      },
-      "overall": 7.5,
+      "medios": null,
+      "overall": 8.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1384,7 +1188,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
-            "retrievedAt": "2026-07-11T09:03:31.480Z"
+            "retrievedAt": "2026-07-13T15:04:10.211Z"
           }
         ]
       },
@@ -1392,7 +1196,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/jose-maria-villalta-florez-estrada",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -1417,20 +1221,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.98,
-        "hits": 220,
-        "eligible": 224,
+        "hits": 219,
+        "eligible": 223,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -1442,7 +1246,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -1455,26 +1259,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Vianey%20Mora",
-            "retrievedAt": "2026-07-11T09:06:04.570Z"
-          }
-        ]
-      },
-      "overall": 7.5,
+      "medios": null,
+      "overall": 8.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1483,7 +1273,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
-            "retrievedAt": "2026-07-11T09:03:32.490Z"
+            "retrievedAt": "2026-07-13T15:04:11.074Z"
           }
         ]
       },
@@ -1491,7 +1281,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/vianey-briyith-mora-vega",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -1516,20 +1306,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.943,
-        "hits": 211,
-        "eligible": 224,
+        "hits": 210,
+        "eligible": 223,
         "gated": false,
         "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -1541,7 +1331,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -1554,26 +1344,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Antonio%20Trejos",
-            "retrievedAt": "2026-07-11T09:06:12.778Z"
-          }
-        ]
-      },
-      "overall": 7.4,
+      "medios": null,
+      "overall": 8.2,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1582,7 +1358,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
-            "retrievedAt": "2026-07-11T09:03:33.318Z"
+            "retrievedAt": "2026-07-13T15:04:11.958Z"
           }
         ]
       },
@@ -1590,7 +1366,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/antonio-trejos-mazariegos",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -1615,20 +1391,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.956,
-        "hits": 214,
-        "eligible": 224,
+        "hits": 213,
+        "eligible": 223,
         "gated": false,
         "score": 9.6,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -1640,7 +1416,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -1653,26 +1429,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Claudia%20Dobles",
-            "retrievedAt": "2026-07-11T09:06:19.103Z"
-          }
-        ]
-      },
-      "overall": 7.5,
+      "medios": null,
+      "overall": 8.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1681,7 +1443,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
-            "retrievedAt": "2026-07-11T09:03:34.178Z"
+            "retrievedAt": "2026-07-13T15:04:12.833Z"
           }
         ]
       },
@@ -1689,7 +1451,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/claudia-vanessa-dobles-camargo",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -1714,20 +1476,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.9109999999999999,
-        "hits": 204,
-        "eligible": 224,
+        "hits": 203,
+        "eligible": 223,
         "gated": false,
         "score": 9.1,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -1739,7 +1501,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -1752,26 +1514,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Abril%20Gordienko",
-            "retrievedAt": "2026-07-11T09:06:27.048Z"
-          }
-        ]
-      },
-      "overall": 6.8,
+      "medios": null,
+      "overall": 7.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1780,7 +1528,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
-            "retrievedAt": "2026-07-11T09:03:35.040Z"
+            "retrievedAt": "2026-07-13T15:04:13.715Z"
           }
         ]
       },
@@ -1788,7 +1536,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/abril-gordienko-lopez",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -1813,20 +1561,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.948,
-        "hits": 212,
-        "eligible": 224,
+        "hits": 211,
+        "eligible": 223,
         "gated": false,
         "score": 9.5,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -1838,7 +1586,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -1851,26 +1599,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Jos%C3%A9%20Miguel",
-            "retrievedAt": "2026-07-11T09:06:33.012Z"
-          }
-        ]
-      },
-      "overall": 6.9,
+      "medios": null,
+      "overall": 7.6,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1879,7 +1613,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
-            "retrievedAt": "2026-07-11T09:03:35.867Z"
+            "retrievedAt": "2026-07-13T15:04:14.604Z"
           }
         ]
       },
@@ -1887,7 +1621,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/jose-miguel-villalobos-umana",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -1912,20 +1646,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.9840000000000001,
-        "hits": 220,
-        "eligible": 224,
+        "hits": 219,
+        "eligible": 223,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -1937,7 +1671,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -1950,26 +1684,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Zaira%20Murillo",
-            "retrievedAt": "2026-07-11T09:06:38.344Z"
-          }
-        ]
-      },
-      "overall": 8.1,
+      "medios": null,
+      "overall": 9.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -1978,7 +1698,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
-            "retrievedAt": "2026-07-11T09:03:36.688Z"
+            "retrievedAt": "2026-07-13T15:04:15.419Z"
           }
         ]
       },
@@ -1986,7 +1706,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/zaira-murillo-marin",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -2011,20 +1731,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.96,
-        "hits": 215,
-        "eligible": 224,
+        "hits": 214,
+        "eligible": 223,
         "gated": false,
         "score": 9.6,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -2036,7 +1756,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -2049,26 +1769,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Gerarld%20Bogantes",
-            "retrievedAt": "2026-07-11T09:06:44.951Z"
-          }
-        ]
-      },
-      "overall": 7.4,
+      "medios": null,
+      "overall": 8.3,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2077,7 +1783,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
-            "retrievedAt": "2026-07-11T09:03:37.571Z"
+            "retrievedAt": "2026-07-13T15:04:16.296Z"
           }
         ]
       },
@@ -2085,7 +1791,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/gerardo-bogantes-rivera",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -2110,20 +1816,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 1,
-        "hits": 224,
-        "eligible": 224,
+        "hits": 223,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -2135,7 +1841,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -2148,26 +1854,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Grethel%20%C3%81vila",
-            "retrievedAt": "2026-07-11T09:06:50.810Z"
-          }
-        ]
-      },
-      "overall": 8.2,
+      "medios": null,
+      "overall": 10,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2176,7 +1868,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
-            "retrievedAt": "2026-07-11T09:03:38.434Z"
+            "retrievedAt": "2026-07-13T15:04:17.181Z"
           }
         ]
       },
@@ -2184,7 +1876,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/grethel-maria-avila-vargas",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -2209,20 +1901,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.9840000000000001,
-        "hits": 220,
-        "eligible": 224,
+        "hits": 219,
+        "eligible": 223,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -2234,7 +1926,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -2247,26 +1939,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Wilson%20Jim%C3%A9nez",
-            "retrievedAt": "2026-07-11T09:06:58.390Z"
-          }
-        ]
-      },
-      "overall": 8.1,
+      "medios": null,
+      "overall": 9.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2275,7 +1953,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
-            "retrievedAt": "2026-07-11T09:03:39.307Z"
+            "retrievedAt": "2026-07-13T15:04:18.002Z"
           }
         ]
       },
@@ -2283,7 +1961,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/wilson-alfredo-jimenez-cordero",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -2308,20 +1986,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 1,
-        "hits": 224,
-        "eligible": 224,
+        "hits": 223,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -2333,7 +2011,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -2346,26 +2024,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Kattia%20Mar%C3%ADa",
-            "retrievedAt": "2026-07-11T09:07:03.889Z"
-          }
-        ]
-      },
-      "overall": 8.1,
+      "medios": null,
+      "overall": 9.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2374,7 +2038,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
-            "retrievedAt": "2026-07-11T09:03:40.102Z"
+            "retrievedAt": "2026-07-13T15:04:18.850Z"
           }
         ]
       },
@@ -2382,7 +2046,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/kattia-maria-ulate-alvarado",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -2407,20 +2071,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.996,
-        "hits": 223,
-        "eligible": 224,
+        "hits": 222,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -2432,7 +2096,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -2445,26 +2109,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Fernando%20Obald%C3%ADa",
-            "retrievedAt": "2026-07-11T09:07:09.674Z"
-          }
-        ]
-      },
-      "overall": 8.2,
+      "medios": null,
+      "overall": 10,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2473,7 +2123,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
-            "retrievedAt": "2026-07-11T09:03:41.155Z"
+            "retrievedAt": "2026-07-13T15:04:19.724Z"
           }
         ]
       },
@@ -2481,7 +2131,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/fernando-obaldia-alvarez",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -2506,20 +2156,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.988,
-        "hits": 221,
-        "eligible": 224,
+        "hits": 220,
+        "eligible": 223,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
-            "retrievedAt": "2026-07-11T09:10:56.536Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -2531,7 +2181,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -2544,26 +2194,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Diana%20Murillo",
-            "retrievedAt": "2026-07-11T09:07:15.957Z"
-          }
-        ]
-      },
-      "overall": 7,
+      "medios": null,
+      "overall": 7.7,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2572,7 +2208,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
-            "retrievedAt": "2026-07-11T09:03:42.102Z"
+            "retrievedAt": "2026-07-13T15:04:20.617Z"
           }
         ]
       },
@@ -2580,7 +2216,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/diana-murillo-murillo",
-          "retrievedAt": "2026-07-11T09:10:56.536Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -2605,20 +2241,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.935,
         "hits": 209,
-        "eligible": 224,
+        "eligible": 223,
         "gated": false,
         "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -2630,7 +2266,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -2643,26 +2279,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Eder%20Hern%C3%A1ndez",
-            "retrievedAt": "2026-07-11T09:07:23.769Z"
-          }
-        ]
-      },
-      "overall": 6.8,
+      "medios": null,
+      "overall": 7.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2671,7 +2293,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
-            "retrievedAt": "2026-07-11T09:03:42.926Z"
+            "retrievedAt": "2026-07-13T15:04:21.481Z"
           }
         ]
       },
@@ -2679,7 +2301,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/eder-francisco-hernandez-ulloa",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -2704,20 +2326,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.8390000000000001,
-        "hits": 188,
-        "eligible": 224,
+        "hits": 187,
+        "eligible": 223,
         "gated": false,
         "score": 8.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -2729,7 +2351,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -2742,26 +2364,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Karen%20Alfaro",
-            "retrievedAt": "2026-07-11T09:07:30.044Z"
-          }
-        ]
-      },
-      "overall": 7.2,
+      "medios": null,
+      "overall": 8.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2770,7 +2378,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
-            "retrievedAt": "2026-07-11T09:03:44.204Z"
+            "retrievedAt": "2026-07-13T15:04:22.364Z"
           }
         ]
       },
@@ -2778,7 +2386,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/karen-tatiana-alfaro-jimenez",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -2803,20 +2411,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.972,
-        "hits": 218,
-        "eligible": 224,
+        "hits": 217,
+        "eligible": 223,
         "gated": false,
         "score": 9.7,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -2828,7 +2436,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -2841,26 +2449,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Edgardo%20Araya",
-            "retrievedAt": "2026-07-11T09:07:37.335Z"
-          }
-        ]
-      },
-      "overall": 7.5,
+      "medios": null,
+      "overall": 8.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2869,7 +2463,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
-            "retrievedAt": "2026-07-11T09:03:45.077Z"
+            "retrievedAt": "2026-07-13T15:04:23.260Z"
           }
         ]
       },
@@ -2877,7 +2471,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/edgardo-vinicio-araya-sibaja",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -2902,20 +2496,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.996,
-        "hits": 223,
-        "eligible": 224,
+        "hits": 222,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -2927,7 +2521,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -2940,26 +2534,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Sigrid%20Segura",
-            "retrievedAt": "2026-07-11T09:07:44.700Z"
-          }
-        ]
-      },
-      "overall": 7.5,
+      "medios": null,
+      "overall": 8.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -2968,7 +2548,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
-            "retrievedAt": "2026-07-11T09:03:45.906Z"
+            "retrievedAt": "2026-07-13T15:04:24.072Z"
           }
         ]
       },
@@ -2976,7 +2556,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/sigrid-violeta-segura-artavia",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -3001,20 +2581,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 1,
-        "hits": 224,
-        "eligible": 224,
+        "hits": 223,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -3026,7 +2606,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -3039,26 +2619,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Cindy%20Blanco",
-            "retrievedAt": "2026-07-11T09:07:51.667Z"
-          }
-        ]
-      },
-      "overall": 7.5,
+      "medios": null,
+      "overall": 8.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3067,7 +2633,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
-            "retrievedAt": "2026-07-11T09:03:46.965Z"
+            "retrievedAt": "2026-07-13T15:04:24.919Z"
           }
         ]
       },
@@ -3075,7 +2641,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/cindy-maria-blanco-gonzalez",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -3100,20 +2666,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.992,
-        "hits": 222,
-        "eligible": 224,
+        "hits": 221,
+        "eligible": 223,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -3125,7 +2691,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -3138,26 +2704,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Robert%20Barrantes",
-            "retrievedAt": "2026-07-11T09:07:59.325Z"
-          }
-        ]
-      },
-      "overall": 8.1,
+      "medios": null,
+      "overall": 9.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3166,7 +2718,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
-            "retrievedAt": "2026-07-11T09:03:47.877Z"
+            "retrievedAt": "2026-07-13T15:04:25.735Z"
           }
         ]
       },
@@ -3174,7 +2726,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/robert-johsan-barrantes-camacho",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -3199,20 +2751,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.996,
-        "hits": 223,
-        "eligible": 224,
+        "hits": 222,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -3224,7 +2776,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -3237,26 +2789,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Yara%20Jim%C3%A9nez",
-            "retrievedAt": "2026-07-11T09:08:04.958Z"
-          }
-        ]
-      },
-      "overall": 8.2,
+      "medios": null,
+      "overall": 10,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3265,7 +2803,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
-            "retrievedAt": "2026-07-11T09:03:48.816Z"
+            "retrievedAt": "2026-07-13T15:04:26.577Z"
           }
         ]
       },
@@ -3273,7 +2811,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/yara-vanessa-jimenez-fallas",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -3298,20 +2836,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 1,
-        "hits": 224,
-        "eligible": 224,
+        "hits": 223,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -3323,7 +2861,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -3336,26 +2874,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Janice%20Sandi",
-            "retrievedAt": "2026-07-11T09:08:11.048Z"
-          }
-        ]
-      },
-      "overall": 8.2,
+      "medios": null,
+      "overall": 10,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3364,7 +2888,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
-            "retrievedAt": "2026-07-11T09:03:49.727Z"
+            "retrievedAt": "2026-07-13T15:04:27.427Z"
           }
         ]
       },
@@ -3372,7 +2896,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/janice-patricia-sandi-morales",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -3397,20 +2921,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.855,
-        "hits": 192,
-        "eligible": 224,
+        "hits": 191,
+        "eligible": 223,
         "gated": false,
         "score": 8.6,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -3422,7 +2946,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -3435,26 +2959,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Salvador%20Padilla",
-            "retrievedAt": "2026-07-11T09:08:20.821Z"
-          }
-        ]
-      },
-      "overall": 6.6,
+      "medios": null,
+      "overall": 7.2,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3463,7 +2973,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
-            "retrievedAt": "2026-07-11T09:03:50.897Z"
+            "retrievedAt": "2026-07-13T15:04:28.287Z"
           }
         ]
       },
@@ -3471,7 +2981,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/salvador-padilla-villanueva",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -3496,20 +3006,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.9840000000000001,
-        "hits": 220,
-        "eligible": 224,
+        "hits": 219,
+        "eligible": 223,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -3521,7 +3031,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -3534,26 +3044,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Joselyn%20S%C3%A1enz",
-            "retrievedAt": "2026-07-11T09:08:26.607Z"
-          }
-        ]
-      },
-      "overall": 7.5,
+      "medios": null,
+      "overall": 8.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3562,7 +3058,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
-            "retrievedAt": "2026-07-11T09:03:51.766Z"
+            "retrievedAt": "2026-07-13T15:04:29.165Z"
           }
         ]
       },
@@ -3570,7 +3066,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/joselyn-fabiola-saenz-nunez",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -3595,20 +3091,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.996,
-        "hits": 223,
-        "eligible": 224,
+        "hits": 222,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -3620,7 +3116,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -3633,26 +3129,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Marta%20Eugenia",
-            "retrievedAt": "2026-07-11T09:08:32.739Z"
-          }
-        ]
-      },
-      "overall": 7.6,
+      "medios": null,
+      "overall": 8.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3661,7 +3143,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
-            "retrievedAt": "2026-07-11T09:03:52.625Z"
+            "retrievedAt": "2026-07-13T15:04:29.994Z"
           }
         ]
       },
@@ -3669,7 +3151,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/marta-eugenia-esquivel-rodriguez",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -3694,20 +3176,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.996,
-        "hits": 223,
-        "eligible": 224,
+        "hits": 222,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -3719,7 +3201,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -3732,26 +3214,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Juan%20Manuel",
-            "retrievedAt": "2026-07-11T09:08:38.990Z"
-          }
-        ]
-      },
-      "overall": 8.1,
+      "medios": null,
+      "overall": 9.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3760,7 +3228,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
-            "retrievedAt": "2026-07-11T09:03:53.460Z"
+            "retrievedAt": "2026-07-13T15:04:31.033Z"
           }
         ]
       },
@@ -3768,7 +3236,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/juan-manuel-quesada-espinoza",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -3793,20 +3261,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.9520000000000001,
-        "hits": 213,
-        "eligible": 224,
+        "hits": 212,
+        "eligible": 223,
         "gated": false,
         "score": 9.5,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -3818,7 +3286,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -3831,26 +3299,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=V%C3%ADctor%20Manuel",
-            "retrievedAt": "2026-07-11T09:08:44.742Z"
-          }
-        ]
-      },
-      "overall": 8,
+      "medios": null,
+      "overall": 9.7,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3859,7 +3313,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
-            "retrievedAt": "2026-07-11T09:03:54.481Z"
+            "retrievedAt": "2026-07-13T15:04:31.907Z"
           }
         ]
       },
@@ -3867,7 +3321,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/victor-manuel-hidalgo-solis",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -3892,20 +3346,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.9840000000000001,
-        "hits": 220,
-        "eligible": 224,
+        "hits": 219,
+        "eligible": 223,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -3917,7 +3371,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -3930,26 +3384,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=%C3%81ngela%20Aguilar",
-            "retrievedAt": "2026-07-11T09:08:53.816Z"
-          }
-        ]
-      },
-      "overall": 8.1,
+      "medios": null,
+      "overall": 9.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -3958,7 +3398,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
-            "retrievedAt": "2026-07-11T09:03:55.602Z"
+            "retrievedAt": "2026-07-13T15:04:32.775Z"
           }
         ]
       },
@@ -3966,7 +3406,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/angela-ileana-aguilar-vargas",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -3991,20 +3431,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.9840000000000001,
-        "hits": 220,
-        "eligible": 224,
+        "hits": 219,
+        "eligible": 223,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -4016,7 +3456,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -4029,26 +3469,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Mar%C3%ADa%20Eugenia",
-            "retrievedAt": "2026-07-11T09:09:00.301Z"
-          }
-        ]
-      },
-      "overall": 7.5,
+      "medios": null,
+      "overall": 8.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -4057,7 +3483,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
-            "retrievedAt": "2026-07-11T09:03:56.527Z"
+            "retrievedAt": "2026-07-13T15:04:33.639Z"
           }
         ]
       },
@@ -4065,7 +3491,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/maria-eugenia-roman-mora",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -4090,20 +3516,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.996,
-        "hits": 223,
-        "eligible": 224,
+        "hits": 222,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -4115,7 +3541,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -4128,26 +3554,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Nayuribe%20Guadamuz",
-            "retrievedAt": "2026-07-11T09:09:06.910Z"
-          }
-        ]
-      },
-      "overall": 7.1,
+      "medios": null,
+      "overall": 7.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -4156,7 +3568,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
-            "retrievedAt": "2026-07-11T09:03:57.304Z"
+            "retrievedAt": "2026-07-13T15:04:34.505Z"
           }
         ]
       },
@@ -4164,7 +3576,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/nayuribe-guadamuz-rosales",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -4189,20 +3601,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.996,
-        "hits": 223,
-        "eligible": 224,
+        "hits": 222,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -4214,7 +3626,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -4227,26 +3639,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Daniel%20Si%C3%A9zar",
-            "retrievedAt": "2026-07-11T09:09:13.691Z"
-          }
-        ]
-      },
-      "overall": 7.1,
+      "medios": null,
+      "overall": 7.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -4255,7 +3653,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
-            "retrievedAt": "2026-07-11T09:03:58.140Z"
+            "retrievedAt": "2026-07-13T15:04:35.389Z"
           }
         ]
       },
@@ -4263,7 +3661,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/daniel-asdrubal-siezar-cardenas",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -4288,20 +3686,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.996,
-        "hits": 223,
-        "eligible": 224,
+        "hits": 222,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -4313,7 +3711,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -4326,26 +3724,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Cindy%20Murillo",
-            "retrievedAt": "2026-07-11T09:09:20.077Z"
-          }
-        ]
-      },
-      "overall": 7,
+      "medios": null,
+      "overall": 7.7,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -4354,7 +3738,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
-            "retrievedAt": "2026-07-11T09:03:58.962Z"
+            "retrievedAt": "2026-07-13T15:04:36.255Z"
           }
         ]
       },
@@ -4362,7 +3746,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/cindy-dayana-murillo-artavia",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -4387,20 +3771,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.992,
-        "hits": 222,
-        "eligible": 224,
+        "hits": 221,
+        "eligible": 223,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -4412,7 +3796,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -4425,26 +3809,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Ronald%20Campos",
-            "retrievedAt": "2026-07-11T09:09:27.644Z"
-          }
-        ]
-      },
-      "overall": 7,
+      "medios": null,
+      "overall": 7.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -4453,7 +3823,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
-            "retrievedAt": "2026-07-11T09:03:59.778Z"
+            "retrievedAt": "2026-07-13T15:04:37.141Z"
           }
         ]
       },
@@ -4461,7 +3831,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/ronald-alberto-campos-villegas",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -4486,20 +3856,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.943,
-        "hits": 211,
-        "eligible": 224,
+        "hits": 210,
+        "eligible": 223,
         "gated": false,
         "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -4511,7 +3881,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -4524,26 +3894,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Karol%20Matamoros",
-            "retrievedAt": "2026-07-11T09:09:34.825Z"
-          }
-        ]
-      },
-      "overall": 6.8,
+      "medios": null,
+      "overall": 7.5,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -4552,7 +3908,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
-            "retrievedAt": "2026-07-11T09:04:00.801Z"
+            "retrievedAt": "2026-07-13T15:04:38.025Z"
           }
         ]
       },
@@ -4560,7 +3916,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/karol-vanessa-matamoros-montoya",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -4585,20 +3941,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.9840000000000001,
-        "hits": 220,
-        "eligible": 224,
+        "hits": 219,
+        "eligible": 223,
         "gated": false,
         "score": 9.8,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -4610,7 +3966,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -4623,26 +3979,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Royner%20Mora",
-            "retrievedAt": "2026-07-11T09:09:43.163Z"
-          }
-        ]
-      },
-      "overall": 7,
+      "medios": null,
+      "overall": 7.7,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -4651,7 +3993,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
-            "retrievedAt": "2026-07-11T09:04:01.591Z"
+            "retrievedAt": "2026-07-13T15:04:38.861Z"
           }
         ]
       },
@@ -4659,7 +4001,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/royner-mora-ruiz",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -4684,20 +4026,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 1,
-        "hits": 224,
-        "eligible": 224,
+        "hits": 223,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -4709,7 +4051,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -4722,26 +4064,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Mar%C3%ADa%20Isabel",
-            "retrievedAt": "2026-07-11T09:09:50.210Z"
-          }
-        ]
-      },
-      "overall": 7.1,
+      "medios": null,
+      "overall": 7.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -4750,7 +4078,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
-            "retrievedAt": "2026-07-11T09:04:02.457Z"
+            "retrievedAt": "2026-07-13T15:04:39.683Z"
           }
         ]
       },
@@ -4758,7 +4086,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/maria-isabel-camareno-camareno",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -4783,20 +4111,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.96,
-        "hits": 215,
-        "eligible": 224,
+        "hits": 214,
+        "eligible": 223,
         "gated": false,
         "score": 9.6,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -4808,7 +4136,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -4821,26 +4149,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Ariel%20Mora",
-            "retrievedAt": "2026-07-11T09:09:59.742Z"
-          }
-        ]
-      },
-      "overall": 7.5,
+      "medios": null,
+      "overall": 8.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -4849,7 +4163,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
-            "retrievedAt": "2026-07-11T09:04:03.306Z"
+            "retrievedAt": "2026-07-13T15:04:40.543Z"
           }
         ]
       },
@@ -4857,7 +4171,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/ariel-alfonso-mora-fallas",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -4882,20 +4196,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 1,
-        "hits": 224,
-        "eligible": 224,
+        "hits": 223,
+        "eligible": 223,
         "gated": false,
         "score": 10,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -4907,7 +4221,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -4920,26 +4234,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Ana%20Ruth",
-            "retrievedAt": "2026-07-11T09:10:10.347Z"
-          }
-        ]
-      },
-      "overall": 7.1,
+      "medios": null,
+      "overall": 7.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -4948,7 +4248,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
-            "retrievedAt": "2026-07-11T09:04:04.082Z"
+            "retrievedAt": "2026-07-13T15:04:41.578Z"
           }
         ]
       },
@@ -4956,7 +4256,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/ana-ruth-esquivel-medrano",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -4981,20 +4281,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.863,
-        "hits": 193,
-        "eligible": 224,
+        "hits": 192,
+        "eligible": 223,
         "gated": false,
         "score": 8.6,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -5006,7 +4306,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -5019,26 +4319,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Norjelens%20Lobo",
-            "retrievedAt": "2026-07-11T09:10:17.180Z"
-          }
-        ]
-      },
-      "overall": 7.3,
+      "medios": null,
+      "overall": 8.6,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -5047,7 +4333,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
-            "retrievedAt": "2026-07-11T09:04:05.010Z"
+            "retrievedAt": "2026-07-13T15:04:42.447Z"
           }
         ]
       },
@@ -5055,7 +4341,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/norjelens-maria-lobo-vargas",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -5080,20 +4366,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.94,
-        "hits": 211,
-        "eligible": 224,
+        "hits": 210,
+        "eligible": 223,
         "gated": false,
         "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -5105,7 +4391,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -5118,26 +4404,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Jes%C3%BAs%20Antonio",
-            "retrievedAt": "2026-07-11T09:10:22.605Z"
-          }
-        ]
-      },
-      "overall": 7.7,
+      "medios": null,
+      "overall": 9.3,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -5146,7 +4418,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
-            "retrievedAt": "2026-07-11T09:04:05.850Z"
+            "retrievedAt": "2026-07-13T15:04:43.307Z"
           }
         ]
       },
@@ -5154,7 +4426,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/jesus-antonio-calderon-calderon",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -5179,20 +4451,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.94,
-        "hits": 211,
-        "eligible": 224,
+        "hits": 210,
+        "eligible": 223,
         "gated": false,
         "score": 9.4,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -5204,7 +4476,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -5217,26 +4489,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Osvaldo%20Artavia",
-            "retrievedAt": "2026-07-11T09:10:30.121Z"
-          }
-        ]
-      },
-      "overall": 6.7,
+      "medios": null,
+      "overall": 7.4,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -5245,7 +4503,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
-            "retrievedAt": "2026-07-11T09:04:06.640Z"
+            "retrievedAt": "2026-07-13T15:04:44.125Z"
           }
         ]
       },
@@ -5253,7 +4511,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/osvaldo-artavia-carballo",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -5278,20 +4536,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.027999999999999997,
         "hits": 6,
-        "eligible": 224,
+        "eligible": 223,
         "gated": false,
         "score": 0.3,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -5303,7 +4561,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -5316,26 +4574,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Kristel%20Ward",
-            "retrievedAt": "2026-07-11T09:10:35.485Z"
-          }
-        ]
-      },
-      "overall": 2.4,
+      "medios": null,
+      "overall": 0.9,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -5344,7 +4588,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
-            "retrievedAt": "2026-07-11T09:04:07.472Z"
+            "retrievedAt": "2026-07-13T15:04:44.985Z"
           }
         ]
       },
@@ -5352,7 +4596,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/kristel-lizeth-ward-hudson",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -5377,20 +4621,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.7859999999999999,
-        "hits": 176,
-        "eligible": 224,
+        "hits": 175,
+        "eligible": 223,
         "gated": false,
         "score": 7.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -5402,7 +4646,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -5415,26 +4659,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Reynaldo%20Arias",
-            "retrievedAt": "2026-07-11T09:10:42.786Z"
-          }
-        ]
-      },
-      "overall": 7.1,
+      "medios": null,
+      "overall": 8.3,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -5443,7 +4673,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
-            "retrievedAt": "2026-07-11T09:04:08.257Z"
+            "retrievedAt": "2026-07-13T15:04:45.832Z"
           }
         ]
       },
@@ -5451,7 +4681,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/reynaldo-arias-mora",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -5476,20 +4706,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.988,
-        "hits": 221,
-        "eligible": 224,
+        "hits": 220,
+        "eligible": 223,
         "gated": false,
         "score": 9.9,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -5501,7 +4731,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -5514,26 +4744,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Kathia%20Calvo",
-            "retrievedAt": "2026-07-11T09:10:49.020Z"
-          }
-        ]
-      },
-      "overall": 7,
+      "medios": null,
+      "overall": 7.8,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -5542,7 +4758,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
-            "retrievedAt": "2026-07-11T09:04:09.085Z"
+            "retrievedAt": "2026-07-13T15:04:46.632Z"
           }
         ]
       },
@@ -5550,7 +4766,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/kathia-calvo-cruz",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     },
@@ -5575,20 +4791,20 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
       "participacion": {
         "pct": 0.9229999999999999,
-        "hits": 207,
-        "eligible": 224,
+        "hits": 206,
+        "eligible": 223,
         "gated": false,
         "score": 9.2,
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
-            "retrievedAt": "2026-07-11T09:10:56.537Z"
+            "retrievedAt": "2026-07-13T15:13:42.033Z"
           }
         ]
       },
@@ -5600,7 +4816,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/proyectos",
-            "retrievedAt": "2026-07-11T09:04:10.415Z"
+            "retrievedAt": "2026-07-13T15:04:47.971Z"
           }
         ]
       },
@@ -5613,26 +4829,12 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas",
-            "retrievedAt": "2026-07-11T09:04:11.326Z"
+            "retrievedAt": "2026-07-13T15:04:48.939Z"
           }
         ]
       },
-      "medios": {
-        "articulosSemana": 0,
-        "articulosMes": 0,
-        "positivos": 0,
-        "negativos": 0,
-        "neutrales": 0,
-        "ultimaFecha": null,
-        "score": 5,
-        "sources": [
-          {
-            "url": "https://observador.cr/?s=Mangell%20Mc",
-            "retrievedAt": "2026-07-11T09:10:56.028Z"
-          }
-        ]
-      },
-      "overall": 7.4,
+      "medios": null,
+      "overall": 8.3,
       "ranked": true,
       "proyectosPresentados": null,
       "gastos": {
@@ -5641,7 +4843,7 @@
         "sources": [
           {
             "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
-            "retrievedAt": "2026-07-11T09:04:09.908Z"
+            "retrievedAt": "2026-07-13T15:04:47.466Z"
           }
         ]
       },
@@ -5649,7 +4851,7 @@
       "sources": [
         {
           "url": "https://delfino.cr/asamblea/congresistas/mangell-mc-lean-villalobos",
-          "retrievedAt": "2026-07-11T09:10:56.537Z"
+          "retrievedAt": "2026-07-13T15:13:42.033Z"
         }
       ]
     }
